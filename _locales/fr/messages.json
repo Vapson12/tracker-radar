@@ -1,0 +1,135 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Voyez en direct à quelles entreprises le site que vous visitez envoie vos données."
+  },
+  "statCompanies": {
+    "message": "entreprises de pistage"
+  },
+  "statDomains": {
+    "message": "domaines de pistage"
+  },
+  "statRequests": {
+    "message": "requêtes tierces"
+  },
+  "whoIsWatching": {
+    "message": "Qui vous observe"
+  },
+  "noTrackers": {
+    "message": "Aucun traqueur connu détecté sur cette page. 🎉"
+  },
+  "otherDomains": {
+    "message": "Autres domaines tiers"
+  },
+  "footer": {
+    "message": "Toute l'analyse se fait localement. Rien ne quitte votre navigateur."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar a besoin d'accéder à tous les sites pour voir leurs requêtes."
+  },
+  "permGrant": {
+    "message": "Autoriser l'accès"
+  },
+  "reloadToScan": {
+    "message": "Rechargez la page pour lancer l'analyse"
+  },
+  "catAds": {
+    "message": "Publicité"
+  },
+  "catAnalytics": {
+    "message": "Analytique"
+  },
+  "catRecording": {
+    "message": "Enregistrement de session"
+  },
+  "catSocial": {
+    "message": "Réseaux sociaux"
+  },
+  "requests": {
+    "message": "requêtes"
+  },
+  "actBlock": {
+    "message": "Bloquer cette entreprise sur tous les sites"
+  },
+  "actUnblock": {
+    "message": "Débloquer"
+  },
+  "blockedTag": {
+    "message": "bloquée"
+  },
+  "blockedRequests": {
+    "message": "Requêtes bloquées"
+  },
+  "gradeHint": {
+    "message": "Note de confidentialité : selon le nombre et le type de traqueurs sur cette page"
+  },
+  "openStats": {
+    "message": "Statistiques"
+  },
+  "statsTitle": {
+    "message": "Votre historique de pistage"
+  },
+  "range7": {
+    "message": "7 derniers jours"
+  },
+  "range30": {
+    "message": "30 derniers jours"
+  },
+  "sCompanies": {
+    "message": "entreprises de pistage"
+  },
+  "sSites": {
+    "message": "sites visités"
+  },
+  "sRequests": {
+    "message": "requêtes vers des traqueurs"
+  },
+  "sBlocked": {
+    "message": "requêtes bloquées"
+  },
+  "perDay": {
+    "message": "Entreprises de pistage par jour"
+  },
+  "topCompanies": {
+    "message": "Qui vous suit le plus"
+  },
+  "topSites": {
+    "message": "Sites avec le plus de traqueurs"
+  },
+  "colCompany": {
+    "message": "Entreprise"
+  },
+  "colSites": {
+    "message": "Sites"
+  },
+  "colSite": {
+    "message": "Site"
+  },
+  "colTrackers": {
+    "message": "Traqueurs"
+  },
+  "colGrade": {
+    "message": "Note"
+  },
+  "blockedList": {
+    "message": "Entreprises bloquées"
+  },
+  "noneBlocked": {
+    "message": "Aucune entreprise bloquée pour l'instant. Utilisez le bouclier à côté d'une entreprise dans la fenêtre."
+  },
+  "clearHistory": {
+    "message": "Effacer l'historique"
+  },
+  "confirmClear": {
+    "message": "Supprimer tout l'historique de pistage ?"
+  },
+  "noData": {
+    "message": "Pas encore de données. Naviguez un peu et revenez."
+  },
+  "locale": {
+    "message": "fr",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

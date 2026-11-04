@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tracker Radar</title>
+  <link rel="icon" href="icons/icon32.png">
+  <link rel="stylesheet" href="stats.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div class="brand"><img src="icons/icon48.png" alt=""><h1 data-i18n="statsTitle"></h1></div>
+      <div class="range" role="group">
+        <button data-days="7" class="active" data-i18n="range7"></button>
+        <button data-days="30" data-i18n="range30"></button>
+      </div>
+    </header>
+
+    <p id="no-data" class="no-data" data-i18n="noData" hidden></p>
+
+    <section class="cards">
+      <div class="card"><span id="s-companies" class="num">0</span><span data-i18n="sCompanies"></span></div>
+      <div class="card"><span id="s-sites" class="num">0</span><span data-i18n="sSites"></span></div>
+      <div class="card"><span id="s-requests" class="num">0</span><span data-i18n="sRequests"></span></div>
+      <div class="card accent"><span id="s-blocked" class="num">0</span><span data-i18n="sBlocked"></span></div>
+    </section>
+
+    <section class="panel">
+      <h2 data-i18n="perDay"></h2>
+      <div id="chart" class="chart"></div>
+    </section>
+
+    <div class="two-col">
+      <section class="panel">
+        <h2 data-i18n="topCompanies"></h2>
+        <table>
+          <thead><tr><th data-i18n="colCompany"></th><th class="n" data-i18n="colSites"></th><th></th></tr></thead>
+          <tbody id="top-companies"></tbody>
+        </table>
+      </section>
+      <section class="panel">
+        <h2 data-i18n="topSites"></h2>
+        <table>
+          <thead><tr><th data-i18n="colSite"></th><th class="n" data-i18n="colTrackers"></th><th class="n" data-i18n="colGrade"></th></tr></thead>
+          <tbody id="top-sites"></tbody>
+        </table>
+      </section>
+    </div>
+
+    <section class="panel">
+      <h2 data-i18n="blockedList"></h2>
+      <ul id="blocked" class="blocked"></ul>
+      <p id="none-blocked" class="muted" data-i18n="noneBlocked" hidden></p>
+    </section>
+
+    <footer>
+      <button id="clear" class="danger" data-i18n="clearHistory"></button>
+      <span class="muted" data-i18n="footer"></span>
+    </footer>
+  </main>
+  <script type="module" src="stats.js"></script>
+</body>
+</html>

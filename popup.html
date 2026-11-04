@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tracker Radar</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <div class="brand"><span class="dot"></span>Tracker Radar</div>
+    <div class="site-wrap"><span id="site" class="site">—</span><span id="grade" class="grade" hidden></span></div>
+  </header>
+
+  <div id="perm" class="perm" hidden>
+    <span data-i18n="permNeeded"></span>
+    <button id="perm-btn" data-i18n="permGrant"></button>
+  </div>
+
+  <section class="radar-wrap">
+    <div class="radar" id="radar">
+      <svg viewBox="0 0 200 200" id="radar-svg" aria-hidden="true">
+        <circle cx="100" cy="100" r="95" class="ring"/>
+        <circle cx="100" cy="100" r="70" class="ring"/>
+        <circle cx="100" cy="100" r="45" class="ring"/>
+        <circle cx="100" cy="100" r="20" class="ring"/>
+        <line x1="100" y1="5" x2="100" y2="195" class="axis"/>
+        <line x1="5" y1="100" x2="195" y2="100" class="axis"/>
+        <g id="blips"></g>
+      </svg>
+      <div class="sweep"></div>
+    </div>
+    <div class="stats">
+      <div class="stat"><span id="stat-companies" class="num">0</span><span class="lbl" data-i18n="statCompanies"></span></div>
+      <div class="stat"><span id="stat-domains" class="num">0</span><span class="lbl" data-i18n="statDomains"></span></div>
+      <div class="stat"><span id="stat-requests" class="num">0</span><span class="lbl" data-i18n="statRequests"></span></div>
+    </div>
+  </section>
+
+  <p id="blocked-line" class="blocked-line" hidden>🛡 <span data-i18n="blockedRequests"></span>: <b id="blocked-count">0</b></p>
+
+  <div class="legend" id="legend"></div>
+
+  <section>
+    <h2 data-i18n="whoIsWatching"></h2>
+    <ul id="companies" class="companies"></ul>
+    <p id="empty" class="empty" data-i18n="noTrackers" hidden></p>
+  </section>
+
+  <section>
+    <details>
+      <summary><span data-i18n="otherDomains"></span> <span id="other-count"></span></summary>
+      <ul id="others" class="others"></ul>
+    </details>
+  </section>
+
+  <footer>
+    <button id="open-stats" class="stats-btn">📊 <span data-i18n="openStats"></span></button>
+    <div data-i18n="footer"></div>
+  </footer>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

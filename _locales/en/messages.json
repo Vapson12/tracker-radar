@@ -1,0 +1,135 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "See, live, which companies the website you're on is sending your data to."
+  },
+  "statCompanies": {
+    "message": "tracker companies"
+  },
+  "statDomains": {
+    "message": "tracker domains"
+  },
+  "statRequests": {
+    "message": "3rd-party requests"
+  },
+  "whoIsWatching": {
+    "message": "Who is watching"
+  },
+  "noTrackers": {
+    "message": "No known trackers detected on this page. 🎉"
+  },
+  "otherDomains": {
+    "message": "Other third-party domains"
+  },
+  "footer": {
+    "message": "All analysis happens locally. Nothing leaves your browser."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar needs access to all websites to see their requests."
+  },
+  "permGrant": {
+    "message": "Grant access"
+  },
+  "reloadToScan": {
+    "message": "Reload the page to start scanning"
+  },
+  "catAds": {
+    "message": "Advertising"
+  },
+  "catAnalytics": {
+    "message": "Analytics"
+  },
+  "catRecording": {
+    "message": "Session recording"
+  },
+  "catSocial": {
+    "message": "Social"
+  },
+  "requests": {
+    "message": "requests"
+  },
+  "actBlock": {
+    "message": "Block this company on all websites"
+  },
+  "actUnblock": {
+    "message": "Unblock"
+  },
+  "blockedTag": {
+    "message": "blocked"
+  },
+  "blockedRequests": {
+    "message": "Blocked requests"
+  },
+  "gradeHint": {
+    "message": "Privacy grade: based on the number and type of trackers on this page"
+  },
+  "openStats": {
+    "message": "Statistics"
+  },
+  "statsTitle": {
+    "message": "Your tracking history"
+  },
+  "range7": {
+    "message": "Last 7 days"
+  },
+  "range30": {
+    "message": "Last 30 days"
+  },
+  "sCompanies": {
+    "message": "tracker companies"
+  },
+  "sSites": {
+    "message": "websites visited"
+  },
+  "sRequests": {
+    "message": "tracker requests"
+  },
+  "sBlocked": {
+    "message": "requests blocked"
+  },
+  "perDay": {
+    "message": "Tracker companies per day"
+  },
+  "topCompanies": {
+    "message": "Who follows you the most"
+  },
+  "topSites": {
+    "message": "Websites with the most trackers"
+  },
+  "colCompany": {
+    "message": "Company"
+  },
+  "colSites": {
+    "message": "Websites"
+  },
+  "colSite": {
+    "message": "Website"
+  },
+  "colTrackers": {
+    "message": "Trackers"
+  },
+  "colGrade": {
+    "message": "Grade"
+  },
+  "blockedList": {
+    "message": "Blocked companies"
+  },
+  "noneBlocked": {
+    "message": "No companies blocked yet. Use the shield next to a company in the popup."
+  },
+  "clearHistory": {
+    "message": "Clear history"
+  },
+  "confirmClear": {
+    "message": "Delete all tracking history?"
+  },
+  "noData": {
+    "message": "No data yet. Browse a bit and come back."
+  },
+  "locale": {
+    "message": "en",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

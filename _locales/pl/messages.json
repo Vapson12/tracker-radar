@@ -1,0 +1,135 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Na żywo zobacz, do jakich firm strona wysyła Twoje dane."
+  },
+  "statCompanies": {
+    "message": "firmy śledzące"
+  },
+  "statDomains": {
+    "message": "domeny śledzące"
+  },
+  "statRequests": {
+    "message": "zapytania zewnętrzne"
+  },
+  "whoIsWatching": {
+    "message": "Kto Cię obserwuje"
+  },
+  "noTrackers": {
+    "message": "Nie wykryto znanych trackerów na tej stronie. 🎉"
+  },
+  "otherDomains": {
+    "message": "Inne domeny zewnętrzne"
+  },
+  "footer": {
+    "message": "Cała analiza odbywa się lokalnie. Nic nie opuszcza Twojej przeglądarki."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar potrzebuje dostępu do wszystkich stron, aby widzieć ich zapytania."
+  },
+  "permGrant": {
+    "message": "Zezwól na dostęp"
+  },
+  "reloadToScan": {
+    "message": "Odśwież stronę, aby rozpocząć skanowanie"
+  },
+  "catAds": {
+    "message": "Reklamy"
+  },
+  "catAnalytics": {
+    "message": "Analityka"
+  },
+  "catRecording": {
+    "message": "Nagrywanie sesji"
+  },
+  "catSocial": {
+    "message": "Społecznościowe"
+  },
+  "requests": {
+    "message": "zapytań"
+  },
+  "actBlock": {
+    "message": "Blokuj tę firmę na wszystkich stronach"
+  },
+  "actUnblock": {
+    "message": "Odblokuj"
+  },
+  "blockedTag": {
+    "message": "zablokowana"
+  },
+  "blockedRequests": {
+    "message": "Zablokowane zapytania"
+  },
+  "gradeHint": {
+    "message": "Ocena prywatności: na podstawie liczby i rodzaju trackerów na tej stronie"
+  },
+  "openStats": {
+    "message": "Statystyki"
+  },
+  "statsTitle": {
+    "message": "Twoja historia śledzenia"
+  },
+  "range7": {
+    "message": "Ostatnie 7 dni"
+  },
+  "range30": {
+    "message": "Ostatnie 30 dni"
+  },
+  "sCompanies": {
+    "message": "firmy śledzące"
+  },
+  "sSites": {
+    "message": "odwiedzone strony"
+  },
+  "sRequests": {
+    "message": "zapytania do trackerów"
+  },
+  "sBlocked": {
+    "message": "zablokowane zapytania"
+  },
+  "perDay": {
+    "message": "Firmy śledzące dziennie"
+  },
+  "topCompanies": {
+    "message": "Kto śledzi Cię najczęściej"
+  },
+  "topSites": {
+    "message": "Strony z największą liczbą trackerów"
+  },
+  "colCompany": {
+    "message": "Firma"
+  },
+  "colSites": {
+    "message": "Strony"
+  },
+  "colSite": {
+    "message": "Strona"
+  },
+  "colTrackers": {
+    "message": "Trackery"
+  },
+  "colGrade": {
+    "message": "Ocena"
+  },
+  "blockedList": {
+    "message": "Zablokowane firmy"
+  },
+  "noneBlocked": {
+    "message": "Nie zablokowano jeszcze żadnej firmy. Użyj tarczy obok firmy w okienku rozszerzenia."
+  },
+  "clearHistory": {
+    "message": "Wyczyść historię"
+  },
+  "confirmClear": {
+    "message": "Usunąć całą historię śledzenia?"
+  },
+  "noData": {
+    "message": "Brak danych. Poprzeglądaj trochę strony i wróć tutaj."
+  },
+  "locale": {
+    "message": "pl",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

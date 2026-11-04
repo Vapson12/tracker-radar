@@ -1,0 +1,135 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Дивіться наживо, яким компаніям сайт надсилає ваші дані."
+  },
+  "statCompanies": {
+    "message": "компанії-трекери"
+  },
+  "statDomains": {
+    "message": "домени трекерів"
+  },
+  "statRequests": {
+    "message": "сторонні запити"
+  },
+  "whoIsWatching": {
+    "message": "Хто за вами стежить"
+  },
+  "noTrackers": {
+    "message": "На цій сторінці не виявлено відомих трекерів. 🎉"
+  },
+  "otherDomains": {
+    "message": "Інші сторонні домени"
+  },
+  "footer": {
+    "message": "Увесь аналіз відбувається локально. Ніщо не залишає ваш браузер."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar потрібен доступ до всіх сайтів, щоб бачити їхні запити."
+  },
+  "permGrant": {
+    "message": "Надати доступ"
+  },
+  "reloadToScan": {
+    "message": "Перезавантажте сторінку, щоб почати сканування"
+  },
+  "catAds": {
+    "message": "Реклама"
+  },
+  "catAnalytics": {
+    "message": "Аналітика"
+  },
+  "catRecording": {
+    "message": "Запис сесій"
+  },
+  "catSocial": {
+    "message": "Соцмережі"
+  },
+  "requests": {
+    "message": "запитів"
+  },
+  "actBlock": {
+    "message": "Блокувати цю компанію на всіх сайтах"
+  },
+  "actUnblock": {
+    "message": "Розблокувати"
+  },
+  "blockedTag": {
+    "message": "заблоковано"
+  },
+  "blockedRequests": {
+    "message": "Заблоковані запити"
+  },
+  "gradeHint": {
+    "message": "Оцінка приватності: на основі кількості та типу трекерів на цій сторінці"
+  },
+  "openStats": {
+    "message": "Статистика"
+  },
+  "statsTitle": {
+    "message": "Ваша історія стеження"
+  },
+  "range7": {
+    "message": "Останні 7 днів"
+  },
+  "range30": {
+    "message": "Останні 30 днів"
+  },
+  "sCompanies": {
+    "message": "компанії-трекери"
+  },
+  "sSites": {
+    "message": "відвідані сайти"
+  },
+  "sRequests": {
+    "message": "запити до трекерів"
+  },
+  "sBlocked": {
+    "message": "заблоковані запити"
+  },
+  "perDay": {
+    "message": "Компанії-трекери за день"
+  },
+  "topCompanies": {
+    "message": "Хто стежить за вами найчастіше"
+  },
+  "topSites": {
+    "message": "Сайти з найбільшою кількістю трекерів"
+  },
+  "colCompany": {
+    "message": "Компанія"
+  },
+  "colSites": {
+    "message": "Сайти"
+  },
+  "colSite": {
+    "message": "Сайт"
+  },
+  "colTrackers": {
+    "message": "Трекери"
+  },
+  "colGrade": {
+    "message": "Оцінка"
+  },
+  "blockedList": {
+    "message": "Заблоковані компанії"
+  },
+  "noneBlocked": {
+    "message": "Ви ще не заблокували жодної компанії. Скористайтеся щитом поруч із компанією у спливаючому вікні."
+  },
+  "clearHistory": {
+    "message": "Очистити історію"
+  },
+  "confirmClear": {
+    "message": "Видалити всю історію стеження?"
+  },
+  "noData": {
+    "message": "Ще немає даних. Відвідайте кілька сайтів і поверніться."
+  },
+  "locale": {
+    "message": "uk",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

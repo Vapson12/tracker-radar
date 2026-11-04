@@ -1,0 +1,135 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Descubre en directo a qué empresas envía tus datos la web que visitas."
+  },
+  "statCompanies": {
+    "message": "empresas de rastreo"
+  },
+  "statDomains": {
+    "message": "dominios de rastreo"
+  },
+  "statRequests": {
+    "message": "solicitudes de terceros"
+  },
+  "whoIsWatching": {
+    "message": "Quién te observa"
+  },
+  "noTrackers": {
+    "message": "No se detectaron rastreadores conocidos en esta página. 🎉"
+  },
+  "otherDomains": {
+    "message": "Otros dominios de terceros"
+  },
+  "footer": {
+    "message": "Todo el análisis se hace localmente. Nada sale de tu navegador."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar necesita acceso a todos los sitios web para ver sus solicitudes."
+  },
+  "permGrant": {
+    "message": "Conceder acceso"
+  },
+  "reloadToScan": {
+    "message": "Recarga la página para empezar a escanear"
+  },
+  "catAds": {
+    "message": "Publicidad"
+  },
+  "catAnalytics": {
+    "message": "Analítica"
+  },
+  "catRecording": {
+    "message": "Grabación de sesiones"
+  },
+  "catSocial": {
+    "message": "Redes sociales"
+  },
+  "requests": {
+    "message": "solicitudes"
+  },
+  "actBlock": {
+    "message": "Bloquear esta empresa en todos los sitios"
+  },
+  "actUnblock": {
+    "message": "Desbloquear"
+  },
+  "blockedTag": {
+    "message": "bloqueada"
+  },
+  "blockedRequests": {
+    "message": "Solicitudes bloqueadas"
+  },
+  "gradeHint": {
+    "message": "Nota de privacidad: según el número y tipo de rastreadores en esta página"
+  },
+  "openStats": {
+    "message": "Estadísticas"
+  },
+  "statsTitle": {
+    "message": "Tu historial de rastreo"
+  },
+  "range7": {
+    "message": "Últimos 7 días"
+  },
+  "range30": {
+    "message": "Últimos 30 días"
+  },
+  "sCompanies": {
+    "message": "empresas de rastreo"
+  },
+  "sSites": {
+    "message": "sitios visitados"
+  },
+  "sRequests": {
+    "message": "solicitudes a rastreadores"
+  },
+  "sBlocked": {
+    "message": "solicitudes bloqueadas"
+  },
+  "perDay": {
+    "message": "Empresas de rastreo por día"
+  },
+  "topCompanies": {
+    "message": "Quién te sigue más"
+  },
+  "topSites": {
+    "message": "Sitios con más rastreadores"
+  },
+  "colCompany": {
+    "message": "Empresa"
+  },
+  "colSites": {
+    "message": "Sitios"
+  },
+  "colSite": {
+    "message": "Sitio"
+  },
+  "colTrackers": {
+    "message": "Rastreadores"
+  },
+  "colGrade": {
+    "message": "Nota"
+  },
+  "blockedList": {
+    "message": "Empresas bloqueadas"
+  },
+  "noneBlocked": {
+    "message": "Aún no has bloqueado ninguna empresa. Usa el escudo junto a una empresa en la ventana emergente."
+  },
+  "clearHistory": {
+    "message": "Borrar historial"
+  },
+  "confirmClear": {
+    "message": "¿Borrar todo el historial de rastreo?"
+  },
+  "noData": {
+    "message": "Aún no hay datos. Navega un poco y vuelve."
+  },
+  "locale": {
+    "message": "es",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}
