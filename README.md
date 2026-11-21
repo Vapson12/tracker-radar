@@ -1,5 +1,7 @@
 # 📡 Tracker Radar
 
+[![Firefox Add-ons](https://img.shields.io/amo/v/tracker-radar?logo=firefoxbrowser&label=Firefox%20Add-ons&color=FF7139)](https://addons.mozilla.org/firefox/addon/tracker-radar/) [![License: MIT](https://img.shields.io/badge/license-MIT-39ff88)](LICENSE)
+
 **See, live, which companies the website you're on is sending your data to.**
 
 Tracker Radar is a lightweight browser extension that watches every third-party request a page makes and shows you, on a radar, who is collecting data about you: ad networks, analytics, session recorders and social widgets.
@@ -25,9 +27,13 @@ Tracker Radar is a lightweight browser extension that watches every third-party 
 
 ## Install
 
-> 🦊 Firefox Add-ons and Chrome Web Store listings are on the way. Until then, grab the zip from [Releases](https://github.com/Vapson12/tracker-radar/releases).
+[![Get it on Firefox Add-ons](https://img.shields.io/badge/Firefox-Get%20the%20add--on-FF7139?logo=firefoxbrowser&logoColor=white)](https://addons.mozilla.org/firefox/addon/tracker-radar/)
+
+> 🦊 **Firefox:** install from [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/tracker-radar/), with automatic updates. Chrome Web Store listing is on the way; until then, grab the zip from [Releases](https://github.com/Vapson12/tracker-radar/releases).
 
 ### Firefox (128+)
+
+The easiest way: **[install from Firefox Add-ons](https://addons.mozilla.org/firefox/addon/tracker-radar/)**. For a manual install:
 
 1. Download `tracker-radar-firefox.zip` from [Releases](https://github.com/Vapson12/tracker-radar/releases) (or run `python3 build.py`).
 2. Open `about:debugging#/runtime/this-firefox`.
