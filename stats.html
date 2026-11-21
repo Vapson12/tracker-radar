@@ -54,8 +54,18 @@
       <p id="none-blocked" class="muted" data-i18n="noneBlocked" hidden></p>
     </section>
 
+    <section class="panel">
+      <h2 data-i18n="pausedList"></h2>
+      <ul id="paused" class="blocked"></ul>
+      <p id="none-paused" class="muted" data-i18n="nonePaused" hidden></p>
+    </section>
+
     <footer>
-      <button id="clear" class="danger" data-i18n="clearHistory"></button>
+      <div class="actions">
+        <button id="export-csv" class="secondary">⬇ CSV</button>
+        <button id="export-json" class="secondary">⬇ JSON</button>
+        <button id="clear" class="danger" data-i18n="clearHistory"></button>
+      </div>
       <span class="muted" data-i18n="footer"></span>
     </footer>
   </main>

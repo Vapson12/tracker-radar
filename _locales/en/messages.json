@@ -131,5 +131,41 @@
   "locale": {
     "message": "en",
     "description": "BCP-47 code of this translation (used for date formatting)"
+  },
+  "recTitle": {
+    "message": "This site records your session"
+  },
+  "recText": {
+    "message": "Your mouse movements, clicks and typing may be recorded by:"
+  },
+  "quickProtection": {
+    "message": "Quick protection"
+  },
+  "profileAds": {
+    "message": "All ads"
+  },
+  "profileAnalytics": {
+    "message": "All analytics"
+  },
+  "profileRecording": {
+    "message": "Session recorders"
+  },
+  "pauseSite": {
+    "message": "Pause blocking on this site"
+  },
+  "resumeSite": {
+    "message": "Resume blocking on this site"
+  },
+  "pausedLine": {
+    "message": "Blocking is paused here. Trackers are still shown on the radar."
+  },
+  "pausedList": {
+    "message": "Sites with blocking paused"
+  },
+  "nonePaused": {
+    "message": "Blocking is active on all sites."
+  },
+  "resumeShort": {
+    "message": "Resume"
   }
 }

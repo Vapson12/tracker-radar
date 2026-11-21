@@ -16,6 +16,11 @@
     <button id="perm-btn" data-i18n="permGrant"></button>
   </div>
 
+  <div id="rec-warn" class="rec-warn" hidden>
+    <b>🎥 <span data-i18n="recTitle"></span></b>
+    <span data-i18n="recText"></span> <b id="rec-names"></b>
+  </div>
+
   <section class="radar-wrap">
     <div class="radar" id="radar">
       <svg viewBox="0 0 200 200" id="radar-svg" aria-hidden="true">
@@ -39,6 +44,17 @@
   <p id="blocked-line" class="blocked-line" hidden>🛡 <span data-i18n="blockedRequests"></span>: <b id="blocked-count">0</b></p>
 
   <div class="legend" id="legend"></div>
+
+  <section class="protect">
+    <h2 data-i18n="quickProtection"></h2>
+    <div class="chips">
+      <button class="chip" data-profile="ads" aria-pressed="false">🚫 <span data-i18n="profileAds"></span></button>
+      <button class="chip" data-profile="analytics" aria-pressed="false">📈 <span data-i18n="profileAnalytics"></span></button>
+      <button class="chip" data-profile="recording" aria-pressed="false">🎥 <span data-i18n="profileRecording"></span></button>
+    </div>
+    <button id="pause" class="pause-btn" hidden></button>
+    <p id="paused-line" class="paused-line" data-i18n="pausedLine" hidden></p>
+  </section>
 
   <section>
     <h2 data-i18n="whoIsWatching"></h2>

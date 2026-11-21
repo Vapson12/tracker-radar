@@ -131,5 +131,41 @@
   "locale": {
     "message": "de",
     "description": "BCP-47 code of this translation (used for date formatting)"
+  },
+  "recTitle": {
+    "message": "Diese Seite zeichnet deine Sitzung auf"
+  },
+  "recText": {
+    "message": "Deine Mausbewegungen, Klicks und Eingaben können aufgezeichnet werden von:"
+  },
+  "quickProtection": {
+    "message": "Schnellschutz"
+  },
+  "profileAds": {
+    "message": "Alle Werbung"
+  },
+  "profileAnalytics": {
+    "message": "Alle Analysedienste"
+  },
+  "profileRecording": {
+    "message": "Sitzungsaufzeichnung"
+  },
+  "pauseSite": {
+    "message": "Blockieren auf dieser Seite pausieren"
+  },
+  "resumeSite": {
+    "message": "Blockieren auf dieser Seite fortsetzen"
+  },
+  "pausedLine": {
+    "message": "Blockieren ist hier pausiert. Tracker werden weiterhin auf dem Radar angezeigt."
+  },
+  "pausedList": {
+    "message": "Seiten mit pausiertem Blockieren"
+  },
+  "nonePaused": {
+    "message": "Blockieren ist auf allen Seiten aktiv."
+  },
+  "resumeShort": {
+    "message": "Fortsetzen"
   }
 }

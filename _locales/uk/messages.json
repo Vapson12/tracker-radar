@@ -131,5 +131,41 @@
   "locale": {
     "message": "uk",
     "description": "BCP-47 code of this translation (used for date formatting)"
+  },
+  "recTitle": {
+    "message": "Цей сайт записує вашу сесію"
+  },
+  "recText": {
+    "message": "Ваші рухи мишею, кліки та введений текст можуть записувати:"
+  },
+  "quickProtection": {
+    "message": "Швидкий захист"
+  },
+  "profileAds": {
+    "message": "Уся реклама"
+  },
+  "profileAnalytics": {
+    "message": "Уся аналітика"
+  },
+  "profileRecording": {
+    "message": "Запис сесій"
+  },
+  "pauseSite": {
+    "message": "Призупинити блокування на цьому сайті"
+  },
+  "resumeSite": {
+    "message": "Відновити блокування на цьому сайті"
+  },
+  "pausedLine": {
+    "message": "Блокування тут призупинено. Трекери й далі видно на радарі."
+  },
+  "pausedList": {
+    "message": "Сайти з призупиненим блокуванням"
+  },
+  "nonePaused": {
+    "message": "Блокування активне на всіх сайтах."
+  },
+  "resumeShort": {
+    "message": "Відновити"
   }
 }

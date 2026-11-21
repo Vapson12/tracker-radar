@@ -131,6 +131,64 @@ function renderBlocked() {
   $('none-blocked').hidden = data.blocked.length > 0;
 }
 
+function renderPaused() {
+  const list = $('paused');
+  list.replaceChildren();
+  const sites = [...(data.paused || [])].sort();
+  for (const site of sites) {
+    const li = document.createElement('li');
+    const btn = document.createElement('button');
+    btn.textContent = t('resumeShort');
+    btn.addEventListener('click', async () => {
+      data.paused = await api.runtime.sendMessage({ type: 'setPaused', site, pause: false });
+      render();
+    });
+    li.append(`⏸ ${site}`, btn);
+    list.appendChild(li);
+  }
+  $('none-paused').hidden = sites.length > 0;
+}
+
+// ---- Export ---------------------------------------------------------------
+
+function download(filename, text, type) {
+  const url = URL.createObjectURL(new Blob([text], { type }));
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+const csvCell = (v) => /[",\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : String(v);
+
+function exportCsv() {
+  // One row per (day, website, tracking company).
+  const rows = [['date', 'website', 'company', 'category', 'blocked_company']];
+  for (const date of Object.keys(data.history.days).sort()) {
+    for (const [site, s] of Object.entries(data.history.days[date].sites)) {
+      for (const [company, category] of Object.entries(s.companies)) {
+        rows.push([date, site, company, category, data.blocked.includes(company) ? 'yes' : 'no']);
+      }
+    }
+  }
+  download(`tracker-radar-${new Date().toLocaleDateString('sv')}.csv`, rows.map((r) => r.map(csvCell).join(',')).join('\n'), 'text/csv');
+}
+
+function exportJson() {
+  const out = {
+    exportedAt: new Date().toISOString(),
+    version: api.runtime.getManifest().version,
+    blockedCompanies: data.blocked,
+    quickProtection: data.profiles || [],
+    pausedSites: data.paused || [],
+    history: data.history,
+  };
+  download(`tracker-radar-${new Date().toLocaleDateString('sv')}.json`, JSON.stringify(out, null, 2), 'application/json');
+}
+
 function render() {
   const agg = aggregate(lastDays(rangeDays));
   $('s-companies').textContent = agg.companies.size;
@@ -142,6 +200,7 @@ function render() {
   renderTopCompanies(agg.companies);
   renderTopSites(agg.sites);
   renderBlocked();
+  renderPaused();
 }
 
 async function load() {
@@ -158,6 +217,9 @@ for (const btn of document.querySelectorAll('.range button')) {
     render();
   });
 }
+
+$('export-csv').addEventListener('click', exportCsv);
+$('export-json').addEventListener('click', exportJson);
 
 $('clear').addEventListener('click', async () => {
   if (!confirm(t('confirmClear'))) return;

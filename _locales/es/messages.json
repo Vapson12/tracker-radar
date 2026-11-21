@@ -131,5 +131,41 @@
   "locale": {
     "message": "es",
     "description": "BCP-47 code of this translation (used for date formatting)"
+  },
+  "recTitle": {
+    "message": "Este sitio graba tu sesión"
+  },
+  "recText": {
+    "message": "Tus movimientos del ratón, clics y lo que escribes pueden ser grabados por:"
+  },
+  "quickProtection": {
+    "message": "Protección rápida"
+  },
+  "profileAds": {
+    "message": "Toda la publicidad"
+  },
+  "profileAnalytics": {
+    "message": "Toda la analítica"
+  },
+  "profileRecording": {
+    "message": "Grabación de sesiones"
+  },
+  "pauseSite": {
+    "message": "Pausar bloqueo en este sitio"
+  },
+  "resumeSite": {
+    "message": "Reanudar bloqueo en este sitio"
+  },
+  "pausedLine": {
+    "message": "El bloqueo está pausado aquí. Los rastreadores siguen apareciendo en el radar."
+  },
+  "pausedList": {
+    "message": "Sitios con bloqueo pausado"
+  },
+  "nonePaused": {
+    "message": "El bloqueo está activo en todos los sitios."
+  },
+  "resumeShort": {
+    "message": "Reanudar"
   }
 }

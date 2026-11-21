@@ -131,5 +131,41 @@
   "locale": {
     "message": "pl",
     "description": "BCP-47 code of this translation (used for date formatting)"
+  },
+  "recTitle": {
+    "message": "Ta strona nagrywa Twoją sesję"
+  },
+  "recText": {
+    "message": "Twoje ruchy myszką, kliknięcia i wpisywany tekst mogą być nagrywane przez:"
+  },
+  "quickProtection": {
+    "message": "Szybka ochrona"
+  },
+  "profileAds": {
+    "message": "Wszystkie reklamy"
+  },
+  "profileAnalytics": {
+    "message": "Cała analityka"
+  },
+  "profileRecording": {
+    "message": "Nagrywanie sesji"
+  },
+  "pauseSite": {
+    "message": "Wyłącz blokowanie na tej stronie"
+  },
+  "resumeSite": {
+    "message": "Włącz blokowanie na tej stronie"
+  },
+  "pausedLine": {
+    "message": "Blokowanie jest tu wyłączone. Trackery nadal są widoczne na radarze."
+  },
+  "pausedList": {
+    "message": "Strony z wyłączonym blokowaniem"
+  },
+  "nonePaused": {
+    "message": "Blokowanie działa na wszystkich stronach."
+  },
+  "resumeShort": {
+    "message": "Włącz"
   }
 }

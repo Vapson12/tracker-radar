@@ -11,6 +11,10 @@ Tracker Radar is a lightweight browser extension that watches every third-party 
 - 🛰️ **Live radar.** Every tracking company is a blip. Colour shows what it does, distance from the center shows the category.
 - 🔢 **Badge counter** on the toolbar icon with the number of tracking companies on the current page (green → orange → red).
 - 🏢 **Grouped by company.** Google, Meta, Microsoft, Criteo, Hotjar… with a click-to-expand list of their domains.
+- ⚡ **Quick protection.** Block *all* ads, *all* analytics or *all* session recorders with one click, without breaking embeds like YouTube.
+- ⏸️ **Pause on a site.** If a page breaks, switch blocking off just for that site.
+- 🎥 **Session recording alert.** A clear warning when a site records your mouse movements, clicks and typing.
+- ⬇️ **Export** your statistics as CSV or JSON.
 - 🛡️ **One-click blocking.** Hit the shield next to any company to block its trackers on every website (uses the browser's built-in `declarativeNetRequest`, so it's fast and private).
 - 🅰️ **Privacy grade A–F** for every page, based on how many trackers it loads and what they do (session recorders hurt the most).
 - 📊 **History & statistics.** See how many companies followed you in the last 7 or 30 days, who follows you the most and which websites are the worst. Stored locally, auto-deleted after 30 days.
@@ -64,8 +68,11 @@ Ideas for the roadmap:
 - [x] Blocking mode (declarativeNetRequest)
 - [x] History: "this week you were tracked by 143 companies"
 - [x] Privacy grade per website
-- [ ] Per-site allowlist (pause blocking on a site)
-- [ ] Export statistics (CSV/JSON)
+- [x] Per-site allowlist (pause blocking on a site)
+- [x] Export statistics (CSV/JSON)
+- [x] Quick protection profiles (all ads / analytics / session recorders)
+- [ ] Fingerprinting detection
+- [ ] Firefox for Android
 - [ ] Even bigger tracker database (community contributions welcome!)
 - [x] Translations (add yours in `_locales/<lang>/messages.json`)
 

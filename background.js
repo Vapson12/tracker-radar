@@ -1,4 +1,4 @@
-import { baseDomain, classify, siteOwner, companyDomains } from './trackers.js';
+import { baseDomain, classify, siteOwner, companyDomains, categoryDomains } from './trackers.js';
 
 const api = globalThis.browser ?? globalThis.chrome;
 
@@ -12,20 +12,31 @@ const tabs = new Map();
 const saveTimers = new Map();
 const key = (tabId) => `tab_${tabId}`;
 
-// Persistent state (storage.local): blocked companies + 30-day history.
+// Persistent state (storage.local):
+//   blocked      companies blocked on every site
+//   profiles     categories blocked on every site ('ads', 'analytics', 'recording')
+//   paused       sites where blocking is switched off
+//   history      30-day statistics
 let blocked = new Set();
+let profiles = new Set();
+let paused = new Set();
 let history = { days: {} };
 let historyTimer = null;
 const HISTORY_DAYS = 30;
 
 const ready = (async () => {
-  const s = await api.storage.local.get(['blocked', 'history']);
+  const s = await api.storage.local.get(['blocked', 'profiles', 'paused', 'history']);
   blocked = new Set(s.blocked || []);
+  profiles = new Set(s.profiles || []);
+  paused = new Set(s.paused || []);
   history = s.history || { days: {} };
 })();
 
 // ---------------------------------------------------------------------------
-// Blocking (declarativeNetRequest dynamic rules, one rule per company)
+// Blocking (declarativeNetRequest dynamic rules)
+//   ids 1..       one block rule per blocked company
+//   ids 5000..    one block rule per quick-protection profile (category)
+//   ids 10000..   one allowAllRequests rule per paused site (higher priority)
 // ---------------------------------------------------------------------------
 
 const BLOCK_TYPES = [
@@ -36,16 +47,20 @@ const BLOCK_TYPES = [
 async function syncBlockRules() {
   await ready;
   const existing = await api.declarativeNetRequest.getDynamicRules();
-  const addRules = [...blocked].sort()
-    .map((company) => companyDomains(company))
-    .filter((domains) => domains.length)
-    .map((domains, i) => ({
-      id: i + 1,
-      priority: 1,
-      action: { type: 'block' },
-      // thirdParty: visiting facebook.com itself still works, embeds elsewhere are blocked.
-      condition: { requestDomains: domains, domainType: 'thirdParty', resourceTypes: BLOCK_TYPES },
-    }));
+  // thirdParty: visiting facebook.com itself still works, embeds elsewhere are blocked.
+  const blockRule = (id, domains) => ({
+    id, priority: 1, action: { type: 'block' },
+    condition: { requestDomains: domains, domainType: 'thirdParty', resourceTypes: BLOCK_TYPES },
+  });
+  const addRules = [
+    ...[...blocked].sort().map(companyDomains).filter((d) => d.length).map((d, i) => blockRule(1 + i, d)),
+    ...[...profiles].sort().map(categoryDomains).filter((d) => d.length).map((d, i) => blockRule(5000 + i, d)),
+    // A paused site: everything loaded by its pages (and their frames) is allowed.
+    ...[...paused].sort().map((site, i) => ({
+      id: 10000 + i, priority: 2, action: { type: 'allowAllRequests' },
+      condition: { requestDomains: [site], resourceTypes: ['main_frame', 'sub_frame'] },
+    })),
+  ];
   await api.declarativeNetRequest.updateDynamicRules({
     removeRuleIds: existing.map((r) => r.id),
     addRules,
@@ -58,6 +73,29 @@ async function setBlocked(company, block) {
   await api.storage.local.set({ blocked: [...blocked] });
   await syncBlockRules();
   return [...blocked];
+}
+
+async function setProfile(category, on) {
+  await ready;
+  on ? profiles.add(category) : profiles.delete(category);
+  await api.storage.local.set({ profiles: [...profiles] });
+  await syncBlockRules();
+  return [...profiles];
+}
+
+async function setPaused(site, pause) {
+  await ready;
+  if (!site) return [...paused];
+  pause ? paused.add(site) : paused.delete(site);
+  await api.storage.local.set({ paused: [...paused] });
+  await syncBlockRules();
+  return [...paused];
+}
+
+/** Would a request from `site` to this tracker be blocked right now? */
+function isBlockedHit(site, hit) {
+  if (!hit || paused.has(site)) return false;
+  return blocked.has(hit.company) || profiles.has(hit.category);
 }
 
 api.runtime.onInstalled.addListener(() => syncBlockRules());
@@ -179,7 +217,7 @@ async function record(tabId, details) {
   const hit = classify(host);
   if (hit && state.owner && hit.company === state.owner) return; // same owner as the site
 
-  const isBlocked = !!hit && blocked.has(hit.company);
+  const isBlocked = isBlockedHit(state.site, hit);
   state.totalThirdParty++;
   if (isBlocked) state.blockedCount++;
 
@@ -211,9 +249,14 @@ api.tabs.onRemoved.addListener((tabId) => {
 
 api.runtime.onMessage.addListener((msg, _sender, sendResponse) => {
   const handlers = {
-    getTab: async () => ({ state: await loadTab(msg.tabId), blocked: [...blocked] }),
+    getTab: async () => ({
+      state: await loadTab(msg.tabId),
+      blocked: [...blocked], profiles: [...profiles], paused: [...paused],
+    }),
     setBlocked: () => setBlocked(msg.company, msg.block),
-    getHistory: async () => ({ history, blocked: [...blocked] }),
+    setProfile: () => setProfile(msg.category, msg.on),
+    setPaused: () => setPaused(msg.site, msg.pause),
+    getHistory: async () => ({ history, blocked: [...blocked], profiles: [...profiles], paused: [...paused] }),
     clearHistory: async () => {
       history = { days: {} };
       await api.storage.local.set({ history });

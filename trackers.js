@@ -371,6 +371,11 @@ export function companyDomains(company) {
   return Object.keys(TRACKERS).filter((d) => TRACKERS[d][0] === company);
 }
 
+/** All tracker domains in a category, e.g. every 'ads' domain (used by quick-protection profiles). */
+export function categoryDomains(category) {
+  return Object.keys(TRACKERS).filter((d) => TRACKERS[d][1] === category);
+}
+
 // Sites that belong to a tracker company: requests to that company's own
 // domains are not counted as third-party tracking on these sites.
 const SITE_OWNERS = {

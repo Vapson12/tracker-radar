@@ -103,3 +103,17 @@ footer { margin-top: 12px; font-size: 10px; color: var(--muted); text-align: cen
 
 .stats-btn { display: block; width: 100%; margin-bottom: 8px; padding: 7px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); color: var(--text); font: inherit; font-weight: 600; cursor: pointer; }
 .stats-btn:hover { border-color: var(--radar); }
+
+.rec-warn { background: #3a1d24; border: 1px solid #ff5c7a; border-radius: 8px; padding: 8px 10px; margin-bottom: 10px; font-size: 12px; line-height: 1.45; }
+.rec-warn > b:first-child { display: block; color: #ff8fa3; margin-bottom: 2px; }
+
+.protect h2 { margin-top: 10px; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip { flex: 1 1 auto; border: 1px solid var(--line); background: var(--panel); color: var(--muted); border-radius: 999px; padding: 5px 9px; font: inherit; font-size: 11px; cursor: pointer; white-space: nowrap; }
+.chip:hover { border-color: var(--radar); color: var(--text); }
+.chip[aria-pressed="true"] { background: rgba(57, 255, 136, .15); border-color: var(--radar); color: var(--radar); font-weight: 600; }
+
+.pause-btn { display: block; width: 100%; margin-top: 8px; padding: 6px; border: 1px dashed var(--line); border-radius: 8px; background: transparent; color: var(--muted); font: inherit; font-size: 12px; cursor: pointer; }
+.pause-btn:hover { border-color: #f7b801; color: var(--text); }
+.pause-btn[aria-pressed="true"] { border-style: solid; border-color: #f7b801; color: #f7b801; }
+.paused-line { margin: 6px 0 0; font-size: 11px; color: #f7b801; }

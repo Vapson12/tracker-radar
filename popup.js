@@ -18,6 +18,9 @@ function applyI18n() {
 
 const openCompanies = new Set();
 let blockedCompanies = new Set();
+let activeProfiles = new Set();
+let pausedSites = new Set();
+let currentSite = '';
 let currentTabId = null;
 
 function hashAngle(str) {
@@ -145,6 +148,44 @@ function renderOthers(others) {
   }
 }
 
+// Session recorders get a loud warning: they capture mouse movements, clicks and typing.
+function renderRecordingWarning(state) {
+  const names = new Set();
+  for (const d of Object.values(state.domains)) if (d.category === 'recording') names.add(d.company);
+  $('rec-warn').hidden = names.size === 0;
+  $('rec-names').textContent = [...names].join(', ');
+}
+
+function renderProtection(state) {
+  for (const chip of document.querySelectorAll('.chip')) {
+    chip.setAttribute('aria-pressed', String(activeProfiles.has(chip.dataset.profile)));
+  }
+  currentSite = state?.site || '';
+  const btn = $('pause');
+  btn.hidden = !currentSite;
+  const isPaused = pausedSites.has(currentSite);
+  btn.textContent = isPaused ? `▶ ${t('resumeSite')}` : `⏸ ${t('pauseSite')}`;
+  btn.setAttribute('aria-pressed', String(isPaused));
+  $('paused-line').hidden = !isPaused;
+}
+
+for (const chip of document.querySelectorAll('.chip')) {
+  chip.addEventListener('click', async () => {
+    const on = chip.getAttribute('aria-pressed') !== 'true';
+    activeProfiles = new Set(await api.runtime.sendMessage({ type: 'setProfile', category: chip.dataset.profile, on }));
+    refresh(currentTabId);
+  });
+}
+
+$('pause').addEventListener('click', async () => {
+  if (!currentSite) return;
+  const pause = !pausedSites.has(currentSite);
+  pausedSites = new Set(await api.runtime.sendMessage({ type: 'setPaused', site: currentSite, pause }));
+  // Reload so the page loads again with the new rules.
+  api.tabs.reload(currentTabId);
+  refresh(currentTabId);
+});
+
 function renderLegend() {
   const el = $('legend');
   for (const [id, cat] of Object.entries(CATEGORIES)) {
@@ -167,6 +208,9 @@ async function refresh(tabId) {
   const res = await api.runtime.sendMessage({ type: 'getTab', tabId });
   const state = res?.state;
   blockedCompanies = new Set(res?.blocked || []);
+  activeProfiles = new Set(res?.profiles || []);
+  pausedSites = new Set(res?.paused || []);
+  renderProtection(state);
   if (!state) {
     $('site').textContent = t('reloadToScan');
     return;
@@ -183,6 +227,8 @@ async function refresh(tabId) {
   g.hidden = false;
   g.textContent = grade;
   g.style.background = GRADE_COLORS[grade];
+
+  renderRecordingWarning(state);
 
   $('blocked-line').hidden = !state.blockedCount;
   $('blocked-count').textContent = state.blockedCount || 0;

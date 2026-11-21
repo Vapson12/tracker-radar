@@ -24,6 +24,9 @@ Every website you open quietly talks to dozens of other companies: ad networks, 
 **What it does**
 - 📡 **Live radar** of every tracking company on the current page, coloured by what it does: advertising, analytics, session recording or social.
 - 🅰️ **Privacy grade A–F** for each website.
+- ⚡ **Quick protection**: block all ads, all analytics or all session recorders in one click.
+- ⏸️ **Pause blocking** on a single site if it breaks.
+- 🎥 **Session recording alert** when a site records your mouse and keyboard.
 - 🛡️ **One-click blocking**: hit the shield next to a company to block its trackers on every website.
 - 📊 **Statistics**: how many companies followed you in the last 7 or 30 days, who follows you the most and which websites are the worst.
 - 📚 290+ known tracker domains from 160+ companies, including European and Polish ad tech.
@@ -65,3 +68,7 @@ Not required: the add-on declares `data_collection_permissions: none` and sends 
 ## Notes for reviewers
 
 The add-on is plain, unminified JavaScript with no third-party libraries and no remote code. `dist/tracker-radar-firefox.zip` is produced by `python3 build.py`, which only copies the source files and writes a Firefox-specific `manifest.json` (background `scripts` instead of `service_worker`).
+
+## Version notes — 0.3.0 (paste into "Release notes" when uploading the new version)
+
+New: quick protection (block all ads / analytics / session recorders in one click), pause blocking on a single site, a warning when a site records your session, and CSV/JSON export of statistics. All new texts translated into 6 languages.
