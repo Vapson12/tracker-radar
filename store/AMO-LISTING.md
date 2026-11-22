@@ -29,7 +29,7 @@ Every website you open quietly talks to dozens of other companies: ad networks, 
 - 🎥 **Session recording alert** when a site records your mouse and keyboard.
 - 🛡️ **One-click blocking**: hit the shield next to a company to block its trackers on every website.
 - 📊 **Statistics**: how many companies followed you in the last 7 or 30 days, who follows you the most and which websites are the worst.
-- 📚 290+ known tracker domains from 160+ companies, including European and Polish ad tech.
+- 📚 350+ known tracker domains from 170+ companies, including European and Polish ad tech.
 - 🌍 English, Polish, German, Spanish, French and Ukrainian.
 
 **Privacy first**
@@ -53,7 +53,7 @@ Każda strona, którą otwierasz, po cichu łączy się z dziesiątkami innych f
 - 🅰️ **Ocena prywatności A–F** dla każdej strony.
 - 🛡️ **Blokowanie jednym kliknięciem**: tarcza obok firmy blokuje jej trackery na wszystkich stronach.
 - 📊 **Statystyki**: ile firm śledziło Cię w ostatnich 7 lub 30 dniach, kto robi to najczęściej i które strony są najgorsze.
-- 📚 Ponad 290 domen trackerów od ponad 160 firm, w tym polskich (Gemius, AdOcean, RTB House, WP, SALESmanago).
+- 📚 Ponad 350 domen trackerów od ponad 170 firm, w tym polskich (Gemius, AdOcean, RTB House, WP, SALESmanago).
 - 🌍 Polski, angielski, niemiecki, hiszpański, francuski i ukraiński.
 
 **Prywatność przede wszystkim**

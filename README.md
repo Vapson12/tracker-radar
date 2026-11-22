@@ -20,7 +20,7 @@ Tracker Radar is a lightweight browser extension that watches every third-party 
 - 🛡️ **One-click blocking.** Hit the shield next to any company to block its trackers on every website (uses the browser's built-in `declarativeNetRequest`, so it's fast and private).
 - 🅰️ **Privacy grade A–F** for every page, based on how many trackers it loads and what they do (session recorders hurt the most).
 - 📊 **History & statistics.** See how many companies followed you in the last 7 or 30 days, who follows you the most and which websites are the worst. Stored locally, auto-deleted after 30 days.
-- 📚 **290+ known tracker domains** from 160+ companies, including European and Polish ad tech.
+- 📚 **350+ known tracker domains** from 170+ companies, including European and Polish ad tech and device-maker telemetry.
 - 🎥 **Session recorder detection.** Know when a site records your mouse movements and clicks (Hotjar, Clarity, FullStory, Smartlook…).
 - 🌍 **Speaks your language.** English, Polish, German, Spanish, French and Ukrainian, picked automatically from your browser settings.
 - 🔒 **100% local.** No servers, no analytics, no data leaves your browser. Ironic otherwise, right?

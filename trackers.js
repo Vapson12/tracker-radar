@@ -366,6 +366,86 @@ Object.assign(TRACKERS, {
   'vk.com': ['VK', 'social'],
 });
 
+// 0.3.1: ad / telemetry endpoints of big platforms, error monitoring,
+// device-maker telemetry (Xiaomi, Huawei, Samsung, Apple…) and more session recorders.
+// Specific ad endpoints of social networks are listed so they count as ads,
+// not as the (unblocked by default) social widgets of the same company.
+Object.assign(TRACKERS, {
+  // Social networks: ad & pixel endpoints
+  'pixel.facebook.com': ['Meta', 'ads'],
+  'an.facebook.com': ['Meta', 'ads'],
+  'ads-api.twitter.com': ['X (Twitter)', 'ads'],
+  'analytics.pointdrive.linkedin.com': ['Microsoft (LinkedIn)', 'analytics'],
+  'ads.pinterest.com': ['Pinterest', 'ads'],
+  'log.pinterest.com': ['Pinterest', 'analytics'],
+  'trk.pinterest.com': ['Pinterest', 'ads'],
+  'events.reddit.com': ['Reddit', 'ads'],
+  'events.redditmedia.com': ['Reddit', 'ads'],
+  'ads.youtube.com': ['Google', 'ads'],
+  'click.googleanalytics.com': ['Google', 'analytics'],
+  'ads-api.tiktok.com': ['TikTok', 'ads'],
+  'ads-sg.tiktok.com': ['TikTok', 'ads'],
+  'analytics-sg.tiktok.com': ['TikTok', 'analytics'],
+  'log.byteoversea.com': ['TikTok', 'analytics'],
+  // Yahoo
+  'geo.yahoo.com': ['Yahoo', 'analytics'],
+  'udcm.yahoo.com': ['Yahoo', 'analytics'],
+  'analytics.query.yahoo.com': ['Yahoo', 'analytics'],
+  'partnerads.ysm.yahoo.com': ['Yahoo', 'ads'],
+  'log.fc.yahoo.com': ['Yahoo', 'analytics'],
+  'gemini.yahoo.com': ['Yahoo', 'ads'],
+  'adtech.yahooinc.com': ['Yahoo', 'ads'],
+  // Yandex (maps API deliberately not listed: blocking it breaks embedded maps)
+  'appmetrica.yandex.ru': ['Yandex', 'analytics'],
+  'adfstat.yandex.ru': ['Yandex', 'ads'],
+  'metrika.yandex.ru': ['Yandex', 'analytics'],
+  'offerwall.yandex.net': ['Yandex', 'ads'],
+  'adfox.yandex.ru': ['Yandex', 'ads'],
+  // Error monitoring (sends page and browser details)
+  'bugsnag.com': ['Bugsnag', 'analytics'],
+  'browser.sentry-cdn.com': ['Sentry', 'analytics'],
+  'app.getsentry.com': ['Sentry', 'analytics'],
+  // Session recording / heatmaps
+  'freshmarketer.com': ['Freshworks', 'recording'],
+  // Ad and analytics buckets on Amazon S3
+  'adtago.s3.amazonaws.com': ['Amazon S3 (ad hosts)', 'ads'],
+  'advice-ads.s3.amazonaws.com': ['Amazon S3 (ad hosts)', 'ads'],
+  'analyticsengine.s3.amazonaws.com': ['Amazon S3 (ad hosts)', 'analytics'],
+  'analytics.s3.amazonaws.com': ['Amazon S3 (ad hosts)', 'analytics'],
+  // Device makers: ads & telemetry
+  'iot-eu-logser.realme.com': ['Realme', 'analytics'],
+  'iot-logser.realme.com': ['Realme', 'analytics'],
+  'bdapi-ads.realmemobile.com': ['Realme', 'ads'],
+  'bdapi-in-ads.realmemobile.com': ['Realme', 'ads'],
+  'ad.xiaomi.com': ['Xiaomi', 'ads'],
+  'ad.intl.xiaomi.com': ['Xiaomi', 'ads'],
+  'mistat.xiaomi.com': ['Xiaomi', 'analytics'],
+  'data.mistat.xiaomi.com': ['Xiaomi', 'analytics'],
+  'data.mistat.india.xiaomi.com': ['Xiaomi', 'analytics'],
+  'data.mistat.rus.xiaomi.com': ['Xiaomi', 'analytics'],
+  'tracking.rus.miui.com': ['Xiaomi', 'analytics'],
+  'ads.oppomobile.com': ['OPPO', 'ads'],
+  'adsfs.oppomobile.com': ['OPPO', 'ads'],
+  'metrics.data.hicloud.com': ['Huawei', 'analytics'],
+  'metrics2.data.hicloud.com': ['Huawei', 'analytics'],
+  'grs.hicloud.com': ['Huawei', 'analytics'],
+  'logservice.hicloud.com': ['Huawei', 'analytics'],
+  'logservice1.hicloud.com': ['Huawei', 'analytics'],
+  'logbak.hicloud.com': ['Huawei', 'analytics'],
+  'click.oneplus.cn': ['OnePlus', 'analytics'],
+  'samsungads.com': ['Samsung', 'ads'],
+  'smetrics.samsung.com': ['Samsung', 'analytics'],
+  'nmetrics.samsung.com': ['Samsung', 'analytics'],
+  'analytics-api.samsunghealthcn.com': ['Samsung', 'analytics'],
+  'iadsdk.apple.com': ['Apple', 'ads'],
+  'api-adservices.apple.com': ['Apple', 'ads'],
+  'metrics.icloud.com': ['Apple', 'analytics'],
+  'metrics.mzstatic.com': ['Apple', 'analytics'],
+  'books-analytics-events.apple.com': ['Apple', 'analytics'],
+  'weather-analytics-events.apple.com': ['Apple', 'analytics'],
+  'notes-analytics-events.apple.com': ['Apple', 'analytics'],
+});
+
 /** All tracker domains that belong to a company (used for blocking rules). */
 export function companyDomains(company) {
   return Object.keys(TRACKERS).filter((d) => TRACKERS[d][0] === company);
