@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Погледајте уживо којим компанијама сајт који посећујете шаље ваше податке."
+  },
+  "statCompanies": {
+    "message": "компаније за праћење"
+  },
+  "statDomains": {
+    "message": "домени за праћење"
+  },
+  "statRequests": {
+    "message": "захтеви трећих страна"
+  },
+  "whoIsWatching": {
+    "message": "Ко вас посматра"
+  },
+  "noTrackers": {
+    "message": "На овој страници нису пронађени познати трагачи. 🎉"
+  },
+  "otherDomains": {
+    "message": "Остали домени трећих страна"
+  },
+  "footer": {
+    "message": "Цела анализа се обавља локално. Ништа не напушта ваш прегледач."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar треба приступ свим сајтовима да би видео њихове захтеве."
+  },
+  "permGrant": {
+    "message": "Дозволи приступ"
+  },
+  "reloadToScan": {
+    "message": "Освежите страницу да бисте покренули скенирање"
+  },
+  "catAds": {
+    "message": "Реклама"
+  },
+  "catAnalytics": {
+    "message": "Аналитика"
+  },
+  "catRecording": {
+    "message": "Снимање сесија"
+  },
+  "catSocial": {
+    "message": "Друштвене мреже"
+  },
+  "requests": {
+    "message": "захтева"
+  },
+  "actBlock": {
+    "message": "Блокирај ову компанију на свим сајтовима"
+  },
+  "actUnblock": {
+    "message": "Одблокирај"
+  },
+  "blockedTag": {
+    "message": "блокирано"
+  },
+  "blockedRequests": {
+    "message": "Блокирани захтеви"
+  },
+  "gradeHint": {
+    "message": "Оцена приватности: према броју и врсти трагача на овој страници"
+  },
+  "openStats": {
+    "message": "Статистика"
+  },
+  "statsTitle": {
+    "message": "Ваша историја праћења"
+  },
+  "range7": {
+    "message": "Последњих 7 дана"
+  },
+  "range30": {
+    "message": "Последњих 30 дана"
+  },
+  "sCompanies": {
+    "message": "компаније за праћење"
+  },
+  "sSites": {
+    "message": "посећени сајтови"
+  },
+  "sRequests": {
+    "message": "захтеви ка трагачима"
+  },
+  "sBlocked": {
+    "message": "блокирани захтеви"
+  },
+  "perDay": {
+    "message": "Компаније за праћење по дану"
+  },
+  "topCompanies": {
+    "message": "Ко вас највише прати"
+  },
+  "topSites": {
+    "message": "Сајтови са највише трагача"
+  },
+  "colCompany": {
+    "message": "Компанија"
+  },
+  "colSites": {
+    "message": "Сајтови"
+  },
+  "colSite": {
+    "message": "Сајт"
+  },
+  "colTrackers": {
+    "message": "Трагачи"
+  },
+  "colGrade": {
+    "message": "Оцена"
+  },
+  "blockedList": {
+    "message": "Блокиране компаније"
+  },
+  "noneBlocked": {
+    "message": "Још нисте блокирали ниједну компанију. Користите штит поред компаније у прозору проширења."
+  },
+  "clearHistory": {
+    "message": "Обриши историју"
+  },
+  "confirmClear": {
+    "message": "Обрисати целу историју праћења?"
+  },
+  "noData": {
+    "message": "Још нема података. Мало прегледајте сајтове и вратите се."
+  },
+  "recTitle": {
+    "message": "Овај сајт снима вашу сесију"
+  },
+  "recText": {
+    "message": "Покрете миша, кликове и куцање могу да снимају:"
+  },
+  "quickProtection": {
+    "message": "Брза заштита"
+  },
+  "profileAds": {
+    "message": "Све рекламе"
+  },
+  "profileAnalytics": {
+    "message": "Сва аналитика"
+  },
+  "profileRecording": {
+    "message": "Снимање сесија"
+  },
+  "pauseSite": {
+    "message": "Паузирај блокирање на овом сајту"
+  },
+  "resumeSite": {
+    "message": "Настави блокирање на овом сајту"
+  },
+  "pausedLine": {
+    "message": "Блокирање је овде паузирано. Трагачи се и даље виде на радару."
+  },
+  "pausedList": {
+    "message": "Сајтови са паузираним блокирањем"
+  },
+  "nonePaused": {
+    "message": "Блокирање је активно на свим сајтовима."
+  },
+  "resumeShort": {
+    "message": "Настави"
+  },
+  "catMining": {
+    "message": "Рударење криптовалута"
+  },
+  "profileMining": {
+    "message": "Крипто рудари"
+  },
+  "minTitle": {
+    "message": "Овај сајт покушава да рудари криптовалуте"
+  },
+  "minText": {
+    "message": "Скрипте ових услуга могу да користе ваш процесор да рударе за неког другог:"
+  },
+  "fpTitle": {
+    "message": "Овај сајт прави отисак вашег прегледача"
+  },
+  "fpText": {
+    "message": "Чита скривене податке о вашем уређају да би вас препознао без колачића:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (графичка картица)"
+  },
+  "fp_audio": {
+    "message": "звук"
+  },
+  "fp_fonts": {
+    "message": "инсталирани фонтови"
+  },
+  "fpBy": {
+    "message": "преко"
+  },
+  "fpShort": {
+    "message": "Отисак прегледача"
+  },
+  "optFingerprint": {
+    "message": "Заштита од отиска"
+  },
+  "optFingerprintHint": {
+    "message": "Додаје неприметан шум у податке canvas и звука и сакрива вашу графичку картицу, да вас по њима не би препознали. Ретко апликације за цртање могу изгледати мало другачије."
+  },
+  "optWebrtc": {
+    "message": "Сакриј IP од WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "За кориснике VPN-а: сајтови неће видети вашу праву IP адресу преко WebRTC-а. Видео-позиви у прегледачу можда неће радити."
+  },
+  "locale": {
+    "message": "sr",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

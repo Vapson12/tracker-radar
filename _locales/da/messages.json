@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Se live, hvilke virksomheder det websted, du besøger, sender dine data til."
+  },
+  "statCompanies": {
+    "message": "sporingsvirksomheder"
+  },
+  "statDomains": {
+    "message": "sporingsdomæner"
+  },
+  "statRequests": {
+    "message": "tredjepartsanmodninger"
+  },
+  "whoIsWatching": {
+    "message": "Hvem holder øje"
+  },
+  "noTrackers": {
+    "message": "Der blev ikke fundet kendte sporere på denne side. 🎉"
+  },
+  "otherDomains": {
+    "message": "Andre tredjepartsdomæner"
+  },
+  "footer": {
+    "message": "Al analyse sker lokalt. Intet forlader din browser."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar skal have adgang til alle websteder for at se deres anmodninger."
+  },
+  "permGrant": {
+    "message": "Giv adgang"
+  },
+  "reloadToScan": {
+    "message": "Genindlæs siden for at starte scanningen"
+  },
+  "catAds": {
+    "message": "Annoncering"
+  },
+  "catAnalytics": {
+    "message": "Analyse"
+  },
+  "catRecording": {
+    "message": "Sessionsoptagelse"
+  },
+  "catSocial": {
+    "message": "Sociale medier"
+  },
+  "requests": {
+    "message": "anmodninger"
+  },
+  "actBlock": {
+    "message": "Bloker denne virksomhed på alle websteder"
+  },
+  "actUnblock": {
+    "message": "Fjern blokering"
+  },
+  "blockedTag": {
+    "message": "blokeret"
+  },
+  "blockedRequests": {
+    "message": "Blokerede anmodninger"
+  },
+  "gradeHint": {
+    "message": "Privatlivskarakter: baseret på antal og type sporere på denne side"
+  },
+  "openStats": {
+    "message": "Statistik"
+  },
+  "statsTitle": {
+    "message": "Din sporingshistorik"
+  },
+  "range7": {
+    "message": "Seneste 7 dage"
+  },
+  "range30": {
+    "message": "Seneste 30 dage"
+  },
+  "sCompanies": {
+    "message": "sporingsvirksomheder"
+  },
+  "sSites": {
+    "message": "besøgte websteder"
+  },
+  "sRequests": {
+    "message": "anmodninger til sporere"
+  },
+  "sBlocked": {
+    "message": "blokerede anmodninger"
+  },
+  "perDay": {
+    "message": "Sporingsvirksomheder pr. dag"
+  },
+  "topCompanies": {
+    "message": "Hvem følger dig mest"
+  },
+  "topSites": {
+    "message": "Websteder med flest sporere"
+  },
+  "colCompany": {
+    "message": "Virksomhed"
+  },
+  "colSites": {
+    "message": "Websteder"
+  },
+  "colSite": {
+    "message": "Websted"
+  },
+  "colTrackers": {
+    "message": "Sporere"
+  },
+  "colGrade": {
+    "message": "Karakter"
+  },
+  "blockedList": {
+    "message": "Blokerede virksomheder"
+  },
+  "noneBlocked": {
+    "message": "Du har ikke blokeret nogen virksomheder endnu. Brug skjoldet ud for en virksomhed i udvidelsens vindue."
+  },
+  "clearHistory": {
+    "message": "Ryd historik"
+  },
+  "confirmClear": {
+    "message": "Slet al sporingshistorik?"
+  },
+  "noData": {
+    "message": "Ingen data endnu. Surf lidt rundt, og kom tilbage."
+  },
+  "recTitle": {
+    "message": "Dette websted optager din session"
+  },
+  "recText": {
+    "message": "Dine musebevægelser, klik og indtastninger kan optages af:"
+  },
+  "quickProtection": {
+    "message": "Hurtig beskyttelse"
+  },
+  "profileAds": {
+    "message": "Alle annoncer"
+  },
+  "profileAnalytics": {
+    "message": "Al analyse"
+  },
+  "profileRecording": {
+    "message": "Sessionsoptagere"
+  },
+  "pauseSite": {
+    "message": "Sæt blokering på pause på dette websted"
+  },
+  "resumeSite": {
+    "message": "Genoptag blokering på dette websted"
+  },
+  "pausedLine": {
+    "message": "Blokering er sat på pause her. Sporere vises stadig på radaren."
+  },
+  "pausedList": {
+    "message": "Websteder med blokering på pause"
+  },
+  "nonePaused": {
+    "message": "Blokering er aktiv på alle websteder."
+  },
+  "resumeShort": {
+    "message": "Genoptag"
+  },
+  "catMining": {
+    "message": "Kryptomining"
+  },
+  "profileMining": {
+    "message": "Kryptominere"
+  },
+  "minTitle": {
+    "message": "Dette websted forsøger at mine kryptovaluta"
+  },
+  "minText": {
+    "message": "Scripts fra disse tjenester kan bruge din processor til at mine for en anden:"
+  },
+  "fpTitle": {
+    "message": "Dette websted tager et fingeraftryk af din browser"
+  },
+  "fpText": {
+    "message": "Det læser skjulte oplysninger om din enhed for at genkende dig uden cookies:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (grafikkort)"
+  },
+  "fp_audio": {
+    "message": "lyd"
+  },
+  "fp_fonts": {
+    "message": "installerede skrifttyper"
+  },
+  "fpBy": {
+    "message": "via"
+  },
+  "fpShort": {
+    "message": "Fingeraftryk"
+  },
+  "optFingerprint": {
+    "message": "Fingeraftryksbeskyttelse"
+  },
+  "optFingerprintHint": {
+    "message": "Tilføjer en lille smule støj til canvas- og lydværdier og skjuler dit grafikkort, så de ikke kan bruges til at genkende dig. I sjældne tilfælde kan tegneprogrammer se lidt anderledes ud."
+  },
+  "optWebrtc": {
+    "message": "Skjul IP for WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "Til VPN-brugere: websteder kan ikke se din rigtige IP-adresse via WebRTC. Videoopkald i browseren holder måske op med at virke."
+  },
+  "locale": {
+    "message": "da",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "የሚጎበኙት ድረ-ገጽ ውሂብዎን ለየትኞቹ ኩባንያዎች እንደሚልክ በቀጥታ ይመልከቱ።"
+  },
+  "statCompanies": {
+    "message": "የክትትል ኩባንያዎች"
+  },
+  "statDomains": {
+    "message": "የክትትል ጎራዎች"
+  },
+  "statRequests": {
+    "message": "የሶስተኛ ወገን ጥያቄዎች"
+  },
+  "whoIsWatching": {
+    "message": "ማን እየተመለከተ ነው"
+  },
+  "noTrackers": {
+    "message": "በዚህ ገጽ ላይ የታወቀ መከታተያ አልተገኘም። 🎉"
+  },
+  "otherDomains": {
+    "message": "ሌሎች የሶስተኛ ወገን ጎራዎች"
+  },
+  "footer": {
+    "message": "ሁሉም ትንተና በአካባቢው ይከናወናል። ምንም ነገር ከአሳሽዎ አይወጣም።"
+  },
+  "permNeeded": {
+    "message": "Tracker Radar ጥያቄዎችን ለማየት ወደ ሁሉም ድረ-ገጾች መዳረሻ ያስፈልገዋል።"
+  },
+  "permGrant": {
+    "message": "መዳረሻ ስጥ"
+  },
+  "reloadToScan": {
+    "message": "ቅኝቱን ለመጀመር ገጹን እንደገና ይጫኑ"
+  },
+  "catAds": {
+    "message": "ማስታወቂያ"
+  },
+  "catAnalytics": {
+    "message": "ትንታኔ"
+  },
+  "catRecording": {
+    "message": "የክፍለ-ጊዜ ቀረጻ"
+  },
+  "catSocial": {
+    "message": "ማህበራዊ ሚዲያ"
+  },
+  "requests": {
+    "message": "ጥያቄዎች"
+  },
+  "actBlock": {
+    "message": "ይህን ኩባንያ በሁሉም ድረ-ገጾች አግድ"
+  },
+  "actUnblock": {
+    "message": "እገዳ አንሳ"
+  },
+  "blockedTag": {
+    "message": "ታግዷል"
+  },
+  "blockedRequests": {
+    "message": "የታገዱ ጥያቄዎች"
+  },
+  "gradeHint": {
+    "message": "የግላዊነት ደረጃ፦ በዚህ ገጽ ባሉ መከታተያዎች ብዛትና ዓይነት"
+  },
+  "openStats": {
+    "message": "ስታቲስቲክስ"
+  },
+  "statsTitle": {
+    "message": "የክትትል ታሪክዎ"
+  },
+  "range7": {
+    "message": "ያለፉት 7 ቀናት"
+  },
+  "range30": {
+    "message": "ያለፉት 30 ቀናት"
+  },
+  "sCompanies": {
+    "message": "የክትትል ኩባንያዎች"
+  },
+  "sSites": {
+    "message": "የተጎበኙ ድረ-ገጾች"
+  },
+  "sRequests": {
+    "message": "ወደ መከታተያዎች የተላኩ ጥያቄዎች"
+  },
+  "sBlocked": {
+    "message": "የታገዱ ጥያቄዎች"
+  },
+  "perDay": {
+    "message": "በቀን የክትትል ኩባንያዎች"
+  },
+  "topCompanies": {
+    "message": "በብዛት የሚከታተልዎ ማን ነው"
+  },
+  "topSites": {
+    "message": "ብዙ መከታተያ ያላቸው ድረ-ገጾች"
+  },
+  "colCompany": {
+    "message": "ኩባንያ"
+  },
+  "colSites": {
+    "message": "ድረ-ገጾች"
+  },
+  "colSite": {
+    "message": "ድረ-ገጽ"
+  },
+  "colTrackers": {
+    "message": "መከታተያዎች"
+  },
+  "colGrade": {
+    "message": "ደረጃ"
+  },
+  "blockedList": {
+    "message": "የታገዱ ኩባንያዎች"
+  },
+  "noneBlocked": {
+    "message": "እስካሁን ምንም ኩባንያ አላገዱም። በቅጥያው መስኮት ከኩባንያው አጠገብ ያለውን ጋሻ ይጠቀሙ።"
+  },
+  "clearHistory": {
+    "message": "ታሪክ አጽዳ"
+  },
+  "confirmClear": {
+    "message": "ሙሉውን የክትትል ታሪክ ይሰረዝ?"
+  },
+  "noData": {
+    "message": "እስካሁን ውሂብ የለም። ትንሽ ያስሱና ይመለሱ።"
+  },
+  "recTitle": {
+    "message": "ይህ ድረ-ገጽ ክፍለ-ጊዜዎን እየቀረጸ ነው"
+  },
+  "recText": {
+    "message": "የመዳፊት እንቅስቃሴዎ፣ ጠቅታዎችና የሚተይቡት ሊቀረጹ ይችላሉ በ፦"
+  },
+  "quickProtection": {
+    "message": "ፈጣን ጥበቃ"
+  },
+  "profileAds": {
+    "message": "ሁሉም ማስታወቂያዎች"
+  },
+  "profileAnalytics": {
+    "message": "ሁሉም ትንታኔ"
+  },
+  "profileRecording": {
+    "message": "የክፍለ-ጊዜ መቅረጫዎች"
+  },
+  "pauseSite": {
+    "message": "በዚህ ድረ-ገጽ እገዳን ለአፍታ አቁም"
+  },
+  "resumeSite": {
+    "message": "በዚህ ድረ-ገጽ እገዳን ቀጥል"
+  },
+  "pausedLine": {
+    "message": "እገዳ እዚህ ለአፍታ ቆሟል። መከታተያዎች አሁንም በራዳሩ ይታያሉ።"
+  },
+  "pausedList": {
+    "message": "እገዳ የቆመባቸው ድረ-ገጾች"
+  },
+  "nonePaused": {
+    "message": "እገዳ በሁሉም ድረ-ገጾች ንቁ ነው።"
+  },
+  "resumeShort": {
+    "message": "ቀጥል"
+  },
+  "catMining": {
+    "message": "የክሪፕቶ ማዕድን ማውጣት"
+  },
+  "profileMining": {
+    "message": "የክሪፕቶ ማዕድን አውጪዎች"
+  },
+  "minTitle": {
+    "message": "ይህ ድረ-ገጽ ክሪፕቶከረንሲ ለማውጣት እየሞከረ ነው"
+  },
+  "minText": {
+    "message": "የእነዚህ አገልግሎቶች ስክሪፕቶች ለሌላ ሰው ለማውጣት ፕሮሰሰርዎን ሊጠቀሙ ይችላሉ፦"
+  },
+  "fpTitle": {
+    "message": "ይህ ድረ-ገጽ የአሳሽዎን የጣት አሻራ እየወሰደ ነው"
+  },
+  "fpText": {
+    "message": "ያለ ኩኪዎች እርስዎን ለመለየት የመሣሪያዎን የተደበቁ ዝርዝሮች ያነባል፦"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (የግራፊክስ ካርድ)"
+  },
+  "fp_audio": {
+    "message": "ድምፅ"
+  },
+  "fp_fonts": {
+    "message": "የተጫኑ ፊደላት"
+  },
+  "fpBy": {
+    "message": "በ"
+  },
+  "fpShort": {
+    "message": "የጣት አሻራ"
+  },
+  "optFingerprint": {
+    "message": "የጣት አሻራ ጥበቃ"
+  },
+  "optFingerprintHint": {
+    "message": "በcanvas እና በድምፅ ንባቦች ላይ ትንሽ ጫጫታ ያክላል እና የግራፊክስ ካርድዎን ይደብቃል፣ ስለዚህ እርስዎን ለመለየት መጠቀም አይቻልም። አልፎ አልፎ የስዕል መተግበሪያዎች ትንሽ የተለየ ሊመስሉ ይችላሉ።"
+  },
+  "optWebrtc": {
+    "message": "IPን ከWebRTC ደብቅ"
+  },
+  "optWebrtcHint": {
+    "message": "ለVPN ተጠቃሚዎች፦ ድረ-ገጾች በWebRTC በኩል እውነተኛ የIP አድራሻዎን አያዩም። በአሳሽ ውስጥ የቪዲዮ ጥሪዎች መስራት ሊያቆሙ ይችላሉ።"
+  },
+  "locale": {
+    "message": "am",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

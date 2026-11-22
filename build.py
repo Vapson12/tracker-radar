@@ -3,7 +3,7 @@ import json, zipfile, pathlib, copy
 
 ROOT = pathlib.Path(__file__).parent
 FILES = ['background.js', 'trackers.js', 'scoring.js', 'popup.html', 'popup.css', 'popup.js',
-         'stats.html', 'stats.css', 'stats.js',
+         'stats.html', 'stats.css', 'stats.js', 'fp-main.js', 'fp-bridge.js', 'fp-on.js',
          'icons/icon16.png', 'icons/icon32.png', 'icons/icon48.png', 'icons/icon128.png', 'LICENSE']
 base = json.loads((ROOT / 'manifest.json').read_text())
 

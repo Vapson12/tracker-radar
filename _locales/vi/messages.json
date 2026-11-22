@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Xem trực tiếp trang bạn đang truy cập gửi dữ liệu của bạn cho những công ty nào."
+  },
+  "statCompanies": {
+    "message": "công ty theo dõi"
+  },
+  "statDomains": {
+    "message": "tên miền theo dõi"
+  },
+  "statRequests": {
+    "message": "yêu cầu bên thứ ba"
+  },
+  "whoIsWatching": {
+    "message": "Ai đang theo dõi"
+  },
+  "noTrackers": {
+    "message": "Không tìm thấy trình theo dõi đã biết trên trang này. 🎉"
+  },
+  "otherDomains": {
+    "message": "Tên miền bên thứ ba khác"
+  },
+  "footer": {
+    "message": "Mọi phân tích diễn ra cục bộ. Không có gì rời khỏi trình duyệt của bạn."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar cần quyền truy cập tất cả trang web để xem yêu cầu của chúng."
+  },
+  "permGrant": {
+    "message": "Cấp quyền"
+  },
+  "reloadToScan": {
+    "message": "Tải lại trang để bắt đầu quét"
+  },
+  "catAds": {
+    "message": "Quảng cáo"
+  },
+  "catAnalytics": {
+    "message": "Phân tích"
+  },
+  "catRecording": {
+    "message": "Ghi phiên"
+  },
+  "catSocial": {
+    "message": "Mạng xã hội"
+  },
+  "requests": {
+    "message": "yêu cầu"
+  },
+  "actBlock": {
+    "message": "Chặn công ty này trên mọi trang"
+  },
+  "actUnblock": {
+    "message": "Bỏ chặn"
+  },
+  "blockedTag": {
+    "message": "đã chặn"
+  },
+  "blockedRequests": {
+    "message": "Yêu cầu bị chặn"
+  },
+  "gradeHint": {
+    "message": "Điểm riêng tư: dựa trên số lượng và loại trình theo dõi trên trang này"
+  },
+  "openStats": {
+    "message": "Thống kê"
+  },
+  "statsTitle": {
+    "message": "Lịch sử theo dõi của bạn"
+  },
+  "range7": {
+    "message": "7 ngày qua"
+  },
+  "range30": {
+    "message": "30 ngày qua"
+  },
+  "sCompanies": {
+    "message": "công ty theo dõi"
+  },
+  "sSites": {
+    "message": "trang đã truy cập"
+  },
+  "sRequests": {
+    "message": "yêu cầu tới trình theo dõi"
+  },
+  "sBlocked": {
+    "message": "yêu cầu bị chặn"
+  },
+  "perDay": {
+    "message": "Công ty theo dõi mỗi ngày"
+  },
+  "topCompanies": {
+    "message": "Ai theo dõi bạn nhiều nhất"
+  },
+  "topSites": {
+    "message": "Trang có nhiều trình theo dõi nhất"
+  },
+  "colCompany": {
+    "message": "Công ty"
+  },
+  "colSites": {
+    "message": "Số trang"
+  },
+  "colSite": {
+    "message": "Trang"
+  },
+  "colTrackers": {
+    "message": "Trình theo dõi"
+  },
+  "colGrade": {
+    "message": "Điểm"
+  },
+  "blockedList": {
+    "message": "Công ty bị chặn"
+  },
+  "noneBlocked": {
+    "message": "Bạn chưa chặn công ty nào. Dùng biểu tượng khiên cạnh công ty trong cửa sổ tiện ích."
+  },
+  "clearHistory": {
+    "message": "Xóa lịch sử"
+  },
+  "confirmClear": {
+    "message": "Xóa toàn bộ lịch sử theo dõi?"
+  },
+  "noData": {
+    "message": "Chưa có dữ liệu. Hãy duyệt web một lúc rồi quay lại."
+  },
+  "recTitle": {
+    "message": "Trang này đang ghi lại phiên của bạn"
+  },
+  "recText": {
+    "message": "Chuyển động chuột, cú nhấp và nội dung bạn gõ có thể bị ghi lại bởi:"
+  },
+  "quickProtection": {
+    "message": "Bảo vệ nhanh"
+  },
+  "profileAds": {
+    "message": "Tất cả quảng cáo"
+  },
+  "profileAnalytics": {
+    "message": "Tất cả phân tích"
+  },
+  "profileRecording": {
+    "message": "Công cụ ghi phiên"
+  },
+  "pauseSite": {
+    "message": "Tạm dừng chặn trên trang này"
+  },
+  "resumeSite": {
+    "message": "Tiếp tục chặn trên trang này"
+  },
+  "pausedLine": {
+    "message": "Việc chặn đang tạm dừng ở đây. Trình theo dõi vẫn hiện trên radar."
+  },
+  "pausedList": {
+    "message": "Trang đang tạm dừng chặn"
+  },
+  "nonePaused": {
+    "message": "Việc chặn đang bật trên mọi trang."
+  },
+  "resumeShort": {
+    "message": "Tiếp tục"
+  },
+  "catMining": {
+    "message": "Đào tiền mã hóa"
+  },
+  "profileMining": {
+    "message": "Trình đào coin"
+  },
+  "minTitle": {
+    "message": "Trang này đang cố đào tiền mã hóa"
+  },
+  "minText": {
+    "message": "Mã script từ các dịch vụ này có thể dùng bộ xử lý của bạn để đào cho người khác:"
+  },
+  "fpTitle": {
+    "message": "Trang này đang lấy dấu vân tay trình duyệt của bạn"
+  },
+  "fpText": {
+    "message": "Nó đọc thông tin ẩn của thiết bị để nhận ra bạn mà không cần cookie:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (card đồ họa)"
+  },
+  "fp_audio": {
+    "message": "âm thanh"
+  },
+  "fp_fonts": {
+    "message": "phông chữ đã cài"
+  },
+  "fpBy": {
+    "message": "bởi"
+  },
+  "fpShort": {
+    "message": "Dấu vân tay"
+  },
+  "optFingerprint": {
+    "message": "Chống lấy dấu vân tay"
+  },
+  "optFingerprintHint": {
+    "message": "Thêm nhiễu rất nhỏ vào dữ liệu canvas và âm thanh, đồng thời ẩn card đồ họa để chúng không thể dùng để nhận ra bạn. Đôi khi ứng dụng vẽ có thể trông hơi khác."
+  },
+  "optWebrtc": {
+    "message": "Ẩn IP khỏi WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "Dành cho người dùng VPN: trang web sẽ không thấy địa chỉ IP thật của bạn qua WebRTC. Cuộc gọi video trong trình duyệt có thể ngừng hoạt động."
+  },
+  "locale": {
+    "message": "vi",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

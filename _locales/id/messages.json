@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Lihat secara langsung ke perusahaan mana situs yang Anda kunjungi mengirim data Anda."
+  },
+  "statCompanies": {
+    "message": "perusahaan pelacak"
+  },
+  "statDomains": {
+    "message": "domain pelacak"
+  },
+  "statRequests": {
+    "message": "permintaan pihak ketiga"
+  },
+  "whoIsWatching": {
+    "message": "Siapa yang mengawasi"
+  },
+  "noTrackers": {
+    "message": "Tidak ada pelacak yang dikenal di halaman ini. 🎉"
+  },
+  "otherDomains": {
+    "message": "Domain pihak ketiga lainnya"
+  },
+  "footer": {
+    "message": "Semua analisis dilakukan secara lokal. Tidak ada yang keluar dari browser Anda."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar memerlukan akses ke semua situs untuk melihat permintaannya."
+  },
+  "permGrant": {
+    "message": "Berikan akses"
+  },
+  "reloadToScan": {
+    "message": "Muat ulang halaman untuk mulai memindai"
+  },
+  "catAds": {
+    "message": "Iklan"
+  },
+  "catAnalytics": {
+    "message": "Analitik"
+  },
+  "catRecording": {
+    "message": "Perekaman sesi"
+  },
+  "catSocial": {
+    "message": "Sosial"
+  },
+  "requests": {
+    "message": "permintaan"
+  },
+  "actBlock": {
+    "message": "Blokir perusahaan ini di semua situs"
+  },
+  "actUnblock": {
+    "message": "Buka blokir"
+  },
+  "blockedTag": {
+    "message": "diblokir"
+  },
+  "blockedRequests": {
+    "message": "Permintaan yang diblokir"
+  },
+  "gradeHint": {
+    "message": "Nilai privasi: berdasarkan jumlah dan jenis pelacak di halaman ini"
+  },
+  "openStats": {
+    "message": "Statistik"
+  },
+  "statsTitle": {
+    "message": "Riwayat pelacakan Anda"
+  },
+  "range7": {
+    "message": "7 hari terakhir"
+  },
+  "range30": {
+    "message": "30 hari terakhir"
+  },
+  "sCompanies": {
+    "message": "perusahaan pelacak"
+  },
+  "sSites": {
+    "message": "situs yang dikunjungi"
+  },
+  "sRequests": {
+    "message": "permintaan ke pelacak"
+  },
+  "sBlocked": {
+    "message": "permintaan diblokir"
+  },
+  "perDay": {
+    "message": "Perusahaan pelacak per hari"
+  },
+  "topCompanies": {
+    "message": "Siapa yang paling sering mengikuti Anda"
+  },
+  "topSites": {
+    "message": "Situs dengan pelacak terbanyak"
+  },
+  "colCompany": {
+    "message": "Perusahaan"
+  },
+  "colSites": {
+    "message": "Situs"
+  },
+  "colSite": {
+    "message": "Situs"
+  },
+  "colTrackers": {
+    "message": "Pelacak"
+  },
+  "colGrade": {
+    "message": "Nilai"
+  },
+  "blockedList": {
+    "message": "Perusahaan yang diblokir"
+  },
+  "noneBlocked": {
+    "message": "Belum ada perusahaan yang diblokir. Gunakan perisai di samping perusahaan di jendela ekstensi."
+  },
+  "clearHistory": {
+    "message": "Hapus riwayat"
+  },
+  "confirmClear": {
+    "message": "Hapus semua riwayat pelacakan?"
+  },
+  "noData": {
+    "message": "Belum ada data. Jelajahi sebentar lalu kembali."
+  },
+  "recTitle": {
+    "message": "Situs ini merekam sesi Anda"
+  },
+  "recText": {
+    "message": "Gerakan mouse, klik, dan ketikan Anda dapat direkam oleh:"
+  },
+  "quickProtection": {
+    "message": "Perlindungan cepat"
+  },
+  "profileAds": {
+    "message": "Semua iklan"
+  },
+  "profileAnalytics": {
+    "message": "Semua analitik"
+  },
+  "profileRecording": {
+    "message": "Perekam sesi"
+  },
+  "pauseSite": {
+    "message": "Jeda pemblokiran di situs ini"
+  },
+  "resumeSite": {
+    "message": "Lanjutkan pemblokiran di situs ini"
+  },
+  "pausedLine": {
+    "message": "Pemblokiran dijeda di sini. Pelacak tetap terlihat di radar."
+  },
+  "pausedList": {
+    "message": "Situs dengan pemblokiran dijeda"
+  },
+  "nonePaused": {
+    "message": "Pemblokiran aktif di semua situs."
+  },
+  "resumeShort": {
+    "message": "Lanjutkan"
+  },
+  "catMining": {
+    "message": "Penambangan kripto"
+  },
+  "profileMining": {
+    "message": "Penambang kripto"
+  },
+  "minTitle": {
+    "message": "Situs ini mencoba menambang mata uang kripto"
+  },
+  "minText": {
+    "message": "Skrip dari layanan ini dapat memakai prosesor Anda untuk menambang bagi orang lain:"
+  },
+  "fpTitle": {
+    "message": "Situs ini membuat sidik jari browser Anda"
+  },
+  "fpText": {
+    "message": "Situs ini membaca detail tersembunyi perangkat Anda untuk mengenali Anda tanpa cookie:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (kartu grafis)"
+  },
+  "fp_audio": {
+    "message": "audio"
+  },
+  "fp_fonts": {
+    "message": "font terpasang"
+  },
+  "fpBy": {
+    "message": "oleh"
+  },
+  "fpShort": {
+    "message": "Sidik jari browser"
+  },
+  "optFingerprint": {
+    "message": "Perlindungan sidik jari"
+  },
+  "optFingerprintHint": {
+    "message": "Menambahkan derau kecil pada data canvas dan audio serta menyembunyikan kartu grafis Anda, sehingga tidak dapat dipakai untuk mengenali Anda. Sesekali aplikasi menggambar mungkin tampak sedikit berbeda."
+  },
+  "optWebrtc": {
+    "message": "Sembunyikan IP dari WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "Untuk pengguna VPN: situs tidak akan melihat alamat IP asli Anda melalui WebRTC. Panggilan video di browser mungkin berhenti berfungsi."
+  },
+  "locale": {
+    "message": "id",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

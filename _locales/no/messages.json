@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Se direkte hvilke selskaper nettstedet du besøker, sender dataene dine til."
+  },
+  "statCompanies": {
+    "message": "sporingsselskaper"
+  },
+  "statDomains": {
+    "message": "sporingsdomener"
+  },
+  "statRequests": {
+    "message": "tredjepartsforespørsler"
+  },
+  "whoIsWatching": {
+    "message": "Hvem følger med"
+  },
+  "noTrackers": {
+    "message": "Fant ingen kjente sporere på denne siden. 🎉"
+  },
+  "otherDomains": {
+    "message": "Andre tredjepartsdomener"
+  },
+  "footer": {
+    "message": "All analyse skjer lokalt. Ingenting forlater nettleseren din."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar trenger tilgang til alle nettsteder for å se forespørslene deres."
+  },
+  "permGrant": {
+    "message": "Gi tilgang"
+  },
+  "reloadToScan": {
+    "message": "Last inn siden på nytt for å starte skanningen"
+  },
+  "catAds": {
+    "message": "Reklame"
+  },
+  "catAnalytics": {
+    "message": "Analyse"
+  },
+  "catRecording": {
+    "message": "Øktopptak"
+  },
+  "catSocial": {
+    "message": "Sosiale medier"
+  },
+  "requests": {
+    "message": "forespørsler"
+  },
+  "actBlock": {
+    "message": "Blokker dette selskapet på alle nettsteder"
+  },
+  "actUnblock": {
+    "message": "Opphev blokkering"
+  },
+  "blockedTag": {
+    "message": "blokkert"
+  },
+  "blockedRequests": {
+    "message": "Blokkerte forespørsler"
+  },
+  "gradeHint": {
+    "message": "Personvernkarakter: basert på antall og type sporere på denne siden"
+  },
+  "openStats": {
+    "message": "Statistikk"
+  },
+  "statsTitle": {
+    "message": "Sporingshistorikken din"
+  },
+  "range7": {
+    "message": "Siste 7 dager"
+  },
+  "range30": {
+    "message": "Siste 30 dager"
+  },
+  "sCompanies": {
+    "message": "sporingsselskaper"
+  },
+  "sSites": {
+    "message": "besøkte nettsteder"
+  },
+  "sRequests": {
+    "message": "forespørsler til sporere"
+  },
+  "sBlocked": {
+    "message": "blokkerte forespørsler"
+  },
+  "perDay": {
+    "message": "Sporingsselskaper per dag"
+  },
+  "topCompanies": {
+    "message": "Hvem følger deg mest"
+  },
+  "topSites": {
+    "message": "Nettsteder med flest sporere"
+  },
+  "colCompany": {
+    "message": "Selskap"
+  },
+  "colSites": {
+    "message": "Nettsteder"
+  },
+  "colSite": {
+    "message": "Nettsted"
+  },
+  "colTrackers": {
+    "message": "Sporere"
+  },
+  "colGrade": {
+    "message": "Karakter"
+  },
+  "blockedList": {
+    "message": "Blokkerte selskaper"
+  },
+  "noneBlocked": {
+    "message": "Du har ikke blokkert noen selskaper ennå. Bruk skjoldet ved siden av et selskap i utvidelsesvinduet."
+  },
+  "clearHistory": {
+    "message": "Tøm historikk"
+  },
+  "confirmClear": {
+    "message": "Slette all sporingshistorikk?"
+  },
+  "noData": {
+    "message": "Ingen data ennå. Surf litt rundt og kom tilbake."
+  },
+  "recTitle": {
+    "message": "Dette nettstedet tar opp økten din"
+  },
+  "recText": {
+    "message": "Musebevegelser, klikk og det du skriver kan tas opp av:"
+  },
+  "quickProtection": {
+    "message": "Rask beskyttelse"
+  },
+  "profileAds": {
+    "message": "All reklame"
+  },
+  "profileAnalytics": {
+    "message": "All analyse"
+  },
+  "profileRecording": {
+    "message": "Øktopptakere"
+  },
+  "pauseSite": {
+    "message": "Sett blokkering på pause på dette nettstedet"
+  },
+  "resumeSite": {
+    "message": "Gjenoppta blokkering på dette nettstedet"
+  },
+  "pausedLine": {
+    "message": "Blokkering er satt på pause her. Sporere vises fortsatt på radaren."
+  },
+  "pausedList": {
+    "message": "Nettsteder med blokkering på pause"
+  },
+  "nonePaused": {
+    "message": "Blokkering er aktiv på alle nettsteder."
+  },
+  "resumeShort": {
+    "message": "Gjenoppta"
+  },
+  "catMining": {
+    "message": "Kryptoutvinning"
+  },
+  "profileMining": {
+    "message": "Kryptoutvinnere"
+  },
+  "minTitle": {
+    "message": "Dette nettstedet prøver å utvinne kryptovaluta"
+  },
+  "minText": {
+    "message": "Skript fra disse tjenestene kan bruke prosessoren din til å utvinne for noen andre:"
+  },
+  "fpTitle": {
+    "message": "Dette nettstedet lager et fingeravtrykk av nettleseren din"
+  },
+  "fpText": {
+    "message": "Det leser skjulte detaljer om enheten din for å kjenne deg igjen uten informasjonskapsler:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (skjermkort)"
+  },
+  "fp_audio": {
+    "message": "lyd"
+  },
+  "fp_fonts": {
+    "message": "installerte skrifttyper"
+  },
+  "fpBy": {
+    "message": "via"
+  },
+  "fpShort": {
+    "message": "Fingeravtrykk"
+  },
+  "optFingerprint": {
+    "message": "Fingeravtrykksbeskyttelse"
+  },
+  "optFingerprintHint": {
+    "message": "Legger til litt støy i canvas- og lydverdier og skjuler skjermkortet ditt, slik at de ikke kan brukes til å kjenne deg igjen. En sjelden gang kan tegneapper se litt annerledes ut."
+  },
+  "optWebrtc": {
+    "message": "Skjul IP for WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "For VPN-brukere: nettsteder ser ikke den ekte IP-adressen din via WebRTC. Videosamtaler i nettleseren kan slutte å fungere."
+  },
+  "locale": {
+    "message": "nb",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

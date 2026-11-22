@@ -167,5 +167,53 @@
   },
   "resumeShort": {
     "message": "Resume"
+  },
+  "catMining": {
+    "message": "Cryptomining"
+  },
+  "profileMining": {
+    "message": "Cryptominers"
+  },
+  "minTitle": {
+    "message": "This site tries to mine cryptocurrency"
+  },
+  "minText": {
+    "message": "Scripts from these services can use your CPU to mine for someone else:"
+  },
+  "fpTitle": {
+    "message": "This site fingerprints your browser"
+  },
+  "fpText": {
+    "message": "It reads hidden details of your device to recognise you without cookies:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (graphics card)"
+  },
+  "fp_audio": {
+    "message": "audio"
+  },
+  "fp_fonts": {
+    "message": "installed fonts"
+  },
+  "fpBy": {
+    "message": "by"
+  },
+  "fpShort": {
+    "message": "Fingerprinting"
+  },
+  "optFingerprint": {
+    "message": "Fingerprint protection"
+  },
+  "optFingerprintHint": {
+    "message": "Adds tiny random noise to canvas and audio readings and hides your graphics card, so they can't be used to recognise you. Rarely, drawing apps may look slightly off."
+  },
+  "optWebrtc": {
+    "message": "Hide IP from WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "For VPN users: stops websites from seeing your real IP address through WebRTC. Video calls in the browser may stop working."
   }
 }

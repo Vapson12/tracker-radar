@@ -167,5 +167,53 @@
   },
   "resumeShort": {
     "message": "Reanudar"
+  },
+  "catMining": {
+    "message": "Criptominería"
+  },
+  "profileMining": {
+    "message": "Criptomineros"
+  },
+  "minTitle": {
+    "message": "Este sitio intenta minar criptomonedas"
+  },
+  "minText": {
+    "message": "Los scripts de estos servicios pueden usar tu procesador para minar para otros:"
+  },
+  "fpTitle": {
+    "message": "Este sitio crea una huella digital de tu navegador"
+  },
+  "fpText": {
+    "message": "Lee detalles ocultos de tu dispositivo para reconocerte sin cookies:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (tarjeta gráfica)"
+  },
+  "fp_audio": {
+    "message": "audio"
+  },
+  "fp_fonts": {
+    "message": "fuentes instaladas"
+  },
+  "fpBy": {
+    "message": "por"
+  },
+  "fpShort": {
+    "message": "Huella digital"
+  },
+  "optFingerprint": {
+    "message": "Protección de huella digital"
+  },
+  "optFingerprintHint": {
+    "message": "Añade un ruido mínimo a las lecturas de canvas y audio y oculta tu tarjeta gráfica para que no sirvan para reconocerte. En raras ocasiones, las apps de dibujo pueden verse ligeramente distintas."
+  },
+  "optWebrtc": {
+    "message": "Ocultar IP a WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "Para usuarios de VPN: los sitios no verán tu IP real a través de WebRTC. Las videollamadas en el navegador pueden dejar de funcionar."
   }
 }

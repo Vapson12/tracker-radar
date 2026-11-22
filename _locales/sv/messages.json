@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Se live vilka företag webbplatsen du besöker skickar dina uppgifter till."
+  },
+  "statCompanies": {
+    "message": "spårningsföretag"
+  },
+  "statDomains": {
+    "message": "spårningsdomäner"
+  },
+  "statRequests": {
+    "message": "tredjepartsförfrågningar"
+  },
+  "whoIsWatching": {
+    "message": "Vem tittar"
+  },
+  "noTrackers": {
+    "message": "Inga kända spårare hittades på den här sidan. 🎉"
+  },
+  "otherDomains": {
+    "message": "Andra tredjepartsdomäner"
+  },
+  "footer": {
+    "message": "All analys sker lokalt. Inget lämnar din webbläsare."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar behöver åtkomst till alla webbplatser för att se deras förfrågningar."
+  },
+  "permGrant": {
+    "message": "Ge åtkomst"
+  },
+  "reloadToScan": {
+    "message": "Ladda om sidan för att starta skanningen"
+  },
+  "catAds": {
+    "message": "Annonser"
+  },
+  "catAnalytics": {
+    "message": "Analys"
+  },
+  "catRecording": {
+    "message": "Sessionsinspelning"
+  },
+  "catSocial": {
+    "message": "Sociala medier"
+  },
+  "requests": {
+    "message": "förfrågningar"
+  },
+  "actBlock": {
+    "message": "Blockera det här företaget på alla webbplatser"
+  },
+  "actUnblock": {
+    "message": "Avblockera"
+  },
+  "blockedTag": {
+    "message": "blockerat"
+  },
+  "blockedRequests": {
+    "message": "Blockerade förfrågningar"
+  },
+  "gradeHint": {
+    "message": "Integritetsbetyg: baserat på antal och typ av spårare på den här sidan"
+  },
+  "openStats": {
+    "message": "Statistik"
+  },
+  "statsTitle": {
+    "message": "Din spårningshistorik"
+  },
+  "range7": {
+    "message": "Senaste 7 dagarna"
+  },
+  "range30": {
+    "message": "Senaste 30 dagarna"
+  },
+  "sCompanies": {
+    "message": "spårningsföretag"
+  },
+  "sSites": {
+    "message": "besökta webbplatser"
+  },
+  "sRequests": {
+    "message": "förfrågningar till spårare"
+  },
+  "sBlocked": {
+    "message": "blockerade förfrågningar"
+  },
+  "perDay": {
+    "message": "Spårningsföretag per dag"
+  },
+  "topCompanies": {
+    "message": "Vem följer dig mest"
+  },
+  "topSites": {
+    "message": "Webbplatser med flest spårare"
+  },
+  "colCompany": {
+    "message": "Företag"
+  },
+  "colSites": {
+    "message": "Webbplatser"
+  },
+  "colSite": {
+    "message": "Webbplats"
+  },
+  "colTrackers": {
+    "message": "Spårare"
+  },
+  "colGrade": {
+    "message": "Betyg"
+  },
+  "blockedList": {
+    "message": "Blockerade företag"
+  },
+  "noneBlocked": {
+    "message": "Du har inte blockerat några företag än. Använd skölden bredvid ett företag i tilläggets fönster."
+  },
+  "clearHistory": {
+    "message": "Rensa historik"
+  },
+  "confirmClear": {
+    "message": "Radera all spårningshistorik?"
+  },
+  "noData": {
+    "message": "Inga data än. Surfa runt lite och kom tillbaka."
+  },
+  "recTitle": {
+    "message": "Den här webbplatsen spelar in din session"
+  },
+  "recText": {
+    "message": "Dina musrörelser, klick och det du skriver kan spelas in av:"
+  },
+  "quickProtection": {
+    "message": "Snabbskydd"
+  },
+  "profileAds": {
+    "message": "Alla annonser"
+  },
+  "profileAnalytics": {
+    "message": "All analys"
+  },
+  "profileRecording": {
+    "message": "Sessionsinspelare"
+  },
+  "pauseSite": {
+    "message": "Pausa blockering på den här webbplatsen"
+  },
+  "resumeSite": {
+    "message": "Återuppta blockering på den här webbplatsen"
+  },
+  "pausedLine": {
+    "message": "Blockeringen är pausad här. Spårare visas fortfarande på radarn."
+  },
+  "pausedList": {
+    "message": "Webbplatser med pausad blockering"
+  },
+  "nonePaused": {
+    "message": "Blockering är aktiv på alla webbplatser."
+  },
+  "resumeShort": {
+    "message": "Återuppta"
+  },
+  "catMining": {
+    "message": "Kryptobrytning"
+  },
+  "profileMining": {
+    "message": "Kryptobrytare"
+  },
+  "minTitle": {
+    "message": "Den här webbplatsen försöker bryta kryptovaluta"
+  },
+  "minText": {
+    "message": "Skript från dessa tjänster kan använda din processor för att bryta åt någon annan:"
+  },
+  "fpTitle": {
+    "message": "Den här webbplatsen tar ett fingeravtryck av din webbläsare"
+  },
+  "fpText": {
+    "message": "Den läser dolda uppgifter om din enhet för att känna igen dig utan kakor:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (grafikkort)"
+  },
+  "fp_audio": {
+    "message": "ljud"
+  },
+  "fp_fonts": {
+    "message": "installerade typsnitt"
+  },
+  "fpBy": {
+    "message": "via"
+  },
+  "fpShort": {
+    "message": "Fingeravtryck"
+  },
+  "optFingerprint": {
+    "message": "Fingeravtrycksskydd"
+  },
+  "optFingerprintHint": {
+    "message": "Lägger till ett litet brus i canvas- och ljudvärden och döljer ditt grafikkort, så att de inte kan användas för att känna igen dig. I sällsynta fall kan ritprogram se lite annorlunda ut."
+  },
+  "optWebrtc": {
+    "message": "Dölj IP för WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "För VPN-användare: webbplatser ser inte din riktiga IP-adress via WebRTC. Videosamtal i webbläsaren kan sluta fungera."
+  },
+  "locale": {
+    "message": "sv",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

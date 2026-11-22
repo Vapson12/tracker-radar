@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Sledujte naživo, ktorým firmám web, na ktorom ste, posiela vaše údaje."
+  },
+  "statCompanies": {
+    "message": "sledovacie firmy"
+  },
+  "statDomains": {
+    "message": "sledovacie domény"
+  },
+  "statRequests": {
+    "message": "požiadavky tretích strán"
+  },
+  "whoIsWatching": {
+    "message": "Kto vás sleduje"
+  },
+  "noTrackers": {
+    "message": "Na tejto stránke sa nenašli žiadne známe sledovače. 🎉"
+  },
+  "otherDomains": {
+    "message": "Ďalšie domény tretích strán"
+  },
+  "footer": {
+    "message": "Celá analýza prebieha lokálne. Nič neopúšťa váš prehliadač."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar potrebuje prístup ku všetkým webom, aby videl ich požiadavky."
+  },
+  "permGrant": {
+    "message": "Povoliť prístup"
+  },
+  "reloadToScan": {
+    "message": "Obnovte stránku a spustite skenovanie"
+  },
+  "catAds": {
+    "message": "Reklama"
+  },
+  "catAnalytics": {
+    "message": "Analytika"
+  },
+  "catRecording": {
+    "message": "Nahrávanie relácií"
+  },
+  "catSocial": {
+    "message": "Sociálne siete"
+  },
+  "requests": {
+    "message": "požiadaviek"
+  },
+  "actBlock": {
+    "message": "Blokovať túto firmu na všetkých weboch"
+  },
+  "actUnblock": {
+    "message": "Odblokovať"
+  },
+  "blockedTag": {
+    "message": "zablokované"
+  },
+  "blockedRequests": {
+    "message": "Zablokované požiadavky"
+  },
+  "gradeHint": {
+    "message": "Hodnotenie súkromia: podľa počtu a typu sledovačov na tejto stránke"
+  },
+  "openStats": {
+    "message": "Štatistiky"
+  },
+  "statsTitle": {
+    "message": "Vaša história sledovania"
+  },
+  "range7": {
+    "message": "Posledných 7 dní"
+  },
+  "range30": {
+    "message": "Posledných 30 dní"
+  },
+  "sCompanies": {
+    "message": "sledovacie firmy"
+  },
+  "sSites": {
+    "message": "navštívené weby"
+  },
+  "sRequests": {
+    "message": "požiadavky na sledovače"
+  },
+  "sBlocked": {
+    "message": "zablokované požiadavky"
+  },
+  "perDay": {
+    "message": "Sledovacie firmy za deň"
+  },
+  "topCompanies": {
+    "message": "Kto vás sleduje najčastejšie"
+  },
+  "topSites": {
+    "message": "Weby s najviac sledovačmi"
+  },
+  "colCompany": {
+    "message": "Firma"
+  },
+  "colSites": {
+    "message": "Weby"
+  },
+  "colSite": {
+    "message": "Web"
+  },
+  "colTrackers": {
+    "message": "Sledovače"
+  },
+  "colGrade": {
+    "message": "Hodnotenie"
+  },
+  "blockedList": {
+    "message": "Zablokované firmy"
+  },
+  "noneBlocked": {
+    "message": "Zatiaľ ste nezablokovali žiadnu firmu. Použite štít vedľa firmy v okne rozšírenia."
+  },
+  "clearHistory": {
+    "message": "Vymazať históriu"
+  },
+  "confirmClear": {
+    "message": "Odstrániť celú históriu sledovania?"
+  },
+  "noData": {
+    "message": "Zatiaľ žiadne údaje. Chvíľu prehliadajte web a vráťte sa."
+  },
+  "recTitle": {
+    "message": "Tento web nahráva vašu reláciu"
+  },
+  "recText": {
+    "message": "Pohyby myši, kliknutia a písanie môžu nahrávať:"
+  },
+  "quickProtection": {
+    "message": "Rýchla ochrana"
+  },
+  "profileAds": {
+    "message": "Všetky reklamy"
+  },
+  "profileAnalytics": {
+    "message": "Celá analytika"
+  },
+  "profileRecording": {
+    "message": "Nahrávanie relácií"
+  },
+  "pauseSite": {
+    "message": "Pozastaviť blokovanie na tomto webe"
+  },
+  "resumeSite": {
+    "message": "Obnoviť blokovanie na tomto webe"
+  },
+  "pausedLine": {
+    "message": "Blokovanie je tu pozastavené. Sledovače sa stále zobrazujú na radare."
+  },
+  "pausedList": {
+    "message": "Weby s pozastaveným blokovaním"
+  },
+  "nonePaused": {
+    "message": "Blokovanie je aktívne na všetkých weboch."
+  },
+  "resumeShort": {
+    "message": "Obnoviť"
+  },
+  "catMining": {
+    "message": "Ťažba kryptomien"
+  },
+  "profileMining": {
+    "message": "Kryptoťažiari"
+  },
+  "minTitle": {
+    "message": "Tento web sa pokúša ťažiť kryptomeny"
+  },
+  "minText": {
+    "message": "Skripty týchto služieb môžu využívať váš procesor na ťažbu pre niekoho iného:"
+  },
+  "fpTitle": {
+    "message": "Tento web vytvára odtlačok vášho prehliadača"
+  },
+  "fpText": {
+    "message": "Číta skryté údaje o vašom zariadení, aby vás spoznal bez cookies:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (grafická karta)"
+  },
+  "fp_audio": {
+    "message": "zvuk"
+  },
+  "fp_fonts": {
+    "message": "nainštalované písma"
+  },
+  "fpBy": {
+    "message": "pomocou"
+  },
+  "fpShort": {
+    "message": "Odtlačok prehliadača"
+  },
+  "optFingerprint": {
+    "message": "Ochrana proti odtlačku"
+  },
+  "optFingerprintHint": {
+    "message": "Pridáva nepatrný šum do údajov canvas a zvuku a skrýva vašu grafickú kartu, aby vás podľa nich nebolo možné spoznať. Výnimočne môžu kresliace aplikácie vyzerať trochu inak."
+  },
+  "optWebrtc": {
+    "message": "Skryť IP pred WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "Pre používateľov VPN: weby cez WebRTC neuvidia vašu skutočnú IP adresu. Videohovory v prehliadači môžu prestať fungovať."
+  },
+  "locale": {
+    "message": "sk",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Vezi în timp real căror companii le trimite datele tale site-ul pe care îl vizitezi."
+  },
+  "statCompanies": {
+    "message": "companii de urmărire"
+  },
+  "statDomains": {
+    "message": "domenii de urmărire"
+  },
+  "statRequests": {
+    "message": "cereri terțe"
+  },
+  "whoIsWatching": {
+    "message": "Cine te urmărește"
+  },
+  "noTrackers": {
+    "message": "Nu au fost găsite urmăritoare cunoscute pe această pagină. 🎉"
+  },
+  "otherDomains": {
+    "message": "Alte domenii terțe"
+  },
+  "footer": {
+    "message": "Toată analiza are loc local. Nimic nu părăsește browserul."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar are nevoie de acces la toate site-urile pentru a le vedea cererile."
+  },
+  "permGrant": {
+    "message": "Permite accesul"
+  },
+  "reloadToScan": {
+    "message": "Reîncarcă pagina pentru a începe scanarea"
+  },
+  "catAds": {
+    "message": "Publicitate"
+  },
+  "catAnalytics": {
+    "message": "Analiză"
+  },
+  "catRecording": {
+    "message": "Înregistrarea sesiunii"
+  },
+  "catSocial": {
+    "message": "Social"
+  },
+  "requests": {
+    "message": "cereri"
+  },
+  "actBlock": {
+    "message": "Blochează această companie pe toate site-urile"
+  },
+  "actUnblock": {
+    "message": "Deblochează"
+  },
+  "blockedTag": {
+    "message": "blocată"
+  },
+  "blockedRequests": {
+    "message": "Cereri blocate"
+  },
+  "gradeHint": {
+    "message": "Notă de confidențialitate: după numărul și tipul urmăritoarelor de pe această pagină"
+  },
+  "openStats": {
+    "message": "Statistici"
+  },
+  "statsTitle": {
+    "message": "Istoricul tău de urmărire"
+  },
+  "range7": {
+    "message": "Ultimele 7 zile"
+  },
+  "range30": {
+    "message": "Ultimele 30 de zile"
+  },
+  "sCompanies": {
+    "message": "companii de urmărire"
+  },
+  "sSites": {
+    "message": "site-uri vizitate"
+  },
+  "sRequests": {
+    "message": "cereri către urmăritoare"
+  },
+  "sBlocked": {
+    "message": "cereri blocate"
+  },
+  "perDay": {
+    "message": "Companii de urmărire pe zi"
+  },
+  "topCompanies": {
+    "message": "Cine te urmărește cel mai des"
+  },
+  "topSites": {
+    "message": "Site-uri cu cele mai multe urmăritoare"
+  },
+  "colCompany": {
+    "message": "Companie"
+  },
+  "colSites": {
+    "message": "Site-uri"
+  },
+  "colSite": {
+    "message": "Site"
+  },
+  "colTrackers": {
+    "message": "Urmăritoare"
+  },
+  "colGrade": {
+    "message": "Notă"
+  },
+  "blockedList": {
+    "message": "Companii blocate"
+  },
+  "noneBlocked": {
+    "message": "Nu ai blocat încă nicio companie. Folosește scutul de lângă o companie în fereastra extensiei."
+  },
+  "clearHistory": {
+    "message": "Șterge istoricul"
+  },
+  "confirmClear": {
+    "message": "Ștergi tot istoricul de urmărire?"
+  },
+  "noData": {
+    "message": "Încă nu există date. Navighează puțin și revino."
+  },
+  "recTitle": {
+    "message": "Acest site îți înregistrează sesiunea"
+  },
+  "recText": {
+    "message": "Mișcările mouse-ului, clicurile și ce tastezi pot fi înregistrate de:"
+  },
+  "quickProtection": {
+    "message": "Protecție rapidă"
+  },
+  "profileAds": {
+    "message": "Toate reclamele"
+  },
+  "profileAnalytics": {
+    "message": "Toată analiza"
+  },
+  "profileRecording": {
+    "message": "Înregistrarea sesiunilor"
+  },
+  "pauseSite": {
+    "message": "Întrerupe blocarea pe acest site"
+  },
+  "resumeSite": {
+    "message": "Reia blocarea pe acest site"
+  },
+  "pausedLine": {
+    "message": "Blocarea este întreruptă aici. Urmăritoarele apar în continuare pe radar."
+  },
+  "pausedList": {
+    "message": "Site-uri cu blocarea întreruptă"
+  },
+  "nonePaused": {
+    "message": "Blocarea este activă pe toate site-urile."
+  },
+  "resumeShort": {
+    "message": "Reia"
+  },
+  "catMining": {
+    "message": "Minerit de criptomonede"
+  },
+  "profileMining": {
+    "message": "Mineri cripto"
+  },
+  "minTitle": {
+    "message": "Acest site încearcă să mineze criptomonede"
+  },
+  "minText": {
+    "message": "Scripturile acestor servicii îți pot folosi procesorul pentru a mina pentru altcineva:"
+  },
+  "fpTitle": {
+    "message": "Acest site îți creează amprenta browserului"
+  },
+  "fpText": {
+    "message": "Citește detalii ascunse ale dispozitivului tău pentru a te recunoaște fără cookie-uri:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (placă video)"
+  },
+  "fp_audio": {
+    "message": "audio"
+  },
+  "fp_fonts": {
+    "message": "fonturi instalate"
+  },
+  "fpBy": {
+    "message": "prin"
+  },
+  "fpShort": {
+    "message": "Amprenta browserului"
+  },
+  "optFingerprint": {
+    "message": "Protecție împotriva amprentei"
+  },
+  "optFingerprintHint": {
+    "message": "Adaugă un zgomot infim în citirile canvas și audio și ascunde placa video, ca să nu poată fi folosite pentru a te recunoaște. Rareori, aplicațiile de desen pot arăta ușor diferit."
+  },
+  "optWebrtc": {
+    "message": "Ascunde IP-ul de WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "Pentru utilizatorii VPN: site-urile nu îți vor vedea adresa IP reală prin WebRTC. Apelurile video din browser pot înceta să funcționeze."
+  },
+  "locale": {
+    "message": "ro",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

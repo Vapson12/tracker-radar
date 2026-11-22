@@ -16,9 +16,19 @@
     <button id="perm-btn" data-i18n="permGrant"></button>
   </div>
 
+  <div id="min-warn" class="rec-warn" hidden>
+    <b>⛏ <span data-i18n="minTitle"></span></b>
+    <span data-i18n="minText"></span> <b id="min-names"></b>
+  </div>
+
   <div id="rec-warn" class="rec-warn" hidden>
     <b>🎥 <span data-i18n="recTitle"></span></b>
     <span data-i18n="recText"></span> <b id="rec-names"></b>
+  </div>
+
+  <div id="fp-warn" class="rec-warn fp-warn" hidden>
+    <b>🧬 <span data-i18n="fpTitle"></span></b>
+    <span data-i18n="fpText"></span> <b id="fp-list"></b><span id="fp-by"></span>
   </div>
 
   <section class="radar-wrap">
@@ -51,6 +61,11 @@
       <button class="chip" data-profile="ads" aria-pressed="false">🚫 <span data-i18n="profileAds"></span></button>
       <button class="chip" data-profile="analytics" aria-pressed="false">📈 <span data-i18n="profileAnalytics"></span></button>
       <button class="chip" data-profile="recording" aria-pressed="false">🎥 <span data-i18n="profileRecording"></span></button>
+      <button class="chip" data-profile="mining" aria-pressed="false">⛏ <span data-i18n="profileMining"></span></button>
+    </div>
+    <div class="chips chips-opt">
+      <button class="chip" data-option="fpProtect" aria-pressed="false">🧬 <span data-i18n="optFingerprint"></span></button>
+      <button class="chip" data-option="webrtc" aria-pressed="false">🌐 <span data-i18n="optWebrtc"></span></button>
     </div>
     <button id="pause" class="pause-btn" hidden></button>
     <p id="paused-line" class="paused-line" data-i18n="pausedLine" hidden></p>

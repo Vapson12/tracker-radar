@@ -17,7 +17,9 @@ const key = (tabId) => `tab_${tabId}`;
 //   profiles     categories blocked on every site ('ads', 'analytics', 'recording')
 //   paused       sites where blocking is switched off
 //   history      30-day statistics
+//   options      { fpProtect: bool, webrtc: bool }
 let blocked = new Set();
+let options = { fpProtect: false, webrtc: false };
 let profiles = new Set();
 let paused = new Set();
 let history = { days: {} };
@@ -25,7 +27,8 @@ let historyTimer = null;
 const HISTORY_DAYS = 30;
 
 const ready = (async () => {
-  const s = await api.storage.local.get(['blocked', 'profiles', 'paused', 'history']);
+  const s = await api.storage.local.get(['blocked', 'profiles', 'paused', 'history', 'options']);
+  options = { ...options, ...(s.options || {}) };
   blocked = new Set(s.blocked || []);
   profiles = new Set(s.profiles || []);
   paused = new Set(s.paused || []);
@@ -98,7 +101,17 @@ function isBlockedHit(site, hit) {
   return blocked.has(hit.company) || profiles.has(hit.category);
 }
 
-api.runtime.onInstalled.addListener(() => syncBlockRules());
+// Cryptomining protection is switched on once by default (install or update to 0.3.2+).
+// If the user turns it off later, it stays off.
+api.runtime.onInstalled.addListener(async () => {
+  await ready;
+  const { miningDefaultApplied } = await api.storage.local.get('miningDefaultApplied');
+  if (!miningDefaultApplied) {
+    profiles.add('mining');
+    await api.storage.local.set({ profiles: [...profiles], miningDefaultApplied: true });
+  }
+  await syncBlockRules();
+});
 
 // ---------------------------------------------------------------------------
 // History
@@ -112,6 +125,13 @@ function historyDay() {
 
 function historySite(day, site) {
   return day.sites[site] ||= { visits: 0, requests: 0, companies: {} };
+}
+
+function recordFingerprintInHistory(site, technique) {
+  const s = historySite(historyDay(), site);
+  s.fp ||= {};
+  s.fp[technique] = 1;
+  saveHistory();
 }
 
 function saveHistory() {
@@ -151,7 +171,7 @@ function newTabState(url) {
   let host = '';
   try { host = new URL(url).hostname; } catch {}
   const site = baseDomain(host);
-  return { url, site, owner: siteOwner(site), startedAt: Date.now(), totalThirdParty: 0, blockedCount: 0, domains: {} };
+  return { url, site, owner: siteOwner(site), startedAt: Date.now(), totalThirdParty: 0, blockedCount: 0, domains: {}, fp: {} };
 }
 
 async function loadTab(tabId) {
@@ -244,19 +264,87 @@ api.tabs.onRemoved.addListener((tabId) => {
 });
 
 // ---------------------------------------------------------------------------
-// Messages from popup / stats page
+// Fingerprinting (reported by fp-main.js via fp-bridge.js)
 // ---------------------------------------------------------------------------
 
-api.runtime.onMessage.addListener((msg, _sender, sendResponse) => {
+// Fingerprint protection is switched on by registering fp-on.js as an extra
+// page-world content script, so it is active before any page script runs.
+async function syncFingerprintProtection() {
+  await ready;
+  if (!api.scripting?.registerContentScripts) return;
+  const existing = await api.scripting.getRegisteredContentScripts({ ids: ['fp-on'] });
+  if (existing.length) await api.scripting.unregisterContentScripts({ ids: ['fp-on'] });
+  if (options.fpProtect) {
+    await api.scripting.registerContentScripts([{
+      id: 'fp-on', js: ['fp-on.js'], matches: ['http://*/*', 'https://*/*'],
+      runAt: 'document_start', allFrames: true, world: 'MAIN',
+    }]);
+  }
+}
+syncFingerprintProtection().catch(() => {});
+
+async function fpDetected(msg, sender) {
+  const tabId = sender.tab?.id;
+  if (tabId == null || tabId < 0) return false;
+  const state = await loadTab(tabId);
+  if (!state) return false;
+  const hosts = state.fp[msg.technique] ||= [];
+  if (!hosts.includes(msg.host)) hosts.push(msg.host);
+  if (state.site) recordFingerprintInHistory(state.site, msg.technique);
+  scheduleSave(tabId);
+  return true;
+}
+
+// ---------------------------------------------------------------------------
+// WebRTC IP protection (optional "privacy" permission)
+// ---------------------------------------------------------------------------
+
+async function applyWebRTC() {
+  const setting = api.privacy?.network?.webRTCIPHandlingPolicy;
+  if (!setting) return { applied: false, reason: 'permission' };
+  try {
+    if (options.webrtc) await setting.set({ value: 'disable_non_proxied_udp' });
+    else await setting.clear({});
+    const current = await setting.get({});
+    return { applied: true, value: current.value, levelOfControl: current.levelOfControl };
+  } catch (e) {
+    return { applied: false, reason: String(e) };
+  }
+}
+
+async function setOption(key, value) {
+  await ready;
+  if (!['fpProtect', 'webrtc'].includes(key)) return options;
+  options = { ...options, [key]: !!value };
+  await api.storage.local.set({ options });
+  if (key === 'webrtc') await applyWebRTC();
+  if (key === 'fpProtect') await syncFingerprintProtection();
+  return options;
+}
+
+// The popup may close while Firefox shows the permission prompt, so the
+// setting is applied here as soon as the permission is granted.
+api.permissions.onAdded.addListener(async (perms) => {
+  if (perms.permissions?.includes('privacy')) { await ready; await applyWebRTC(); }
+});
+
+// ---------------------------------------------------------------------------
+// Messages from popup / stats page / content scripts
+// ---------------------------------------------------------------------------
+
+api.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   const handlers = {
     getTab: async () => ({
       state: await loadTab(msg.tabId),
-      blocked: [...blocked], profiles: [...profiles], paused: [...paused],
+      blocked: [...blocked], profiles: [...profiles], paused: [...paused], options,
     }),
+    fpDetected: () => fpDetected(msg, sender),
+    setOption: () => setOption(msg.key, msg.value),
+    webrtcStatus: () => applyWebRTC(),
     setBlocked: () => setBlocked(msg.company, msg.block),
     setProfile: () => setProfile(msg.category, msg.on),
     setPaused: () => setPaused(msg.site, msg.pause),
-    getHistory: async () => ({ history, blocked: [...blocked], profiles: [...profiles], paused: [...paused] }),
+    getHistory: async () => ({ history, blocked: [...blocked], profiles: [...profiles], paused: [...paused], options }),
     clearHistory: async () => {
       history = { days: {} };
       await api.storage.local.set({ history });

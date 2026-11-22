@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "شاهد مباشرةً الشركات التي يرسل إليها الموقع الذي تزوره بياناتك."
+  },
+  "statCompanies": {
+    "message": "شركات التتبع"
+  },
+  "statDomains": {
+    "message": "نطاقات التتبع"
+  },
+  "statRequests": {
+    "message": "طلبات الجهات الخارجية"
+  },
+  "whoIsWatching": {
+    "message": "من يراقبك"
+  },
+  "noTrackers": {
+    "message": "لم يُعثر على متتبعات معروفة في هذه الصفحة. 🎉"
+  },
+  "otherDomains": {
+    "message": "نطاقات أخرى لجهات خارجية"
+  },
+  "footer": {
+    "message": "يتم التحليل كله محليًا. لا شيء يغادر متصفحك."
+  },
+  "permNeeded": {
+    "message": "يحتاج Tracker Radar إلى الوصول إلى كل المواقع ليرى طلباتها."
+  },
+  "permGrant": {
+    "message": "منح الوصول"
+  },
+  "reloadToScan": {
+    "message": "أعد تحميل الصفحة لبدء الفحص"
+  },
+  "catAds": {
+    "message": "إعلانات"
+  },
+  "catAnalytics": {
+    "message": "تحليلات"
+  },
+  "catRecording": {
+    "message": "تسجيل الجلسات"
+  },
+  "catSocial": {
+    "message": "شبكات اجتماعية"
+  },
+  "requests": {
+    "message": "طلبات"
+  },
+  "actBlock": {
+    "message": "حظر هذه الشركة في كل المواقع"
+  },
+  "actUnblock": {
+    "message": "إلغاء الحظر"
+  },
+  "blockedTag": {
+    "message": "محظور"
+  },
+  "blockedRequests": {
+    "message": "الطلبات المحظورة"
+  },
+  "gradeHint": {
+    "message": "تقييم الخصوصية: حسب عدد المتتبعات ونوعها في هذه الصفحة"
+  },
+  "openStats": {
+    "message": "الإحصاءات"
+  },
+  "statsTitle": {
+    "message": "سجل التتبع الخاص بك"
+  },
+  "range7": {
+    "message": "آخر 7 أيام"
+  },
+  "range30": {
+    "message": "آخر 30 يومًا"
+  },
+  "sCompanies": {
+    "message": "شركات التتبع"
+  },
+  "sSites": {
+    "message": "المواقع التي زرتها"
+  },
+  "sRequests": {
+    "message": "طلبات إلى المتتبعات"
+  },
+  "sBlocked": {
+    "message": "الطلبات المحظورة"
+  },
+  "perDay": {
+    "message": "شركات التتبع يوميًا"
+  },
+  "topCompanies": {
+    "message": "من يتتبعك أكثر"
+  },
+  "topSites": {
+    "message": "المواقع الأكثر تتبعًا"
+  },
+  "colCompany": {
+    "message": "الشركة"
+  },
+  "colSites": {
+    "message": "المواقع"
+  },
+  "colSite": {
+    "message": "الموقع"
+  },
+  "colTrackers": {
+    "message": "المتتبعات"
+  },
+  "colGrade": {
+    "message": "التقييم"
+  },
+  "blockedList": {
+    "message": "الشركات المحظورة"
+  },
+  "noneBlocked": {
+    "message": "لم تحظر أي شركة بعد. استخدم الدرع بجانب الشركة في نافذة الإضافة."
+  },
+  "clearHistory": {
+    "message": "مسح السجل"
+  },
+  "confirmClear": {
+    "message": "هل تريد حذف سجل التتبع بالكامل؟"
+  },
+  "noData": {
+    "message": "لا توجد بيانات بعد. تصفّح قليلًا ثم عُد."
+  },
+  "recTitle": {
+    "message": "هذا الموقع يسجّل جلستك"
+  },
+  "recText": {
+    "message": "قد تُسجَّل حركات الفأرة والنقرات وما تكتبه بواسطة:"
+  },
+  "quickProtection": {
+    "message": "حماية سريعة"
+  },
+  "profileAds": {
+    "message": "كل الإعلانات"
+  },
+  "profileAnalytics": {
+    "message": "كل التحليلات"
+  },
+  "profileRecording": {
+    "message": "مسجّلات الجلسات"
+  },
+  "pauseSite": {
+    "message": "إيقاف الحظر مؤقتًا في هذا الموقع"
+  },
+  "resumeSite": {
+    "message": "استئناف الحظر في هذا الموقع"
+  },
+  "pausedLine": {
+    "message": "الحظر متوقف هنا مؤقتًا. ما زالت المتتبعات تظهر في الرادار."
+  },
+  "pausedList": {
+    "message": "مواقع أُوقف فيها الحظر"
+  },
+  "nonePaused": {
+    "message": "الحظر مفعّل في كل المواقع."
+  },
+  "resumeShort": {
+    "message": "استئناف"
+  },
+  "catMining": {
+    "message": "تعدين العملات المشفرة"
+  },
+  "profileMining": {
+    "message": "معدّنو العملات المشفرة"
+  },
+  "minTitle": {
+    "message": "يحاول هذا الموقع تعدين عملة مشفرة"
+  },
+  "minText": {
+    "message": "قد تستخدم سكربتات هذه الخدمات معالجك للتعدين لصالح شخص آخر:"
+  },
+  "fpTitle": {
+    "message": "هذا الموقع يأخذ بصمة متصفحك"
+  },
+  "fpText": {
+    "message": "يقرأ تفاصيل مخفية من جهازك ليتعرّف عليك دون ملفات تعريف الارتباط:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (بطاقة الرسوميات)"
+  },
+  "fp_audio": {
+    "message": "الصوت"
+  },
+  "fp_fonts": {
+    "message": "الخطوط المثبتة"
+  },
+  "fpBy": {
+    "message": "بواسطة"
+  },
+  "fpShort": {
+    "message": "بصمة المتصفح"
+  },
+  "optFingerprint": {
+    "message": "الحماية من البصمة"
+  },
+  "optFingerprintHint": {
+    "message": "يضيف تشويشًا طفيفًا إلى قراءات canvas والصوت ويخفي بطاقة الرسوميات، فلا يمكن استخدامها للتعرّف عليك. نادرًا قد تبدو تطبيقات الرسم مختلفة قليلًا."
+  },
+  "optWebrtc": {
+    "message": "إخفاء IP عن WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "لمستخدمي VPN: لن ترى المواقع عنوان IP الحقيقي عبر WebRTC. قد تتوقف مكالمات الفيديو في المتصفح عن العمل."
+  },
+  "locale": {
+    "message": "ar",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

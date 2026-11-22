@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "ראו בזמן אמת לאילו חברות האתר שבו אתם גולשים שולח את הנתונים שלכם."
+  },
+  "statCompanies": {
+    "message": "חברות מעקב"
+  },
+  "statDomains": {
+    "message": "דומיינים של מעקב"
+  },
+  "statRequests": {
+    "message": "בקשות של צד שלישי"
+  },
+  "whoIsWatching": {
+    "message": "מי צופה בך"
+  },
+  "noTrackers": {
+    "message": "לא נמצאו עוקבים מוכרים בדף הזה. 🎉"
+  },
+  "otherDomains": {
+    "message": "דומיינים אחרים של צד שלישי"
+  },
+  "footer": {
+    "message": "כל הניתוח מתבצע מקומית. שום דבר לא יוצא מהדפדפן."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar צריך גישה לכל האתרים כדי לראות את הבקשות שלהם."
+  },
+  "permGrant": {
+    "message": "מתן גישה"
+  },
+  "reloadToScan": {
+    "message": "טענו מחדש את הדף כדי להתחיל בסריקה"
+  },
+  "catAds": {
+    "message": "פרסום"
+  },
+  "catAnalytics": {
+    "message": "אנליטיקה"
+  },
+  "catRecording": {
+    "message": "הקלטת סשנים"
+  },
+  "catSocial": {
+    "message": "רשתות חברתיות"
+  },
+  "requests": {
+    "message": "בקשות"
+  },
+  "actBlock": {
+    "message": "חסימת החברה הזו בכל האתרים"
+  },
+  "actUnblock": {
+    "message": "ביטול חסימה"
+  },
+  "blockedTag": {
+    "message": "חסום"
+  },
+  "blockedRequests": {
+    "message": "בקשות חסומות"
+  },
+  "gradeHint": {
+    "message": "ציון פרטיות: לפי מספר העוקבים וסוגם בדף הזה"
+  },
+  "openStats": {
+    "message": "סטטיסטיקה"
+  },
+  "statsTitle": {
+    "message": "היסטוריית המעקב שלך"
+  },
+  "range7": {
+    "message": "7 הימים האחרונים"
+  },
+  "range30": {
+    "message": "30 הימים האחרונים"
+  },
+  "sCompanies": {
+    "message": "חברות מעקב"
+  },
+  "sSites": {
+    "message": "אתרים שביקרת בהם"
+  },
+  "sRequests": {
+    "message": "בקשות לעוקבים"
+  },
+  "sBlocked": {
+    "message": "בקשות חסומות"
+  },
+  "perDay": {
+    "message": "חברות מעקב ביום"
+  },
+  "topCompanies": {
+    "message": "מי עוקב אחריך הכי הרבה"
+  },
+  "topSites": {
+    "message": "אתרים עם הכי הרבה עוקבים"
+  },
+  "colCompany": {
+    "message": "חברה"
+  },
+  "colSites": {
+    "message": "אתרים"
+  },
+  "colSite": {
+    "message": "אתר"
+  },
+  "colTrackers": {
+    "message": "עוקבים"
+  },
+  "colGrade": {
+    "message": "ציון"
+  },
+  "blockedList": {
+    "message": "חברות חסומות"
+  },
+  "noneBlocked": {
+    "message": "עדיין לא חסמת אף חברה. השתמשו במגן ליד החברה בחלון התוסף."
+  },
+  "clearHistory": {
+    "message": "ניקוי היסטוריה"
+  },
+  "confirmClear": {
+    "message": "למחוק את כל היסטוריית המעקב?"
+  },
+  "noData": {
+    "message": "אין עדיין נתונים. גלשו קצת וחזרו."
+  },
+  "recTitle": {
+    "message": "האתר הזה מקליט את הסשן שלך"
+  },
+  "recText": {
+    "message": "תנועות העכבר, הלחיצות וההקלדה שלך עשויות להיות מוקלטות על ידי:"
+  },
+  "quickProtection": {
+    "message": "הגנה מהירה"
+  },
+  "profileAds": {
+    "message": "כל הפרסומות"
+  },
+  "profileAnalytics": {
+    "message": "כל האנליטיקה"
+  },
+  "profileRecording": {
+    "message": "מקליטי סשנים"
+  },
+  "pauseSite": {
+    "message": "השהיית החסימה באתר הזה"
+  },
+  "resumeSite": {
+    "message": "חידוש החסימה באתר הזה"
+  },
+  "pausedLine": {
+    "message": "החסימה מושהית כאן. העוקבים עדיין מוצגים במכ\"ם."
+  },
+  "pausedList": {
+    "message": "אתרים עם חסימה מושהית"
+  },
+  "nonePaused": {
+    "message": "החסימה פעילה בכל האתרים."
+  },
+  "resumeShort": {
+    "message": "חידוש"
+  },
+  "catMining": {
+    "message": "כריית קריפטו"
+  },
+  "profileMining": {
+    "message": "כורי קריפטו"
+  },
+  "minTitle": {
+    "message": "האתר הזה מנסה לכרות מטבע קריפטו"
+  },
+  "minText": {
+    "message": "סקריפטים מהשירותים האלה עשויים להשתמש במעבד שלך כדי לכרות בשביל מישהו אחר:"
+  },
+  "fpTitle": {
+    "message": "האתר הזה יוצר טביעת אצבע של הדפדפן שלך"
+  },
+  "fpText": {
+    "message": "הוא קורא פרטים נסתרים של המכשיר כדי לזהות אותך בלי עוגיות:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (כרטיס מסך)"
+  },
+  "fp_audio": {
+    "message": "שמע"
+  },
+  "fp_fonts": {
+    "message": "גופנים מותקנים"
+  },
+  "fpBy": {
+    "message": "על ידי"
+  },
+  "fpShort": {
+    "message": "טביעת אצבע"
+  },
+  "optFingerprint": {
+    "message": "הגנה מטביעת אצבע"
+  },
+  "optFingerprintHint": {
+    "message": "מוסיף רעש זעיר לקריאות canvas ושמע ומסתיר את כרטיס המסך, כך שלא ניתן להשתמש בהם לזיהוי. לעיתים רחוקות אפליקציות ציור עשויות להיראות מעט שונה."
+  },
+  "optWebrtc": {
+    "message": "הסתרת IP מ-WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "למשתמשי VPN: אתרים לא יראו את כתובת ה-IP האמיתית שלך דרך WebRTC. שיחות וידאו בדפדפן עלולות להפסיק לעבוד."
+  },
+  "locale": {
+    "message": "he",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

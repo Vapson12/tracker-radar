@@ -167,5 +167,53 @@
   },
   "resumeShort": {
     "message": "Reprendre"
+  },
+  "catMining": {
+    "message": "Minage de cryptomonnaie"
+  },
+  "profileMining": {
+    "message": "Cryptomineurs"
+  },
+  "minTitle": {
+    "message": "Ce site tente de miner de la cryptomonnaie"
+  },
+  "minText": {
+    "message": "Les scripts de ces services peuvent utiliser votre processeur pour miner pour quelqu’un d’autre :"
+  },
+  "fpTitle": {
+    "message": "Ce site crée une empreinte de votre navigateur"
+  },
+  "fpText": {
+    "message": "Il lit des caractéristiques cachées de votre appareil pour vous reconnaître sans cookies :"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (carte graphique)"
+  },
+  "fp_audio": {
+    "message": "audio"
+  },
+  "fp_fonts": {
+    "message": "polices installées"
+  },
+  "fpBy": {
+    "message": "par"
+  },
+  "fpShort": {
+    "message": "Empreinte numérique"
+  },
+  "optFingerprint": {
+    "message": "Protection contre l’empreinte"
+  },
+  "optFingerprintHint": {
+    "message": "Ajoute un bruit infime aux lectures canvas et audio et masque votre carte graphique pour qu’elles ne servent pas à vous reconnaître. Rarement, les applis de dessin peuvent paraître légèrement différentes."
+  },
+  "optWebrtc": {
+    "message": "Masquer l’IP à WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "Pour les utilisateurs de VPN : les sites ne verront pas votre vraie adresse IP via WebRTC. Les appels vidéo dans le navigateur peuvent cesser de fonctionner."
   }
 }

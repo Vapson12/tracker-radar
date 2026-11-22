@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "तुम्ही भेट देत असलेली साइट तुमचा डेटा कोणत्या कंपन्यांना पाठवते ते थेट पाहा."
+  },
+  "statCompanies": {
+    "message": "ट्रॅकिंग कंपन्या"
+  },
+  "statDomains": {
+    "message": "ट्रॅकिंग डोमेन"
+  },
+  "statRequests": {
+    "message": "थर्ड-पार्टी विनंत्या"
+  },
+  "whoIsWatching": {
+    "message": "कोण पाहत आहे"
+  },
+  "noTrackers": {
+    "message": "या पानावर कोणतेही ज्ञात ट्रॅकर सापडले नाहीत. 🎉"
+  },
+  "otherDomains": {
+    "message": "इतर थर्ड-पार्टी डोमेन"
+  },
+  "footer": {
+    "message": "सर्व विश्लेषण स्थानिक पातळीवर होते. काहीही तुमच्या ब्राउझरबाहेर जात नाही."
+  },
+  "permNeeded": {
+    "message": "विनंत्या पाहण्यासाठी Tracker Radar ला सर्व साइट्सचा प्रवेश हवा."
+  },
+  "permGrant": {
+    "message": "प्रवेश द्या"
+  },
+  "reloadToScan": {
+    "message": "स्कॅन सुरू करण्यासाठी पान पुन्हा लोड करा"
+  },
+  "catAds": {
+    "message": "जाहिराती"
+  },
+  "catAnalytics": {
+    "message": "ॲनालिटिक्स"
+  },
+  "catRecording": {
+    "message": "सेशन रेकॉर्डिंग"
+  },
+  "catSocial": {
+    "message": "सोशल मीडिया"
+  },
+  "requests": {
+    "message": "विनंत्या"
+  },
+  "actBlock": {
+    "message": "ही कंपनी सर्व साइट्सवर ब्लॉक करा"
+  },
+  "actUnblock": {
+    "message": "अनब्लॉक करा"
+  },
+  "blockedTag": {
+    "message": "ब्लॉक"
+  },
+  "blockedRequests": {
+    "message": "ब्लॉक केलेल्या विनंत्या"
+  },
+  "gradeHint": {
+    "message": "गोपनीयता ग्रेड: या पानावरील ट्रॅकरच्या संख्येनुसार व प्रकारानुसार"
+  },
+  "openStats": {
+    "message": "आकडेवारी"
+  },
+  "statsTitle": {
+    "message": "तुमचा ट्रॅकिंग इतिहास"
+  },
+  "range7": {
+    "message": "मागील 7 दिवस"
+  },
+  "range30": {
+    "message": "मागील 30 दिवस"
+  },
+  "sCompanies": {
+    "message": "ट्रॅकिंग कंपन्या"
+  },
+  "sSites": {
+    "message": "भेट दिलेल्या साइट्स"
+  },
+  "sRequests": {
+    "message": "ट्रॅकरना विनंत्या"
+  },
+  "sBlocked": {
+    "message": "ब्लॉक केलेल्या विनंत्या"
+  },
+  "perDay": {
+    "message": "दररोज ट्रॅकिंग कंपन्या"
+  },
+  "topCompanies": {
+    "message": "तुम्हाला सर्वाधिक कोण ट्रॅक करते"
+  },
+  "topSites": {
+    "message": "सर्वाधिक ट्रॅकर असलेल्या साइट्स"
+  },
+  "colCompany": {
+    "message": "कंपनी"
+  },
+  "colSites": {
+    "message": "साइट्स"
+  },
+  "colSite": {
+    "message": "साइट"
+  },
+  "colTrackers": {
+    "message": "ट्रॅकर"
+  },
+  "colGrade": {
+    "message": "ग्रेड"
+  },
+  "blockedList": {
+    "message": "ब्लॉक केलेल्या कंपन्या"
+  },
+  "noneBlocked": {
+    "message": "तुम्ही अजून कोणतीही कंपनी ब्लॉक केलेली नाही. एक्सटेंशन विंडोमध्ये कंपनीशेजारील ढाल वापरा."
+  },
+  "clearHistory": {
+    "message": "इतिहास साफ करा"
+  },
+  "confirmClear": {
+    "message": "संपूर्ण ट्रॅकिंग इतिहास हटवायचा?"
+  },
+  "noData": {
+    "message": "अजून डेटा नाही. थोडे ब्राउझ करा आणि परत या."
+  },
+  "recTitle": {
+    "message": "ही साइट तुमचे सेशन रेकॉर्ड करते"
+  },
+  "recText": {
+    "message": "तुमच्या माउसच्या हालचाली, क्लिक आणि टायपिंग रेकॉर्ड करू शकतात:"
+  },
+  "quickProtection": {
+    "message": "त्वरित संरक्षण"
+  },
+  "profileAds": {
+    "message": "सर्व जाहिराती"
+  },
+  "profileAnalytics": {
+    "message": "सर्व ॲनालिटिक्स"
+  },
+  "profileRecording": {
+    "message": "सेशन रेकॉर्डर"
+  },
+  "pauseSite": {
+    "message": "या साइटवर ब्लॉकिंग थांबवा"
+  },
+  "resumeSite": {
+    "message": "या साइटवर ब्लॉकिंग पुन्हा सुरू करा"
+  },
+  "pausedLine": {
+    "message": "येथे ब्लॉकिंग थांबवले आहे. ट्रॅकर अजूनही रडारवर दिसतात."
+  },
+  "pausedList": {
+    "message": "ब्लॉकिंग थांबवलेल्या साइट्स"
+  },
+  "nonePaused": {
+    "message": "सर्व साइट्सवर ब्लॉकिंग सक्रिय आहे."
+  },
+  "resumeShort": {
+    "message": "पुन्हा सुरू"
+  },
+  "catMining": {
+    "message": "क्रिप्टो मायनिंग"
+  },
+  "profileMining": {
+    "message": "क्रिप्टो मायनर"
+  },
+  "minTitle": {
+    "message": "ही साइट क्रिप्टोकरन्सी माइन करण्याचा प्रयत्न करत आहे"
+  },
+  "minText": {
+    "message": "या सेवांच्या स्क्रिप्ट दुसऱ्यासाठी माइन करण्यासाठी तुमचा प्रोसेसर वापरू शकतात:"
+  },
+  "fpTitle": {
+    "message": "ही साइट तुमच्या ब्राउझरचा फिंगरप्रिंट घेत आहे"
+  },
+  "fpText": {
+    "message": "कुकीजशिवाय तुम्हाला ओळखण्यासाठी ती तुमच्या डिव्हाइसची लपलेली माहिती वाचते:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (ग्राफिक्स कार्ड)"
+  },
+  "fp_audio": {
+    "message": "ऑडिओ"
+  },
+  "fp_fonts": {
+    "message": "इंस्टॉल केलेले फॉन्ट"
+  },
+  "fpBy": {
+    "message": "द्वारे"
+  },
+  "fpShort": {
+    "message": "फिंगरप्रिंट"
+  },
+  "optFingerprint": {
+    "message": "फिंगरप्रिंट संरक्षण"
+  },
+  "optFingerprintHint": {
+    "message": "canvas आणि ऑडिओ वाचनात थोडा आवाज जोडते आणि ग्राफिक्स कार्ड लपवते, त्यामुळे त्यांच्याद्वारे तुम्हाला ओळखता येत नाही. क्वचित ड्रॉइंग ॲप्स थोडे वेगळे दिसू शकतात."
+  },
+  "optWebrtc": {
+    "message": "WebRTC पासून IP लपवा"
+  },
+  "optWebrtcHint": {
+    "message": "VPN वापरकर्त्यांसाठी: साइट्सना WebRTC द्वारे तुमचा खरा IP पत्ता दिसणार नाही. ब्राउझरमधील व्हिडिओ कॉल बंद पडू शकतात."
+  },
+  "locale": {
+    "message": "mr",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

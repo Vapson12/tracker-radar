@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Ziyaret ettiğiniz sitenin verilerinizi hangi şirketlere gönderdiğini canlı görün."
+  },
+  "statCompanies": {
+    "message": "izleyici şirketler"
+  },
+  "statDomains": {
+    "message": "izleyici alan adları"
+  },
+  "statRequests": {
+    "message": "üçüncü taraf istekleri"
+  },
+  "whoIsWatching": {
+    "message": "Sizi kim izliyor"
+  },
+  "noTrackers": {
+    "message": "Bu sayfada bilinen bir izleyici bulunamadı. 🎉"
+  },
+  "otherDomains": {
+    "message": "Diğer üçüncü taraf alan adları"
+  },
+  "footer": {
+    "message": "Tüm analiz yerel olarak yapılır. Hiçbir şey tarayıcınızdan çıkmaz."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar'ın isteklerini görebilmesi için tüm sitelere erişmesi gerekir."
+  },
+  "permGrant": {
+    "message": "Erişim izni ver"
+  },
+  "reloadToScan": {
+    "message": "Taramayı başlatmak için sayfayı yenileyin"
+  },
+  "catAds": {
+    "message": "Reklam"
+  },
+  "catAnalytics": {
+    "message": "Analitik"
+  },
+  "catRecording": {
+    "message": "Oturum kaydı"
+  },
+  "catSocial": {
+    "message": "Sosyal"
+  },
+  "requests": {
+    "message": "istek"
+  },
+  "actBlock": {
+    "message": "Bu şirketi tüm sitelerde engelle"
+  },
+  "actUnblock": {
+    "message": "Engeli kaldır"
+  },
+  "blockedTag": {
+    "message": "engellendi"
+  },
+  "blockedRequests": {
+    "message": "Engellenen istekler"
+  },
+  "gradeHint": {
+    "message": "Gizlilik notu: bu sayfadaki izleyicilerin sayısına ve türüne göre"
+  },
+  "openStats": {
+    "message": "İstatistikler"
+  },
+  "statsTitle": {
+    "message": "İzlenme geçmişiniz"
+  },
+  "range7": {
+    "message": "Son 7 gün"
+  },
+  "range30": {
+    "message": "Son 30 gün"
+  },
+  "sCompanies": {
+    "message": "izleyici şirketler"
+  },
+  "sSites": {
+    "message": "ziyaret edilen siteler"
+  },
+  "sRequests": {
+    "message": "izleyicilere istekler"
+  },
+  "sBlocked": {
+    "message": "engellenen istekler"
+  },
+  "perDay": {
+    "message": "Günlük izleyici şirketler"
+  },
+  "topCompanies": {
+    "message": "Sizi en çok kim takip ediyor"
+  },
+  "topSites": {
+    "message": "En çok izleyiciye sahip siteler"
+  },
+  "colCompany": {
+    "message": "Şirket"
+  },
+  "colSites": {
+    "message": "Siteler"
+  },
+  "colSite": {
+    "message": "Site"
+  },
+  "colTrackers": {
+    "message": "İzleyiciler"
+  },
+  "colGrade": {
+    "message": "Not"
+  },
+  "blockedList": {
+    "message": "Engellenen şirketler"
+  },
+  "noneBlocked": {
+    "message": "Henüz hiçbir şirketi engellemediniz. Uzantı penceresinde bir şirketin yanındaki kalkanı kullanın."
+  },
+  "clearHistory": {
+    "message": "Geçmişi temizle"
+  },
+  "confirmClear": {
+    "message": "Tüm izlenme geçmişi silinsin mi?"
+  },
+  "noData": {
+    "message": "Henüz veri yok. Biraz gezinip geri gelin."
+  },
+  "recTitle": {
+    "message": "Bu site oturumunuzu kaydediyor"
+  },
+  "recText": {
+    "message": "Fare hareketleriniz, tıklamalarınız ve yazdıklarınız şunlar tarafından kaydedilebilir:"
+  },
+  "quickProtection": {
+    "message": "Hızlı koruma"
+  },
+  "profileAds": {
+    "message": "Tüm reklamlar"
+  },
+  "profileAnalytics": {
+    "message": "Tüm analitik"
+  },
+  "profileRecording": {
+    "message": "Oturum kaydediciler"
+  },
+  "pauseSite": {
+    "message": "Bu sitede engellemeyi duraklat"
+  },
+  "resumeSite": {
+    "message": "Bu sitede engellemeyi sürdür"
+  },
+  "pausedLine": {
+    "message": "Engelleme burada duraklatıldı. İzleyiciler radarda görünmeye devam eder."
+  },
+  "pausedList": {
+    "message": "Engellemenin duraklatıldığı siteler"
+  },
+  "nonePaused": {
+    "message": "Engelleme tüm sitelerde etkin."
+  },
+  "resumeShort": {
+    "message": "Sürdür"
+  },
+  "catMining": {
+    "message": "Kripto madenciliği"
+  },
+  "profileMining": {
+    "message": "Kripto madencileri"
+  },
+  "minTitle": {
+    "message": "Bu site kripto para kazmaya çalışıyor"
+  },
+  "minText": {
+    "message": "Bu hizmetlerin betikleri işlemcinizi başkası için kazı yapmak üzere kullanabilir:"
+  },
+  "fpTitle": {
+    "message": "Bu site tarayıcınızın parmak izini çıkarıyor"
+  },
+  "fpText": {
+    "message": "Sizi çerez olmadan tanımak için cihazınızın gizli bilgilerini okuyor:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (ekran kartı)"
+  },
+  "fp_audio": {
+    "message": "ses"
+  },
+  "fp_fonts": {
+    "message": "yüklü yazı tipleri"
+  },
+  "fpBy": {
+    "message": "kaynak:"
+  },
+  "fpShort": {
+    "message": "Parmak izi"
+  },
+  "optFingerprint": {
+    "message": "Parmak izi koruması"
+  },
+  "optFingerprintHint": {
+    "message": "Canvas ve ses verilerine çok küçük bir gürültü ekler ve ekran kartınızı gizler; böylece sizi tanımak için kullanılamazlar. Nadiren çizim uygulamaları biraz farklı görünebilir."
+  },
+  "optWebrtc": {
+    "message": "IP'yi WebRTC'den gizle"
+  },
+  "optWebrtcHint": {
+    "message": "VPN kullananlar için: siteler WebRTC üzerinden gerçek IP adresinizi göremez. Tarayıcıdaki görüntülü aramalar çalışmayabilir."
+  },
+  "locale": {
+    "message": "tr",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

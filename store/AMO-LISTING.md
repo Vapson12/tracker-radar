@@ -27,10 +27,13 @@ Every website you open quietly talks to dozens of other companies: ad networks, 
 - ⚡ **Quick protection**: block all ads, all analytics or all session recorders in one click.
 - ⏸️ **Pause blocking** on a single site if it breaks.
 - 🎥 **Session recording alert** when a site records your mouse and keyboard.
+- 🧬 **Fingerprinting detection**, plus optional protection that adds noise to canvas, WebGL and audio readings.
+- 🌐 **Hide your IP from WebRTC** (optional, for VPN users).
+- ⛏️ **Cryptominer protection**, on by default, with a warning when a site tries to mine on your CPU.
 - 🛡️ **One-click blocking**: hit the shield next to a company to block its trackers on every website.
 - 📊 **Statistics**: how many companies followed you in the last 7 or 30 days, who follows you the most and which websites are the worst.
-- 📚 350+ known tracker domains from 170+ companies, including European and Polish ad tech.
-- 🌍 English, Polish, German, Spanish, French and Ukrainian.
+- 📚 1200+ known tracker domains from 580+ companies, including European and Polish ad tech.
+- 🌍 51 languages, picked automatically (with right-to-left layout for Arabic, Hebrew and Persian).
 
 **Privacy first**
 Tracker Radar has no servers and no analytics. Everything is analysed inside your browser and history is deleted automatically after 30 days. The code is open source: https://github.com/Vapson12/tracker-radar
@@ -39,6 +42,8 @@ Tracker Radar has no servers and no analytics. Everything is analysed inside you
 - *Access your data for all websites / webRequest*: to see which third-party domains a page contacts. Request contents are never read or stored.
 - *Block content on any page (declarativeNetRequest)*: only for the companies you choose to block.
 - *Storage*: to keep your block list and local statistics.
+- *Content scripts on websites*: to detect fingerprinting (and, if you turn it on, add noise to fingerprinting readings). Nothing is read from page content.
+- *Privacy settings* (optional, asked only when you turn on "Hide IP from WebRTC"): to change Firefox's WebRTC IP handling.
 
 ## Summary — Polski (max 250 znaków)
 
@@ -53,7 +58,7 @@ Każda strona, którą otwierasz, po cichu łączy się z dziesiątkami innych f
 - 🅰️ **Ocena prywatności A–F** dla każdej strony.
 - 🛡️ **Blokowanie jednym kliknięciem**: tarcza obok firmy blokuje jej trackery na wszystkich stronach.
 - 📊 **Statystyki**: ile firm śledziło Cię w ostatnich 7 lub 30 dniach, kto robi to najczęściej i które strony są najgorsze.
-- 📚 Ponad 350 domen trackerów od ponad 170 firm, w tym polskich (Gemius, AdOcean, RTB House, WP, SALESmanago).
+- 📚 Ponad 1200 domen trackerów od ponad 580 firm, w tym polskich (Gemius, AdOcean, RTB House, WP, SALESmanago).
 - 🌍 Polski, angielski, niemiecki, hiszpański, francuski i ukraiński.
 
 **Prywatność przede wszystkim**
@@ -72,3 +77,9 @@ The add-on is plain, unminified JavaScript with no third-party libraries and no 
 ## Version notes — 0.3.0 (paste into "Release notes" when uploading the new version)
 
 New: quick protection (block all ads / analytics / session recorders in one click), pause blocking on a single site, a warning when a site records your session, and CSV/JSON export of statistics. All new texts translated into 6 languages.
+
+## Notes to reviewer — 0.4.0
+
+- fp-main.js runs in the page world (content_scripts, world MAIN) and wraps canvas, WebGL getParameter/getExtension, OfflineAudioContext.startRendering, AudioBuffer.getChannelData, measureText and document.fonts.check to detect fingerprinting. It only reports the technique name and the calling script's hostname to the background (via fp-bridge.js).
+- fp-on.js is registered with scripting.registerContentScripts only while the user enables "Fingerprint protection"; it switches on noise in fp-main.js synchronously.
+- The optional "privacy" permission is requested only when the user enables "Hide IP from WebRTC"; it sets privacy.network.webRTCIPHandlingPolicy to disable_non_proxied_udp and clears it when switched off.

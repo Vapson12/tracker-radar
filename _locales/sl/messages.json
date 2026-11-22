@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Oglejte si v živo, katerim podjetjem spletno mesto, ki ga obiskujete, pošilja vaše podatke."
+  },
+  "statCompanies": {
+    "message": "podjetja za sledenje"
+  },
+  "statDomains": {
+    "message": "domene za sledenje"
+  },
+  "statRequests": {
+    "message": "zahteve tretjih oseb"
+  },
+  "whoIsWatching": {
+    "message": "Kdo vas opazuje"
+  },
+  "noTrackers": {
+    "message": "Na tej strani ni bilo najdenih znanih sledilnikov. 🎉"
+  },
+  "otherDomains": {
+    "message": "Druge domene tretjih oseb"
+  },
+  "footer": {
+    "message": "Vsa analiza poteka lokalno. Nič ne zapusti vašega brskalnika."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar potrebuje dostop do vseh spletnih mest, da vidi njihove zahteve."
+  },
+  "permGrant": {
+    "message": "Dovoli dostop"
+  },
+  "reloadToScan": {
+    "message": "Znova naložite stran, da začnete pregled"
+  },
+  "catAds": {
+    "message": "Oglaševanje"
+  },
+  "catAnalytics": {
+    "message": "Analitika"
+  },
+  "catRecording": {
+    "message": "Snemanje sej"
+  },
+  "catSocial": {
+    "message": "Družbena omrežja"
+  },
+  "requests": {
+    "message": "zahtev"
+  },
+  "actBlock": {
+    "message": "Blokiraj to podjetje na vseh spletnih mestih"
+  },
+  "actUnblock": {
+    "message": "Odblokiraj"
+  },
+  "blockedTag": {
+    "message": "blokirano"
+  },
+  "blockedRequests": {
+    "message": "Blokirane zahteve"
+  },
+  "gradeHint": {
+    "message": "Ocena zasebnosti: glede na število in vrsto sledilnikov na tej strani"
+  },
+  "openStats": {
+    "message": "Statistika"
+  },
+  "statsTitle": {
+    "message": "Vaša zgodovina sledenja"
+  },
+  "range7": {
+    "message": "Zadnjih 7 dni"
+  },
+  "range30": {
+    "message": "Zadnjih 30 dni"
+  },
+  "sCompanies": {
+    "message": "podjetja za sledenje"
+  },
+  "sSites": {
+    "message": "obiskana spletna mesta"
+  },
+  "sRequests": {
+    "message": "zahteve sledilnikom"
+  },
+  "sBlocked": {
+    "message": "blokirane zahteve"
+  },
+  "perDay": {
+    "message": "Podjetja za sledenje na dan"
+  },
+  "topCompanies": {
+    "message": "Kdo vam najbolj sledi"
+  },
+  "topSites": {
+    "message": "Spletna mesta z največ sledilniki"
+  },
+  "colCompany": {
+    "message": "Podjetje"
+  },
+  "colSites": {
+    "message": "Spletna mesta"
+  },
+  "colSite": {
+    "message": "Spletno mesto"
+  },
+  "colTrackers": {
+    "message": "Sledilniki"
+  },
+  "colGrade": {
+    "message": "Ocena"
+  },
+  "blockedList": {
+    "message": "Blokirana podjetja"
+  },
+  "noneBlocked": {
+    "message": "Še niste blokirali nobenega podjetja. Uporabite ščit ob podjetju v oknu razširitve."
+  },
+  "clearHistory": {
+    "message": "Počisti zgodovino"
+  },
+  "confirmClear": {
+    "message": "Izbrišem celotno zgodovino sledenja?"
+  },
+  "noData": {
+    "message": "Še ni podatkov. Malo brskajte in se vrnite."
+  },
+  "recTitle": {
+    "message": "To spletno mesto snema vašo sejo"
+  },
+  "recText": {
+    "message": "Premike miške, klike in tipkanje lahko snemajo:"
+  },
+  "quickProtection": {
+    "message": "Hitra zaščita"
+  },
+  "profileAds": {
+    "message": "Vsi oglasi"
+  },
+  "profileAnalytics": {
+    "message": "Vsa analitika"
+  },
+  "profileRecording": {
+    "message": "Snemanje sej"
+  },
+  "pauseSite": {
+    "message": "Začasno ustavi blokiranje na tem mestu"
+  },
+  "resumeSite": {
+    "message": "Nadaljuj blokiranje na tem mestu"
+  },
+  "pausedLine": {
+    "message": "Blokiranje je tukaj začasno ustavljeno. Sledilniki so še vedno vidni na radarju."
+  },
+  "pausedList": {
+    "message": "Mesta z začasno ustavljenim blokiranjem"
+  },
+  "nonePaused": {
+    "message": "Blokiranje je dejavno na vseh mestih."
+  },
+  "resumeShort": {
+    "message": "Nadaljuj"
+  },
+  "catMining": {
+    "message": "Rudarjenje kriptovalut"
+  },
+  "profileMining": {
+    "message": "Kripto rudarji"
+  },
+  "minTitle": {
+    "message": "To spletno mesto poskuša rudariti kriptovalute"
+  },
+  "minText": {
+    "message": "Skripte teh storitev lahko uporabljajo vaš procesor za rudarjenje za nekoga drugega:"
+  },
+  "fpTitle": {
+    "message": "To spletno mesto ustvarja prstni odtis vašega brskalnika"
+  },
+  "fpText": {
+    "message": "Bere skrite podatke o vaši napravi, da vas prepozna brez piškotkov:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (grafična kartica)"
+  },
+  "fp_audio": {
+    "message": "zvok"
+  },
+  "fp_fonts": {
+    "message": "nameščene pisave"
+  },
+  "fpBy": {
+    "message": "prek"
+  },
+  "fpShort": {
+    "message": "Prstni odtis"
+  },
+  "optFingerprint": {
+    "message": "Zaščita pred prstnim odtisom"
+  },
+  "optFingerprintHint": {
+    "message": "Podatkom canvas in zvoka doda neopazen šum ter skrije vašo grafično kartico, da vas po njih ni mogoče prepoznati. Redko so lahko aplikacije za risanje videti nekoliko drugače."
+  },
+  "optWebrtc": {
+    "message": "Skrij IP pred WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "Za uporabnike VPN: spletna mesta prek WebRTC ne bodo videla vašega pravega naslova IP. Videoklici v brskalniku morda ne bodo delovali."
+  },
+  "locale": {
+    "message": "sl",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

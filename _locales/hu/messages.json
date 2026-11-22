@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Nézze élőben, mely cégeknek küldi az adatait az éppen megnyitott weboldal."
+  },
+  "statCompanies": {
+    "message": "nyomkövető cégek"
+  },
+  "statDomains": {
+    "message": "nyomkövető domainek"
+  },
+  "statRequests": {
+    "message": "harmadik féltől származó kérések"
+  },
+  "whoIsWatching": {
+    "message": "Ki figyeli önt"
+  },
+  "noTrackers": {
+    "message": "Ezen az oldalon nem található ismert nyomkövető. 🎉"
+  },
+  "otherDomains": {
+    "message": "Egyéb harmadik féltől származó domainek"
+  },
+  "footer": {
+    "message": "Minden elemzés helyben történik. Semmi sem hagyja el a böngészőt."
+  },
+  "permNeeded": {
+    "message": "A Tracker Radarnak hozzáférés kell minden weboldalhoz, hogy lássa a kéréseiket."
+  },
+  "permGrant": {
+    "message": "Hozzáférés engedélyezése"
+  },
+  "reloadToScan": {
+    "message": "Töltse újra az oldalt a vizsgálat indításához"
+  },
+  "catAds": {
+    "message": "Hirdetések"
+  },
+  "catAnalytics": {
+    "message": "Analitika"
+  },
+  "catRecording": {
+    "message": "Munkamenet-rögzítés"
+  },
+  "catSocial": {
+    "message": "Közösségi"
+  },
+  "requests": {
+    "message": "kérés"
+  },
+  "actBlock": {
+    "message": "A cég letiltása minden weboldalon"
+  },
+  "actUnblock": {
+    "message": "Letiltás feloldása"
+  },
+  "blockedTag": {
+    "message": "letiltva"
+  },
+  "blockedRequests": {
+    "message": "Letiltott kérések"
+  },
+  "gradeHint": {
+    "message": "Adatvédelmi osztályzat: az oldalon lévő nyomkövetők száma és típusa alapján"
+  },
+  "openStats": {
+    "message": "Statisztika"
+  },
+  "statsTitle": {
+    "message": "Az ön nyomkövetési előzményei"
+  },
+  "range7": {
+    "message": "Utolsó 7 nap"
+  },
+  "range30": {
+    "message": "Utolsó 30 nap"
+  },
+  "sCompanies": {
+    "message": "nyomkövető cégek"
+  },
+  "sSites": {
+    "message": "meglátogatott weboldalak"
+  },
+  "sRequests": {
+    "message": "kérések nyomkövetőkhöz"
+  },
+  "sBlocked": {
+    "message": "letiltott kérések"
+  },
+  "perDay": {
+    "message": "Nyomkövető cégek naponta"
+  },
+  "topCompanies": {
+    "message": "Ki követi a legtöbbet"
+  },
+  "topSites": {
+    "message": "Weboldalak a legtöbb nyomkövetővel"
+  },
+  "colCompany": {
+    "message": "Cég"
+  },
+  "colSites": {
+    "message": "Weboldalak"
+  },
+  "colSite": {
+    "message": "Weboldal"
+  },
+  "colTrackers": {
+    "message": "Nyomkövetők"
+  },
+  "colGrade": {
+    "message": "Osztályzat"
+  },
+  "blockedList": {
+    "message": "Letiltott cégek"
+  },
+  "noneBlocked": {
+    "message": "Még nem tiltott le egy céget sem. Használja a pajzsot a cég mellett a bővítmény ablakában."
+  },
+  "clearHistory": {
+    "message": "Előzmények törlése"
+  },
+  "confirmClear": {
+    "message": "Törli a teljes nyomkövetési előzményt?"
+  },
+  "noData": {
+    "message": "Még nincs adat. Böngésszen egy kicsit, és térjen vissza."
+  },
+  "recTitle": {
+    "message": "Ez az oldal rögzíti a munkamenetét"
+  },
+  "recText": {
+    "message": "Az egérmozgását, kattintásait és gépelését rögzítheti:"
+  },
+  "quickProtection": {
+    "message": "Gyors védelem"
+  },
+  "profileAds": {
+    "message": "Minden hirdetés"
+  },
+  "profileAnalytics": {
+    "message": "Minden analitika"
+  },
+  "profileRecording": {
+    "message": "Munkamenet-rögzítők"
+  },
+  "pauseSite": {
+    "message": "Letiltás szüneteltetése ezen az oldalon"
+  },
+  "resumeSite": {
+    "message": "Letiltás folytatása ezen az oldalon"
+  },
+  "pausedLine": {
+    "message": "A letiltás itt szünetel. A nyomkövetők továbbra is látszanak a radaron."
+  },
+  "pausedList": {
+    "message": "Oldalak szüneteltetett letiltással"
+  },
+  "nonePaused": {
+    "message": "A letiltás minden oldalon aktív."
+  },
+  "resumeShort": {
+    "message": "Folytatás"
+  },
+  "catMining": {
+    "message": "Kriptobányászat"
+  },
+  "profileMining": {
+    "message": "Kriptobányászok"
+  },
+  "minTitle": {
+    "message": "Ez az oldal kriptovalutát próbál bányászni"
+  },
+  "minText": {
+    "message": "Ezeknek a szolgáltatásoknak a szkriptjei a processzorát használhatják, hogy valaki másnak bányásszanak:"
+  },
+  "fpTitle": {
+    "message": "Ez az oldal ujjlenyomatot készít a böngészőjéről"
+  },
+  "fpText": {
+    "message": "Rejtett adatokat olvas ki az eszközéről, hogy sütik nélkül is felismerje önt:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (videokártya)"
+  },
+  "fp_audio": {
+    "message": "hang"
+  },
+  "fp_fonts": {
+    "message": "telepített betűtípusok"
+  },
+  "fpBy": {
+    "message": "forrás:"
+  },
+  "fpShort": {
+    "message": "Böngésző-ujjlenyomat"
+  },
+  "optFingerprint": {
+    "message": "Ujjlenyomat elleni védelem"
+  },
+  "optFingerprintHint": {
+    "message": "Apró zajt ad a canvas- és hangadatokhoz, és elrejti a videokártyáját, így azok alapján nem ismerhető fel. Ritkán a rajzolóalkalmazások kissé másképp nézhetnek ki."
+  },
+  "optWebrtc": {
+    "message": "IP elrejtése a WebRTC elől"
+  },
+  "optWebrtcHint": {
+    "message": "VPN-felhasználóknak: a weboldalak nem látják a valódi IP-címét a WebRTC-n keresztül. A böngészős videohívások leállhatnak."
+  },
+  "locale": {
+    "message": "hu",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

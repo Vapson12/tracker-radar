@@ -116,4 +116,7 @@ footer { margin-top: 12px; font-size: 10px; color: var(--muted); text-align: cen
 .pause-btn { display: block; width: 100%; margin-top: 8px; padding: 6px; border: 1px dashed var(--line); border-radius: 8px; background: transparent; color: var(--muted); font: inherit; font-size: 12px; cursor: pointer; }
 .pause-btn:hover { border-color: #f7b801; color: var(--text); }
 .pause-btn[aria-pressed="true"] { border-style: solid; border-color: #f7b801; color: #f7b801; }
+.chips-opt { margin-top: 6px; }
+.fp-warn { background: #2a1d3a; border-color: #9b5de5; }
+.fp-warn > b:first-child { color: #c9a7ff; }
 .paused-line { margin: 6px 0 0; font-size: 11px; color: #f7b801; }

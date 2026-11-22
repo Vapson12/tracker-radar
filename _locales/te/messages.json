@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "మీరు సందర్శించే సైట్ మీ డేటాను ఏ కంపెనీలకు పంపుతుందో ప్రత్యక్షంగా చూడండి."
+  },
+  "statCompanies": {
+    "message": "ట్రాకింగ్ కంపెనీలు"
+  },
+  "statDomains": {
+    "message": "ట్రాకింగ్ డొమైన్‌లు"
+  },
+  "statRequests": {
+    "message": "థర్డ్-పార్టీ అభ్యర్థనలు"
+  },
+  "whoIsWatching": {
+    "message": "ఎవరు చూస్తున్నారు"
+  },
+  "noTrackers": {
+    "message": "ఈ పేజీలో తెలిసిన ట్రాకర్లు ఏవీ కనుగొనబడలేదు. 🎉"
+  },
+  "otherDomains": {
+    "message": "ఇతర థర్డ్-పార్టీ డొమైన్‌లు"
+  },
+  "footer": {
+    "message": "విశ్లేషణ అంతా స్థానికంగానే జరుగుతుంది. ఏదీ మీ బ్రౌజర్ బయటకు వెళ్ళదు."
+  },
+  "permNeeded": {
+    "message": "అభ్యర్థనలను చూడటానికి Tracker Radar‌కు అన్ని సైట్‌లకు యాక్సెస్ అవసరం."
+  },
+  "permGrant": {
+    "message": "యాక్సెస్ ఇవ్వండి"
+  },
+  "reloadToScan": {
+    "message": "స్కాన్ ప్రారంభించడానికి పేజీని మళ్ళీ లోడ్ చేయండి"
+  },
+  "catAds": {
+    "message": "ప్రకటనలు"
+  },
+  "catAnalytics": {
+    "message": "అనలిటిక్స్"
+  },
+  "catRecording": {
+    "message": "సెషన్ రికార్డింగ్"
+  },
+  "catSocial": {
+    "message": "సోషల్ మీడియా"
+  },
+  "requests": {
+    "message": "అభ్యర్థనలు"
+  },
+  "actBlock": {
+    "message": "ఈ కంపెనీని అన్ని సైట్‌లలో బ్లాక్ చేయండి"
+  },
+  "actUnblock": {
+    "message": "అన్‌బ్లాక్"
+  },
+  "blockedTag": {
+    "message": "బ్లాక్ చేయబడింది"
+  },
+  "blockedRequests": {
+    "message": "బ్లాక్ చేసిన అభ్యర్థనలు"
+  },
+  "gradeHint": {
+    "message": "గోప్యతా గ్రేడ్: ఈ పేజీలోని ట్రాకర్ల సంఖ్య మరియు రకం ఆధారంగా"
+  },
+  "openStats": {
+    "message": "గణాంకాలు"
+  },
+  "statsTitle": {
+    "message": "మీ ట్రాకింగ్ చరిత్ర"
+  },
+  "range7": {
+    "message": "గత 7 రోజులు"
+  },
+  "range30": {
+    "message": "గత 30 రోజులు"
+  },
+  "sCompanies": {
+    "message": "ట్రాకింగ్ కంపెనీలు"
+  },
+  "sSites": {
+    "message": "సందర్శించిన సైట్‌లు"
+  },
+  "sRequests": {
+    "message": "ట్రాకర్లకు అభ్యర్థనలు"
+  },
+  "sBlocked": {
+    "message": "బ్లాక్ చేసిన అభ్యర్థనలు"
+  },
+  "perDay": {
+    "message": "రోజుకు ట్రాకింగ్ కంపెనీలు"
+  },
+  "topCompanies": {
+    "message": "మిమ్మల్ని ఎక్కువగా ఎవరు ట్రాక్ చేస్తున్నారు"
+  },
+  "topSites": {
+    "message": "ఎక్కువ ట్రాకర్లు ఉన్న సైట్‌లు"
+  },
+  "colCompany": {
+    "message": "కంపెనీ"
+  },
+  "colSites": {
+    "message": "సైట్‌లు"
+  },
+  "colSite": {
+    "message": "సైట్"
+  },
+  "colTrackers": {
+    "message": "ట్రాకర్లు"
+  },
+  "colGrade": {
+    "message": "గ్రేడ్"
+  },
+  "blockedList": {
+    "message": "బ్లాక్ చేసిన కంపెనీలు"
+  },
+  "noneBlocked": {
+    "message": "మీరు ఇంకా ఏ కంపెనీనీ బ్లాక్ చేయలేదు. ఎక్స్‌టెన్షన్ విండోలో కంపెనీ పక్కన ఉన్న షీల్డ్‌ను ఉపయోగించండి."
+  },
+  "clearHistory": {
+    "message": "చరిత్రను క్లియర్ చేయండి"
+  },
+  "confirmClear": {
+    "message": "మొత్తం ట్రాకింగ్ చరిత్రను తొలగించాలా?"
+  },
+  "noData": {
+    "message": "ఇంకా డేటా లేదు. కొంచెం బ్రౌజ్ చేసి తిరిగి రండి."
+  },
+  "recTitle": {
+    "message": "ఈ సైట్ మీ సెషన్‌ను రికార్డ్ చేస్తోంది"
+  },
+  "recText": {
+    "message": "మీ మౌస్ కదలికలు, క్లిక్‌లు, టైపింగ్‌ను రికార్డ్ చేయగలవి:"
+  },
+  "quickProtection": {
+    "message": "త్వరిత రక్షణ"
+  },
+  "profileAds": {
+    "message": "అన్ని ప్రకటనలు"
+  },
+  "profileAnalytics": {
+    "message": "అన్ని అనలిటిక్స్"
+  },
+  "profileRecording": {
+    "message": "సెషన్ రికార్డర్లు"
+  },
+  "pauseSite": {
+    "message": "ఈ సైట్‌లో బ్లాకింగ్ ఆపండి"
+  },
+  "resumeSite": {
+    "message": "ఈ సైట్‌లో బ్లాకింగ్ కొనసాగించండి"
+  },
+  "pausedLine": {
+    "message": "ఇక్కడ బ్లాకింగ్ ఆపబడింది. ట్రాకర్లు ఇంకా రాడార్‌లో కనిపిస్తాయి."
+  },
+  "pausedList": {
+    "message": "బ్లాకింగ్ ఆపిన సైట్‌లు"
+  },
+  "nonePaused": {
+    "message": "అన్ని సైట్‌లలో బ్లాకింగ్ సక్రియంగా ఉంది."
+  },
+  "resumeShort": {
+    "message": "కొనసాగించు"
+  },
+  "catMining": {
+    "message": "క్రిప్టో మైనింగ్"
+  },
+  "profileMining": {
+    "message": "క్రిప్టో మైనర్లు"
+  },
+  "minTitle": {
+    "message": "ఈ సైట్ క్రిప్టోకరెన్సీని మైన్ చేయడానికి ప్రయత్నిస్తోంది"
+  },
+  "minText": {
+    "message": "ఈ సేవల స్క్రిప్ట్‌లు వేరొకరి కోసం మైన్ చేయడానికి మీ ప్రాసెసర్‌ను ఉపయోగించవచ్చు:"
+  },
+  "fpTitle": {
+    "message": "ఈ సైట్ మీ బ్రౌజర్ ఫింగర్‌ప్రింట్ తీసుకుంటోంది"
+  },
+  "fpText": {
+    "message": "కుకీలు లేకుండా మిమ్మల్ని గుర్తించడానికి ఇది మీ పరికరంలోని దాచిన వివరాలను చదువుతుంది:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (గ్రాఫిక్స్ కార్డ్)"
+  },
+  "fp_audio": {
+    "message": "ఆడియో"
+  },
+  "fp_fonts": {
+    "message": "ఇన్‌స్టాల్ చేసిన ఫాంట్‌లు"
+  },
+  "fpBy": {
+    "message": "ద్వారా"
+  },
+  "fpShort": {
+    "message": "ఫింగర్‌ప్రింట్"
+  },
+  "optFingerprint": {
+    "message": "ఫింగర్‌ప్రింట్ రక్షణ"
+  },
+  "optFingerprintHint": {
+    "message": "canvas మరియు ఆడియో రీడింగ్‌లకు చిన్న శబ్దాన్ని జోడించి గ్రాఫిక్స్ కార్డ్‌ను దాచిపెడుతుంది, కాబట్టి వాటితో మిమ్మల్ని గుర్తించలేరు. అరుదుగా డ్రాయింగ్ యాప్‌లు కొంచెం భిన్నంగా కనిపించవచ్చు."
+  },
+  "optWebrtc": {
+    "message": "WebRTC నుండి IP దాచండి"
+  },
+  "optWebrtcHint": {
+    "message": "VPN వినియోగదారులకు: సైట్‌లు WebRTC ద్వారా మీ అసలు IP చిరునామాను చూడలేవు. బ్రౌజర్‌లో వీడియో కాల్‌లు పని చేయకపోవచ్చు."
+  },
+  "locale": {
+    "message": "te",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

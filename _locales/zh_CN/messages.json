@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "实时查看你访问的网站把你的数据发送给了哪些公司。"
+  },
+  "statCompanies": {
+    "message": "追踪公司"
+  },
+  "statDomains": {
+    "message": "追踪域名"
+  },
+  "statRequests": {
+    "message": "第三方请求"
+  },
+  "whoIsWatching": {
+    "message": "谁在监视你"
+  },
+  "noTrackers": {
+    "message": "此页面未发现已知追踪器。🎉"
+  },
+  "otherDomains": {
+    "message": "其他第三方域名"
+  },
+  "footer": {
+    "message": "所有分析均在本地完成，任何数据都不会离开你的浏览器。"
+  },
+  "permNeeded": {
+    "message": "Tracker Radar 需要访问所有网站的权限才能查看其请求。"
+  },
+  "permGrant": {
+    "message": "授予权限"
+  },
+  "reloadToScan": {
+    "message": "重新加载页面以开始扫描"
+  },
+  "catAds": {
+    "message": "广告"
+  },
+  "catAnalytics": {
+    "message": "分析"
+  },
+  "catRecording": {
+    "message": "会话录制"
+  },
+  "catSocial": {
+    "message": "社交"
+  },
+  "requests": {
+    "message": "个请求"
+  },
+  "actBlock": {
+    "message": "在所有网站上屏蔽此公司"
+  },
+  "actUnblock": {
+    "message": "取消屏蔽"
+  },
+  "blockedTag": {
+    "message": "已屏蔽"
+  },
+  "blockedRequests": {
+    "message": "已屏蔽的请求"
+  },
+  "gradeHint": {
+    "message": "隐私评级：基于此页面追踪器的数量和类型"
+  },
+  "openStats": {
+    "message": "统计"
+  },
+  "statsTitle": {
+    "message": "你的追踪历史"
+  },
+  "range7": {
+    "message": "最近 7 天"
+  },
+  "range30": {
+    "message": "最近 30 天"
+  },
+  "sCompanies": {
+    "message": "追踪公司"
+  },
+  "sSites": {
+    "message": "访问的网站"
+  },
+  "sRequests": {
+    "message": "发往追踪器的请求"
+  },
+  "sBlocked": {
+    "message": "已屏蔽的请求"
+  },
+  "perDay": {
+    "message": "每日追踪公司"
+  },
+  "topCompanies": {
+    "message": "追踪你最多的公司"
+  },
+  "topSites": {
+    "message": "追踪器最多的网站"
+  },
+  "colCompany": {
+    "message": "公司"
+  },
+  "colSites": {
+    "message": "网站数"
+  },
+  "colSite": {
+    "message": "网站"
+  },
+  "colTrackers": {
+    "message": "追踪器"
+  },
+  "colGrade": {
+    "message": "评级"
+  },
+  "blockedList": {
+    "message": "已屏蔽的公司"
+  },
+  "noneBlocked": {
+    "message": "你还没有屏蔽任何公司。请在扩展窗口中使用公司旁边的盾牌。"
+  },
+  "clearHistory": {
+    "message": "清除历史"
+  },
+  "confirmClear": {
+    "message": "要删除全部追踪历史吗？"
+  },
+  "noData": {
+    "message": "暂无数据。浏览一会儿再回来看看。"
+  },
+  "recTitle": {
+    "message": "此网站正在录制你的会话"
+  },
+  "recText": {
+    "message": "你的鼠标移动、点击和输入可能被以下服务录制："
+  },
+  "quickProtection": {
+    "message": "快速防护"
+  },
+  "profileAds": {
+    "message": "所有广告"
+  },
+  "profileAnalytics": {
+    "message": "所有分析"
+  },
+  "profileRecording": {
+    "message": "会话录制工具"
+  },
+  "pauseSite": {
+    "message": "在此网站暂停屏蔽"
+  },
+  "resumeSite": {
+    "message": "在此网站恢复屏蔽"
+  },
+  "pausedLine": {
+    "message": "此处已暂停屏蔽。追踪器仍会显示在雷达上。"
+  },
+  "pausedList": {
+    "message": "已暂停屏蔽的网站"
+  },
+  "nonePaused": {
+    "message": "所有网站均已启用屏蔽。"
+  },
+  "resumeShort": {
+    "message": "恢复"
+  },
+  "catMining": {
+    "message": "加密货币挖矿"
+  },
+  "profileMining": {
+    "message": "挖矿脚本"
+  },
+  "minTitle": {
+    "message": "此网站正在尝试挖掘加密货币"
+  },
+  "minText": {
+    "message": "这些服务的脚本可能会占用你的处理器为他人挖矿："
+  },
+  "fpTitle": {
+    "message": "此网站正在获取你的浏览器指纹"
+  },
+  "fpText": {
+    "message": "它读取设备的隐藏信息，以便在没有 Cookie 的情况下识别你："
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL（显卡）"
+  },
+  "fp_audio": {
+    "message": "音频"
+  },
+  "fp_fonts": {
+    "message": "已安装字体"
+  },
+  "fpBy": {
+    "message": "来源："
+  },
+  "fpShort": {
+    "message": "指纹"
+  },
+  "optFingerprint": {
+    "message": "指纹防护"
+  },
+  "optFingerprintHint": {
+    "message": "为 canvas 和音频数据加入极小的噪声并隐藏你的显卡，使其无法用于识别你。极少数情况下，绘图应用的显示可能略有不同。"
+  },
+  "optWebrtc": {
+    "message": "对 WebRTC 隐藏 IP"
+  },
+  "optWebrtcHint": {
+    "message": "适用于 VPN 用户：网站将无法通过 WebRTC 看到你的真实 IP 地址。浏览器中的视频通话可能无法使用。"
+  },
+  "locale": {
+    "message": "zh-CN",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

@@ -12,6 +12,8 @@ let data = { history: { days: {} }, blocked: [] };
 
 function applyI18n() {
   document.documentElement.lang = uiLocale();
+  // Right-to-left languages (Arabic, Hebrew, Persian…)
+  document.documentElement.dir = /^(ar|he|fa|ur)\b/.test(uiLocale()) ? 'rtl' : (api.i18n.getMessage('@@bidi_dir') || 'ltr');
   for (const el of document.querySelectorAll('[data-i18n]')) el.textContent = t(el.dataset.i18n);
   document.title = `${t('statsTitle')} · Tracker Radar`;
 }
@@ -41,8 +43,9 @@ function aggregate(dates) {
       companies.set(name, agg);
     }
     for (const [site, s] of Object.entries(day.sites)) {
-      const agg = sites.get(site) || { site, companies: new Map() };
+      const agg = sites.get(site) || { site, companies: new Map(), fp: new Set() };
       for (const [name, cat] of Object.entries(s.companies)) agg.companies.set(name, cat);
+      for (const tech of Object.keys(s.fp || {})) agg.fp.add(tech);
       sites.set(site, agg);
     }
   }
@@ -99,17 +102,19 @@ function renderTopSites(sites) {
   const body = $('top-sites');
   body.replaceChildren();
   const top = [...sites.values()]
-    .filter((s) => s.companies.size)
-    .sort((a, b) => b.companies.size - a.companies.size)
+    .filter((s) => s.companies.size || s.fp.size)
+    .sort((a, b) => (b.companies.size + b.fp.size) - (a.companies.size + a.fp.size))
     .slice(0, 12);
   for (const s of top) {
-    const grade = gradeFor(privacyScore([...s.companies.values()]));
+    const grade = gradeFor(privacyScore([...s.companies.values()], [...s.fp]));
     const badge = document.createElement('span');
     badge.className = 'grade';
     badge.textContent = grade;
     badge.style.background = GRADE_COLORS[grade];
+    const name = s.fp.size ? `${s.site} 🧬` : s.site;
     const tr = document.createElement('tr');
-    tr.append(cell(s.site, 'name'), cell(s.companies.size, 'n'), cell(badge, 'n'));
+    if (s.fp.size) tr.title = `${t('fpShort')}: ${[...s.fp].map((x) => t('fp_' + x)).join(', ')}`;
+    tr.append(cell(name, 'name'), cell(s.companies.size, 'n'), cell(badge, 'n'));
     body.appendChild(tr);
   }
 }
@@ -172,6 +177,7 @@ function exportCsv() {
       for (const [company, category] of Object.entries(s.companies)) {
         rows.push([date, site, company, category, data.blocked.includes(company) ? 'yes' : 'no']);
       }
+      for (const tech of Object.keys(s.fp || {})) rows.push([date, site, '', `fingerprinting:${tech}`, 'no']);
     }
   }
   download(`tracker-radar-${new Date().toLocaleDateString('sv')}.csv`, rows.map((r) => r.map(csvCell).join(',')).join('\n'), 'text/csv');

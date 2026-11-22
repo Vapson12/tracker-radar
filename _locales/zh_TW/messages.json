@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "即時查看你造訪的網站將你的資料傳送給哪些公司。"
+  },
+  "statCompanies": {
+    "message": "追蹤公司"
+  },
+  "statDomains": {
+    "message": "追蹤網域"
+  },
+  "statRequests": {
+    "message": "第三方請求"
+  },
+  "whoIsWatching": {
+    "message": "誰在監視你"
+  },
+  "noTrackers": {
+    "message": "此頁面未發現已知的追蹤器。🎉"
+  },
+  "otherDomains": {
+    "message": "其他第三方網域"
+  },
+  "footer": {
+    "message": "所有分析皆在本機完成，任何資料都不會離開你的瀏覽器。"
+  },
+  "permNeeded": {
+    "message": "Tracker Radar 需要存取所有網站的權限才能查看其請求。"
+  },
+  "permGrant": {
+    "message": "授予權限"
+  },
+  "reloadToScan": {
+    "message": "重新載入頁面以開始掃描"
+  },
+  "catAds": {
+    "message": "廣告"
+  },
+  "catAnalytics": {
+    "message": "分析"
+  },
+  "catRecording": {
+    "message": "工作階段錄製"
+  },
+  "catSocial": {
+    "message": "社群"
+  },
+  "requests": {
+    "message": "個請求"
+  },
+  "actBlock": {
+    "message": "在所有網站封鎖此公司"
+  },
+  "actUnblock": {
+    "message": "解除封鎖"
+  },
+  "blockedTag": {
+    "message": "已封鎖"
+  },
+  "blockedRequests": {
+    "message": "已封鎖的請求"
+  },
+  "gradeHint": {
+    "message": "隱私評等：依此頁面追蹤器的數量與類型"
+  },
+  "openStats": {
+    "message": "統計"
+  },
+  "statsTitle": {
+    "message": "你的追蹤紀錄"
+  },
+  "range7": {
+    "message": "過去 7 天"
+  },
+  "range30": {
+    "message": "過去 30 天"
+  },
+  "sCompanies": {
+    "message": "追蹤公司"
+  },
+  "sSites": {
+    "message": "造訪的網站"
+  },
+  "sRequests": {
+    "message": "傳送到追蹤器的請求"
+  },
+  "sBlocked": {
+    "message": "已封鎖的請求"
+  },
+  "perDay": {
+    "message": "每日追蹤公司"
+  },
+  "topCompanies": {
+    "message": "最常追蹤你的公司"
+  },
+  "topSites": {
+    "message": "追蹤器最多的網站"
+  },
+  "colCompany": {
+    "message": "公司"
+  },
+  "colSites": {
+    "message": "網站數"
+  },
+  "colSite": {
+    "message": "網站"
+  },
+  "colTrackers": {
+    "message": "追蹤器"
+  },
+  "colGrade": {
+    "message": "評等"
+  },
+  "blockedList": {
+    "message": "已封鎖的公司"
+  },
+  "noneBlocked": {
+    "message": "你尚未封鎖任何公司。請在擴充功能視窗中使用公司旁的盾牌。"
+  },
+  "clearHistory": {
+    "message": "清除紀錄"
+  },
+  "confirmClear": {
+    "message": "要刪除所有追蹤紀錄嗎？"
+  },
+  "noData": {
+    "message": "尚無資料。先瀏覽一下再回來看看。"
+  },
+  "recTitle": {
+    "message": "此網站正在錄製你的工作階段"
+  },
+  "recText": {
+    "message": "你的滑鼠移動、點擊與輸入可能被以下服務錄製："
+  },
+  "quickProtection": {
+    "message": "快速防護"
+  },
+  "profileAds": {
+    "message": "所有廣告"
+  },
+  "profileAnalytics": {
+    "message": "所有分析"
+  },
+  "profileRecording": {
+    "message": "工作階段錄製工具"
+  },
+  "pauseSite": {
+    "message": "在此網站暫停封鎖"
+  },
+  "resumeSite": {
+    "message": "在此網站恢復封鎖"
+  },
+  "pausedLine": {
+    "message": "此處已暫停封鎖。追蹤器仍會顯示在雷達上。"
+  },
+  "pausedList": {
+    "message": "已暫停封鎖的網站"
+  },
+  "nonePaused": {
+    "message": "所有網站皆已啟用封鎖。"
+  },
+  "resumeShort": {
+    "message": "恢復"
+  },
+  "catMining": {
+    "message": "加密貨幣挖礦"
+  },
+  "profileMining": {
+    "message": "挖礦程式"
+  },
+  "minTitle": {
+    "message": "此網站正嘗試挖掘加密貨幣"
+  },
+  "minText": {
+    "message": "這些服務的指令碼可能會占用你的處理器替他人挖礦："
+  },
+  "fpTitle": {
+    "message": "此網站正在擷取你的瀏覽器指紋"
+  },
+  "fpText": {
+    "message": "它會讀取裝置的隱藏資訊，以便在沒有 Cookie 的情況下辨識你："
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL（顯示卡）"
+  },
+  "fp_audio": {
+    "message": "音訊"
+  },
+  "fp_fonts": {
+    "message": "已安裝字型"
+  },
+  "fpBy": {
+    "message": "來源："
+  },
+  "fpShort": {
+    "message": "指紋"
+  },
+  "optFingerprint": {
+    "message": "指紋防護"
+  },
+  "optFingerprintHint": {
+    "message": "為 canvas 與音訊數值加入極小的雜訊並隱藏你的顯示卡，使其無法用來辨識你。極少數情況下，繪圖應用程式的顯示可能略有不同。"
+  },
+  "optWebrtc": {
+    "message": "對 WebRTC 隱藏 IP"
+  },
+  "optWebrtcHint": {
+    "message": "適用於 VPN 使用者：網站將無法透過 WebRTC 看到你的真實 IP 位址。瀏覽器中的視訊通話可能無法使用。"
+  },
+  "locale": {
+    "message": "zh-TW",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

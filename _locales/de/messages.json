@@ -167,5 +167,53 @@
   },
   "resumeShort": {
     "message": "Fortsetzen"
+  },
+  "catMining": {
+    "message": "Krypto-Mining"
+  },
+  "profileMining": {
+    "message": "Krypto-Miner"
+  },
+  "minTitle": {
+    "message": "Diese Seite versucht, Kryptowährung zu schürfen"
+  },
+  "minText": {
+    "message": "Skripte dieser Dienste können deinen Prozessor nutzen, um für andere zu schürfen:"
+  },
+  "fpTitle": {
+    "message": "Diese Seite erstellt einen Fingerabdruck deines Browsers"
+  },
+  "fpText": {
+    "message": "Sie liest versteckte Merkmale deines Geräts aus, um dich ohne Cookies wiederzuerkennen:"
+  },
+  "fp_canvas": {
+    "message": "Canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (Grafikkarte)"
+  },
+  "fp_audio": {
+    "message": "Audio"
+  },
+  "fp_fonts": {
+    "message": "installierte Schriftarten"
+  },
+  "fpBy": {
+    "message": "durch"
+  },
+  "fpShort": {
+    "message": "Fingerprinting"
+  },
+  "optFingerprint": {
+    "message": "Fingerabdruck-Schutz"
+  },
+  "optFingerprintHint": {
+    "message": "Fügt Canvas- und Audio-Werten winziges Rauschen hinzu und verbirgt deine Grafikkarte, damit du daran nicht erkannt wirst. Selten können Zeichen-Apps leicht anders aussehen."
+  },
+  "optWebrtc": {
+    "message": "IP vor WebRTC verbergen"
+  },
+  "optWebrtcHint": {
+    "message": "Für VPN-Nutzer: Websites sehen deine echte IP-Adresse nicht über WebRTC. Videoanrufe im Browser funktionieren dann eventuell nicht."
   }
 }

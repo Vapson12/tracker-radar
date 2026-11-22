@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Tazama moja kwa moja tovuti unayotembelea inatuma data yako kwa kampuni zipi."
+  },
+  "statCompanies": {
+    "message": "kampuni za ufuatiliaji"
+  },
+  "statDomains": {
+    "message": "vikoa vya ufuatiliaji"
+  },
+  "statRequests": {
+    "message": "maombi ya wahusika wengine"
+  },
+  "whoIsWatching": {
+    "message": "Nani anakutazama"
+  },
+  "noTrackers": {
+    "message": "Hakuna vifuatiliaji vinavyojulikana kwenye ukurasa huu. 🎉"
+  },
+  "otherDomains": {
+    "message": "Vikoa vingine vya wahusika wengine"
+  },
+  "footer": {
+    "message": "Uchambuzi wote hufanyika ndani ya kifaa. Hakuna kinachotoka kwenye kivinjari chako."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar inahitaji ruhusa kwa tovuti zote ili kuona maombi yake."
+  },
+  "permGrant": {
+    "message": "Toa ruhusa"
+  },
+  "reloadToScan": {
+    "message": "Pakia upya ukurasa ili kuanza kuchanganua"
+  },
+  "catAds": {
+    "message": "Matangazo"
+  },
+  "catAnalytics": {
+    "message": "Takwimu"
+  },
+  "catRecording": {
+    "message": "Kurekodi kipindi"
+  },
+  "catSocial": {
+    "message": "Mitandao ya kijamii"
+  },
+  "requests": {
+    "message": "maombi"
+  },
+  "actBlock": {
+    "message": "Zuia kampuni hii kwenye tovuti zote"
+  },
+  "actUnblock": {
+    "message": "Ondoa kizuizi"
+  },
+  "blockedTag": {
+    "message": "imezuiwa"
+  },
+  "blockedRequests": {
+    "message": "Maombi yaliyozuiwa"
+  },
+  "gradeHint": {
+    "message": "Daraja la faragha: kulingana na idadi na aina ya vifuatiliaji kwenye ukurasa huu"
+  },
+  "openStats": {
+    "message": "Takwimu"
+  },
+  "statsTitle": {
+    "message": "Historia yako ya ufuatiliaji"
+  },
+  "range7": {
+    "message": "Siku 7 zilizopita"
+  },
+  "range30": {
+    "message": "Siku 30 zilizopita"
+  },
+  "sCompanies": {
+    "message": "kampuni za ufuatiliaji"
+  },
+  "sSites": {
+    "message": "tovuti ulizotembelea"
+  },
+  "sRequests": {
+    "message": "maombi kwa vifuatiliaji"
+  },
+  "sBlocked": {
+    "message": "maombi yaliyozuiwa"
+  },
+  "perDay": {
+    "message": "Kampuni za ufuatiliaji kwa siku"
+  },
+  "topCompanies": {
+    "message": "Nani anakufuatilia zaidi"
+  },
+  "topSites": {
+    "message": "Tovuti zenye vifuatiliaji vingi zaidi"
+  },
+  "colCompany": {
+    "message": "Kampuni"
+  },
+  "colSites": {
+    "message": "Tovuti"
+  },
+  "colSite": {
+    "message": "Tovuti"
+  },
+  "colTrackers": {
+    "message": "Vifuatiliaji"
+  },
+  "colGrade": {
+    "message": "Daraja"
+  },
+  "blockedList": {
+    "message": "Kampuni zilizozuiwa"
+  },
+  "noneBlocked": {
+    "message": "Bado hujazuia kampuni yoyote. Tumia ngao iliyo kando ya kampuni kwenye dirisha la kiendelezi."
+  },
+  "clearHistory": {
+    "message": "Futa historia"
+  },
+  "confirmClear": {
+    "message": "Ufute historia yote ya ufuatiliaji?"
+  },
+  "noData": {
+    "message": "Bado hakuna data. Vinjari kidogo kisha urudi."
+  },
+  "recTitle": {
+    "message": "Tovuti hii inarekodi kipindi chako"
+  },
+  "recText": {
+    "message": "Mienendo ya kipanya, mibofyo na unachoandika vinaweza kurekodiwa na:"
+  },
+  "quickProtection": {
+    "message": "Ulinzi wa haraka"
+  },
+  "profileAds": {
+    "message": "Matangazo yote"
+  },
+  "profileAnalytics": {
+    "message": "Takwimu zote"
+  },
+  "profileRecording": {
+    "message": "Virekodi vya vipindi"
+  },
+  "pauseSite": {
+    "message": "Sitisha kuzuia kwenye tovuti hii"
+  },
+  "resumeSite": {
+    "message": "Endelea kuzuia kwenye tovuti hii"
+  },
+  "pausedLine": {
+    "message": "Kuzuia kumesitishwa hapa. Vifuatiliaji bado vinaonekana kwenye rada."
+  },
+  "pausedList": {
+    "message": "Tovuti zenye kuzuia kulikositishwa"
+  },
+  "nonePaused": {
+    "message": "Kuzuia kunatumika kwenye tovuti zote."
+  },
+  "resumeShort": {
+    "message": "Endelea"
+  },
+  "catMining": {
+    "message": "Uchimbaji wa kripto"
+  },
+  "profileMining": {
+    "message": "Wachimbaji wa kripto"
+  },
+  "minTitle": {
+    "message": "Tovuti hii inajaribu kuchimba sarafu ya kripto"
+  },
+  "minText": {
+    "message": "Hati za huduma hizi zinaweza kutumia kichakataji chako kuchimba kwa ajili ya mtu mwingine:"
+  },
+  "fpTitle": {
+    "message": "Tovuti hii inachukua alama ya kivinjari chako"
+  },
+  "fpText": {
+    "message": "Inasoma maelezo yaliyofichwa ya kifaa chako ili kukutambua bila vidakuzi:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (kadi ya michoro)"
+  },
+  "fp_audio": {
+    "message": "sauti"
+  },
+  "fp_fonts": {
+    "message": "fonti zilizosakinishwa"
+  },
+  "fpBy": {
+    "message": "na"
+  },
+  "fpShort": {
+    "message": "Alama ya kivinjari"
+  },
+  "optFingerprint": {
+    "message": "Ulinzi dhidi ya alama"
+  },
+  "optFingerprintHint": {
+    "message": "Huongeza kelele ndogo kwenye data ya canvas na sauti na kuficha kadi yako ya michoro, ili zisiweze kutumika kukutambua. Mara chache programu za kuchora zinaweza kuonekana tofauti kidogo."
+  },
+  "optWebrtc": {
+    "message": "Ficha IP dhidi ya WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "Kwa watumiaji wa VPN: tovuti hazitaona anwani yako halisi ya IP kupitia WebRTC. Simu za video kwenye kivinjari zinaweza kuacha kufanya kazi."
+  },
+  "locale": {
+    "message": "sw",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

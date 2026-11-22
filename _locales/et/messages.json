@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Vaata reaalajas, millistele ettevõtetele külastatav veebileht sinu andmeid saadab."
+  },
+  "statCompanies": {
+    "message": "jälgimisettevõtted"
+  },
+  "statDomains": {
+    "message": "jälgimisdomeenid"
+  },
+  "statRequests": {
+    "message": "kolmanda osapoole päringud"
+  },
+  "whoIsWatching": {
+    "message": "Kes sind jälgib"
+  },
+  "noTrackers": {
+    "message": "Sellelt lehelt ei leitud teadaolevaid jälgijaid. 🎉"
+  },
+  "otherDomains": {
+    "message": "Muud kolmanda osapoole domeenid"
+  },
+  "footer": {
+    "message": "Kogu analüüs toimub kohapeal. Midagi ei lahku sinu brauserist."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar vajab juurdepääsu kõigile veebilehtedele, et näha nende päringuid."
+  },
+  "permGrant": {
+    "message": "Luba juurdepääs"
+  },
+  "reloadToScan": {
+    "message": "Skannimise alustamiseks laadi leht uuesti"
+  },
+  "catAds": {
+    "message": "Reklaam"
+  },
+  "catAnalytics": {
+    "message": "Analüütika"
+  },
+  "catRecording": {
+    "message": "Seansi salvestamine"
+  },
+  "catSocial": {
+    "message": "Sotsiaalmeedia"
+  },
+  "requests": {
+    "message": "päringut"
+  },
+  "actBlock": {
+    "message": "Blokeeri see ettevõte kõigil veebilehtedel"
+  },
+  "actUnblock": {
+    "message": "Eemalda blokeering"
+  },
+  "blockedTag": {
+    "message": "blokeeritud"
+  },
+  "blockedRequests": {
+    "message": "Blokeeritud päringud"
+  },
+  "gradeHint": {
+    "message": "Privaatsushinne: lehel olevate jälgijate arvu ja tüübi põhjal"
+  },
+  "openStats": {
+    "message": "Statistika"
+  },
+  "statsTitle": {
+    "message": "Sinu jälgimisajalugu"
+  },
+  "range7": {
+    "message": "Viimased 7 päeva"
+  },
+  "range30": {
+    "message": "Viimased 30 päeva"
+  },
+  "sCompanies": {
+    "message": "jälgimisettevõtted"
+  },
+  "sSites": {
+    "message": "külastatud veebilehed"
+  },
+  "sRequests": {
+    "message": "päringud jälgijatele"
+  },
+  "sBlocked": {
+    "message": "blokeeritud päringud"
+  },
+  "perDay": {
+    "message": "Jälgimisettevõtted päevas"
+  },
+  "topCompanies": {
+    "message": "Kes sind kõige rohkem jälgib"
+  },
+  "topSites": {
+    "message": "Kõige rohkemate jälgijatega veebilehed"
+  },
+  "colCompany": {
+    "message": "Ettevõte"
+  },
+  "colSites": {
+    "message": "Veebilehed"
+  },
+  "colSite": {
+    "message": "Veebileht"
+  },
+  "colTrackers": {
+    "message": "Jälgijad"
+  },
+  "colGrade": {
+    "message": "Hinne"
+  },
+  "blockedList": {
+    "message": "Blokeeritud ettevõtted"
+  },
+  "noneBlocked": {
+    "message": "Sa pole veel ühtegi ettevõtet blokeerinud. Kasuta laienduse aknas ettevõtte kõrval olevat kilpi."
+  },
+  "clearHistory": {
+    "message": "Tühjenda ajalugu"
+  },
+  "confirmClear": {
+    "message": "Kas kustutada kogu jälgimisajalugu?"
+  },
+  "noData": {
+    "message": "Andmeid veel pole. Sirvi veidi ja tule tagasi."
+  },
+  "recTitle": {
+    "message": "See veebileht salvestab sinu seanssi"
+  },
+  "recText": {
+    "message": "Sinu hiireliigutusi, klõpse ja trükkimist võivad salvestada:"
+  },
+  "quickProtection": {
+    "message": "Kiirkaitse"
+  },
+  "profileAds": {
+    "message": "Kõik reklaamid"
+  },
+  "profileAnalytics": {
+    "message": "Kogu analüütika"
+  },
+  "profileRecording": {
+    "message": "Seansi salvestajad"
+  },
+  "pauseSite": {
+    "message": "Peata blokeerimine sellel lehel"
+  },
+  "resumeSite": {
+    "message": "Jätka blokeerimist sellel lehel"
+  },
+  "pausedLine": {
+    "message": "Blokeerimine on siin peatatud. Jälgijad on radaril endiselt näha."
+  },
+  "pausedList": {
+    "message": "Peatatud blokeerimisega lehed"
+  },
+  "nonePaused": {
+    "message": "Blokeerimine on kõigil lehtedel aktiivne."
+  },
+  "resumeShort": {
+    "message": "Jätka"
+  },
+  "catMining": {
+    "message": "Krüptokaevandamine"
+  },
+  "profileMining": {
+    "message": "Krüptokaevurid"
+  },
+  "minTitle": {
+    "message": "See leht üritab kaevandada krüptoraha"
+  },
+  "minText": {
+    "message": "Nende teenuste skriptid võivad kasutada sinu protsessorit kellegi teise jaoks kaevandamiseks:"
+  },
+  "fpTitle": {
+    "message": "See leht võtab sinu brauserist sõrmejälje"
+  },
+  "fpText": {
+    "message": "See loeb sinu seadme peidetud andmeid, et sind ilma küpsisteta ära tunda:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (graafikakaart)"
+  },
+  "fp_audio": {
+    "message": "heli"
+  },
+  "fp_fonts": {
+    "message": "paigaldatud fondid"
+  },
+  "fpBy": {
+    "message": "allikas:"
+  },
+  "fpShort": {
+    "message": "Sõrmejälg"
+  },
+  "optFingerprint": {
+    "message": "Sõrmejäljekaitse"
+  },
+  "optFingerprintHint": {
+    "message": "Lisab canvase ja heli väärtustele väikest müra ning peidab sinu graafikakaardi, et neid ei saaks sinu äratundmiseks kasutada. Harva võivad joonistusrakendused veidi teistsugused välja näha."
+  },
+  "optWebrtc": {
+    "message": "Peida IP WebRTC eest"
+  },
+  "optWebrtcHint": {
+    "message": "VPN-i kasutajatele: veebilehed ei näe WebRTC kaudu sinu päris IP-aadressi. Brauseri videokõned võivad lakata töötamast."
+  },
+  "locale": {
+    "message": "et",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

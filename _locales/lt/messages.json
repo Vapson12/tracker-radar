@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Matykite tiesiogiai, kurioms įmonėms lankoma svetainė siunčia jūsų duomenis."
+  },
+  "statCompanies": {
+    "message": "sekimo įmonės"
+  },
+  "statDomains": {
+    "message": "sekimo domenai"
+  },
+  "statRequests": {
+    "message": "trečiųjų šalių užklausos"
+  },
+  "whoIsWatching": {
+    "message": "Kas jus stebi"
+  },
+  "noTrackers": {
+    "message": "Šiame puslapyje nerasta žinomų sekiklių. 🎉"
+  },
+  "otherDomains": {
+    "message": "Kiti trečiųjų šalių domenai"
+  },
+  "footer": {
+    "message": "Visa analizė atliekama vietoje. Niekas nepalieka jūsų naršyklės."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar reikia prieigos prie visų svetainių, kad matytų jų užklausas."
+  },
+  "permGrant": {
+    "message": "Suteikti prieigą"
+  },
+  "reloadToScan": {
+    "message": "Įkelkite puslapį iš naujo, kad pradėtumėte skenavimą"
+  },
+  "catAds": {
+    "message": "Reklama"
+  },
+  "catAnalytics": {
+    "message": "Analitika"
+  },
+  "catRecording": {
+    "message": "Seansų įrašymas"
+  },
+  "catSocial": {
+    "message": "Socialiniai tinklai"
+  },
+  "requests": {
+    "message": "užklausos"
+  },
+  "actBlock": {
+    "message": "Blokuoti šią įmonę visose svetainėse"
+  },
+  "actUnblock": {
+    "message": "Atblokuoti"
+  },
+  "blockedTag": {
+    "message": "užblokuota"
+  },
+  "blockedRequests": {
+    "message": "Užblokuotos užklausos"
+  },
+  "gradeHint": {
+    "message": "Privatumo įvertinimas: pagal sekiklių skaičių ir tipą šiame puslapyje"
+  },
+  "openStats": {
+    "message": "Statistika"
+  },
+  "statsTitle": {
+    "message": "Jūsų sekimo istorija"
+  },
+  "range7": {
+    "message": "Paskutinės 7 dienos"
+  },
+  "range30": {
+    "message": "Paskutinės 30 dienų"
+  },
+  "sCompanies": {
+    "message": "sekimo įmonės"
+  },
+  "sSites": {
+    "message": "aplankytos svetainės"
+  },
+  "sRequests": {
+    "message": "užklausos sekikliams"
+  },
+  "sBlocked": {
+    "message": "užblokuotos užklausos"
+  },
+  "perDay": {
+    "message": "Sekimo įmonės per dieną"
+  },
+  "topCompanies": {
+    "message": "Kas jus seka dažniausiai"
+  },
+  "topSites": {
+    "message": "Svetainės su daugiausia sekiklių"
+  },
+  "colCompany": {
+    "message": "Įmonė"
+  },
+  "colSites": {
+    "message": "Svetainės"
+  },
+  "colSite": {
+    "message": "Svetainė"
+  },
+  "colTrackers": {
+    "message": "Sekikliai"
+  },
+  "colGrade": {
+    "message": "Įvertinimas"
+  },
+  "blockedList": {
+    "message": "Užblokuotos įmonės"
+  },
+  "noneBlocked": {
+    "message": "Dar neužblokavote nė vienos įmonės. Naudokite skydą šalia įmonės plėtinio lange."
+  },
+  "clearHistory": {
+    "message": "Išvalyti istoriją"
+  },
+  "confirmClear": {
+    "message": "Ištrinti visą sekimo istoriją?"
+  },
+  "noData": {
+    "message": "Duomenų dar nėra. Šiek tiek panaršykite ir grįžkite."
+  },
+  "recTitle": {
+    "message": "Ši svetainė įrašo jūsų seansą"
+  },
+  "recText": {
+    "message": "Jūsų pelės judesius, paspaudimus ir rašymą gali įrašyti:"
+  },
+  "quickProtection": {
+    "message": "Greita apsauga"
+  },
+  "profileAds": {
+    "message": "Visa reklama"
+  },
+  "profileAnalytics": {
+    "message": "Visa analitika"
+  },
+  "profileRecording": {
+    "message": "Seansų įrašymas"
+  },
+  "pauseSite": {
+    "message": "Pristabdyti blokavimą šioje svetainėje"
+  },
+  "resumeSite": {
+    "message": "Tęsti blokavimą šioje svetainėje"
+  },
+  "pausedLine": {
+    "message": "Blokavimas čia pristabdytas. Sekikliai vis dar matomi radare."
+  },
+  "pausedList": {
+    "message": "Svetainės su pristabdytu blokavimu"
+  },
+  "nonePaused": {
+    "message": "Blokavimas veikia visose svetainėse."
+  },
+  "resumeShort": {
+    "message": "Tęsti"
+  },
+  "catMining": {
+    "message": "Kriptovaliutų kasimas"
+  },
+  "profileMining": {
+    "message": "Kriptokasėjai"
+  },
+  "minTitle": {
+    "message": "Ši svetainė bando kasti kriptovaliutą"
+  },
+  "minText": {
+    "message": "Šių paslaugų scenarijai gali naudoti jūsų procesorių, kad kastų kitam:"
+  },
+  "fpTitle": {
+    "message": "Ši svetainė kuria jūsų naršyklės piršto atspaudą"
+  },
+  "fpText": {
+    "message": "Ji skaito paslėptus jūsų įrenginio duomenis, kad atpažintų jus be slapukų:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (vaizdo plokštė)"
+  },
+  "fp_audio": {
+    "message": "garsas"
+  },
+  "fp_fonts": {
+    "message": "įdiegti šriftai"
+  },
+  "fpBy": {
+    "message": "per"
+  },
+  "fpShort": {
+    "message": "Piršto atspaudas"
+  },
+  "optFingerprint": {
+    "message": "Apsauga nuo atspaudo"
+  },
+  "optFingerprintHint": {
+    "message": "Prideda nežymų triukšmą prie canvas ir garso duomenų ir paslepia jūsų vaizdo plokštę, kad pagal juos jūsų nebūtų galima atpažinti. Retkarčiais piešimo programos gali atrodyti šiek tiek kitaip."
+  },
+  "optWebrtc": {
+    "message": "Slėpti IP nuo WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "VPN naudotojams: svetainės per WebRTC nematys tikrojo jūsų IP adreso. Vaizdo skambučiai naršyklėje gali nustoti veikti."
+  },
+  "locale": {
+    "message": "lt",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

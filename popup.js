@@ -7,18 +7,21 @@ const $ = (id) => document.getElementById(id);
 const t = (key) => api.i18n.getMessage(key) || key;
 // Locale actually used for messages (e.g. "pl"), so dates match the UI language.
 const uiLocale = () => api.i18n.getMessage('locale') || 'en';
-const CAT_KEY = { ads: 'catAds', analytics: 'catAnalytics', recording: 'catRecording', social: 'catSocial' };
+const CAT_KEY = { ads: 'catAds', analytics: 'catAnalytics', recording: 'catRecording', social: 'catSocial', mining: 'catMining' };
 const catLabel = (cat) => t(CAT_KEY[cat]);
 
 // Translate static text: every element with data-i18n="messageKey".
 function applyI18n() {
   document.documentElement.lang = uiLocale();
+  // Right-to-left languages (Arabic, Hebrew, Persian…)
+  document.documentElement.dir = /^(ar|he|fa|ur)\b/.test(uiLocale()) ? 'rtl' : (api.i18n.getMessage('@@bidi_dir') || 'ltr');
   for (const el of document.querySelectorAll('[data-i18n]')) el.textContent = t(el.dataset.i18n);
 }
 
 const openCompanies = new Set();
 let blockedCompanies = new Set();
 let activeProfiles = new Set();
+let currentOptions = {};
 let pausedSites = new Set();
 let currentSite = '';
 let currentTabId = null;
@@ -30,7 +33,7 @@ function hashAngle(str) {
 }
 
 // Distance from the center per category (radar rings).
-const RING = { recording: 32, analytics: 55, social: 75, ads: 88 };
+const RING = { mining: 18, recording: 32, analytics: 55, social: 75, ads: 88 };
 
 function groupByCompany(state) {
   const companies = new Map();
@@ -150,14 +153,30 @@ function renderOthers(others) {
 
 // Session recorders get a loud warning: they capture mouse movements, clicks and typing.
 function renderRecordingWarning(state) {
-  const names = new Set();
-  for (const d of Object.values(state.domains)) if (d.category === 'recording') names.add(d.company);
-  $('rec-warn').hidden = names.size === 0;
-  $('rec-names').textContent = [...names].join(', ');
+  for (const [cat, box, list] of [['recording', 'rec-warn', 'rec-names'], ['mining', 'min-warn', 'min-names']]) {
+    const names = new Set();
+    for (const d of Object.values(state.domains)) if (d.category === cat) names.add(d.company);
+    $(box).hidden = names.size === 0;
+    $(list).textContent = [...names].join(', ');
+  }
+}
+
+function renderFingerprint(state) {
+  const fp = state.fp || {};
+  const techniques = Object.keys(fp);
+  $('fp-warn').hidden = techniques.length === 0;
+  $('fp-list').textContent = techniques.map((x) => t('fp_' + x)).join(', ');
+  // Who did it: third-party script hosts (the site's own scripts are left out).
+  const hosts = [...new Set(Object.values(fp).flat())].filter((h) => h && !h.endsWith(state.site));
+  $('fp-by').textContent = hosts.length ? ` (${t('fpBy')} ${hosts.slice(0, 3).join(', ')})` : '';
 }
 
 function renderProtection(state) {
-  for (const chip of document.querySelectorAll('.chip')) {
+  for (const chip of document.querySelectorAll('.chip[data-option]')) {
+    chip.setAttribute('aria-pressed', String(!!currentOptions[chip.dataset.option]));
+    chip.title = t(chip.dataset.option === 'webrtc' ? 'optWebrtcHint' : 'optFingerprintHint');
+  }
+  for (const chip of document.querySelectorAll('.chip[data-profile]')) {
     chip.setAttribute('aria-pressed', String(activeProfiles.has(chip.dataset.profile)));
   }
   currentSite = state?.site || '';
@@ -169,10 +188,24 @@ function renderProtection(state) {
   $('paused-line').hidden = !isPaused;
 }
 
-for (const chip of document.querySelectorAll('.chip')) {
+for (const chip of document.querySelectorAll('.chip[data-profile]')) {
   chip.addEventListener('click', async () => {
     const on = chip.getAttribute('aria-pressed') !== 'true';
     activeProfiles = new Set(await api.runtime.sendMessage({ type: 'setProfile', category: chip.dataset.profile, on }));
+    refresh(currentTabId);
+  });
+}
+
+for (const chip of document.querySelectorAll('.chip[data-option]')) {
+  chip.addEventListener('click', async () => {
+    const key = chip.dataset.option;
+    const on = !currentOptions[key];
+    // WebRTC needs the optional "privacy" permission. Ask first, while we still
+    // have the click (Firefox requires it); the background applies the setting.
+    const asked = key === 'webrtc' && on ? api.permissions.request({ permissions: ['privacy'] }) : null;
+    currentOptions = await api.runtime.sendMessage({ type: 'setOption', key, value: on });
+    if (asked) { await asked.catch(() => false); await api.runtime.sendMessage({ type: 'webrtcStatus' }); }
+    if (key === 'fpProtect' && currentTabId != null) api.tabs.reload(currentTabId);
     refresh(currentTabId);
   });
 }
@@ -210,6 +243,7 @@ async function refresh(tabId) {
   blockedCompanies = new Set(res?.blocked || []);
   activeProfiles = new Set(res?.profiles || []);
   pausedSites = new Set(res?.paused || []);
+  currentOptions = res?.options || {};
   renderProtection(state);
   if (!state) {
     $('site').textContent = t('reloadToScan');
@@ -222,7 +256,8 @@ async function refresh(tabId) {
   $('stat-domains').textContent = trackerDomains;
   $('stat-requests').textContent = state.totalThirdParty;
 
-  const grade = gradeFor(privacyScore(companies.map((c) => c.category)));
+  renderFingerprint(state);
+  const grade = gradeFor(privacyScore(companies.map((c) => c.category), Object.keys(state.fp || {})));
   const g = $('grade');
   g.hidden = false;
   g.textContent = grade;

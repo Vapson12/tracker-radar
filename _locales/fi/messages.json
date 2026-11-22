@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Näe reaaliajassa, mille yrityksille vierailemasi sivusto lähettää tietojasi."
+  },
+  "statCompanies": {
+    "message": "seurantayritykset"
+  },
+  "statDomains": {
+    "message": "seurantaverkkotunnukset"
+  },
+  "statRequests": {
+    "message": "kolmannen osapuolen pyynnöt"
+  },
+  "whoIsWatching": {
+    "message": "Kuka katselee"
+  },
+  "noTrackers": {
+    "message": "Tältä sivulta ei löytynyt tunnettuja seurantatyökaluja. 🎉"
+  },
+  "otherDomains": {
+    "message": "Muut kolmannen osapuolen verkkotunnukset"
+  },
+  "footer": {
+    "message": "Kaikki analyysi tehdään paikallisesti. Mikään ei poistu selaimestasi."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar tarvitsee pääsyn kaikille sivustoille nähdäkseen niiden pyynnöt."
+  },
+  "permGrant": {
+    "message": "Anna pääsy"
+  },
+  "reloadToScan": {
+    "message": "Lataa sivu uudelleen aloittaaksesi tarkistuksen"
+  },
+  "catAds": {
+    "message": "Mainonta"
+  },
+  "catAnalytics": {
+    "message": "Analytiikka"
+  },
+  "catRecording": {
+    "message": "Istunnon tallennus"
+  },
+  "catSocial": {
+    "message": "Sosiaalinen media"
+  },
+  "requests": {
+    "message": "pyyntöä"
+  },
+  "actBlock": {
+    "message": "Estä tämä yritys kaikilla sivustoilla"
+  },
+  "actUnblock": {
+    "message": "Poista esto"
+  },
+  "blockedTag": {
+    "message": "estetty"
+  },
+  "blockedRequests": {
+    "message": "Estetyt pyynnöt"
+  },
+  "gradeHint": {
+    "message": "Yksityisyysarvosana: sivun seurantatyökalujen määrän ja tyypin perusteella"
+  },
+  "openStats": {
+    "message": "Tilastot"
+  },
+  "statsTitle": {
+    "message": "Seurantahistoriasi"
+  },
+  "range7": {
+    "message": "Viimeiset 7 päivää"
+  },
+  "range30": {
+    "message": "Viimeiset 30 päivää"
+  },
+  "sCompanies": {
+    "message": "seurantayritykset"
+  },
+  "sSites": {
+    "message": "vieraillut sivustot"
+  },
+  "sRequests": {
+    "message": "pyynnöt seurantatyökaluille"
+  },
+  "sBlocked": {
+    "message": "estetyt pyynnöt"
+  },
+  "perDay": {
+    "message": "Seurantayritykset päivittäin"
+  },
+  "topCompanies": {
+    "message": "Kuka seuraa sinua eniten"
+  },
+  "topSites": {
+    "message": "Sivustot, joilla on eniten seurantaa"
+  },
+  "colCompany": {
+    "message": "Yritys"
+  },
+  "colSites": {
+    "message": "Sivustot"
+  },
+  "colSite": {
+    "message": "Sivusto"
+  },
+  "colTrackers": {
+    "message": "Seurantatyökalut"
+  },
+  "colGrade": {
+    "message": "Arvosana"
+  },
+  "blockedList": {
+    "message": "Estetyt yritykset"
+  },
+  "noneBlocked": {
+    "message": "Et ole vielä estänyt yhtään yritystä. Käytä yrityksen vieressä olevaa kilpeä laajennuksen ikkunassa."
+  },
+  "clearHistory": {
+    "message": "Tyhjennä historia"
+  },
+  "confirmClear": {
+    "message": "Poistetaanko koko seurantahistoria?"
+  },
+  "noData": {
+    "message": "Ei vielä tietoja. Selaa hetki ja palaa sitten."
+  },
+  "recTitle": {
+    "message": "Tämä sivusto tallentaa istuntosi"
+  },
+  "recText": {
+    "message": "Hiiren liikkeesi, napsautuksesi ja kirjoittamasi voi tallentaa:"
+  },
+  "quickProtection": {
+    "message": "Pikasuojaus"
+  },
+  "profileAds": {
+    "message": "Kaikki mainokset"
+  },
+  "profileAnalytics": {
+    "message": "Kaikki analytiikka"
+  },
+  "profileRecording": {
+    "message": "Istuntojen tallentimet"
+  },
+  "pauseSite": {
+    "message": "Keskeytä esto tällä sivustolla"
+  },
+  "resumeSite": {
+    "message": "Jatka estoa tällä sivustolla"
+  },
+  "pausedLine": {
+    "message": "Esto on keskeytetty täällä. Seurantatyökalut näkyvät yhä tutkassa."
+  },
+  "pausedList": {
+    "message": "Sivustot, joilla esto on keskeytetty"
+  },
+  "nonePaused": {
+    "message": "Esto on käytössä kaikilla sivustoilla."
+  },
+  "resumeShort": {
+    "message": "Jatka"
+  },
+  "catMining": {
+    "message": "Kryptolouhinta"
+  },
+  "profileMining": {
+    "message": "Kryptolouhijat"
+  },
+  "minTitle": {
+    "message": "Tämä sivusto yrittää louhia kryptovaluuttaa"
+  },
+  "minText": {
+    "message": "Näiden palveluiden skriptit voivat käyttää suoritintasi louhiakseen jollekulle muulle:"
+  },
+  "fpTitle": {
+    "message": "Tämä sivusto ottaa selaimestasi sormenjäljen"
+  },
+  "fpText": {
+    "message": "Se lukee laitteesi piilotietoja tunnistaakseen sinut ilman evästeitä:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (näytönohjain)"
+  },
+  "fp_audio": {
+    "message": "ääni"
+  },
+  "fp_fonts": {
+    "message": "asennetut fontit"
+  },
+  "fpBy": {
+    "message": "lähde:"
+  },
+  "fpShort": {
+    "message": "Sormenjälki"
+  },
+  "optFingerprint": {
+    "message": "Sormenjälkisuojaus"
+  },
+  "optFingerprintHint": {
+    "message": "Lisää pientä kohinaa canvas- ja äänilukemiin ja piilottaa näytönohjaimesi, jotta niitä ei voi käyttää tunnistamiseesi. Harvoin piirtosovellukset voivat näyttää hieman erilaisilta."
+  },
+  "optWebrtc": {
+    "message": "Piilota IP WebRTC:ltä"
+  },
+  "optWebrtcHint": {
+    "message": "VPN-käyttäjille: sivustot eivät näe todellista IP-osoitettasi WebRTC:n kautta. Selaimen videopuhelut voivat lakata toimimasta."
+  },
+  "locale": {
+    "message": "fi",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

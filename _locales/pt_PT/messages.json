@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Veja em direto para que empresas o site que está a visitar envia os seus dados."
+  },
+  "statCompanies": {
+    "message": "empresas de rastreio"
+  },
+  "statDomains": {
+    "message": "domínios de rastreio"
+  },
+  "statRequests": {
+    "message": "pedidos de terceiros"
+  },
+  "whoIsWatching": {
+    "message": "Quem está a observar"
+  },
+  "noTrackers": {
+    "message": "Nenhum rastreador conhecido detetado nesta página. 🎉"
+  },
+  "otherDomains": {
+    "message": "Outros domínios de terceiros"
+  },
+  "footer": {
+    "message": "Toda a análise é feita localmente. Nada sai do seu navegador."
+  },
+  "permNeeded": {
+    "message": "O Tracker Radar precisa de acesso a todos os sites para ver os seus pedidos."
+  },
+  "permGrant": {
+    "message": "Permitir acesso"
+  },
+  "reloadToScan": {
+    "message": "Recarregue a página para iniciar a análise"
+  },
+  "catAds": {
+    "message": "Publicidade"
+  },
+  "catAnalytics": {
+    "message": "Análise"
+  },
+  "catRecording": {
+    "message": "Gravação de sessões"
+  },
+  "catSocial": {
+    "message": "Redes sociais"
+  },
+  "requests": {
+    "message": "pedidos"
+  },
+  "actBlock": {
+    "message": "Bloquear esta empresa em todos os sites"
+  },
+  "actUnblock": {
+    "message": "Desbloquear"
+  },
+  "blockedTag": {
+    "message": "bloqueada"
+  },
+  "blockedRequests": {
+    "message": "Pedidos bloqueados"
+  },
+  "gradeHint": {
+    "message": "Classificação de privacidade: com base no número e tipo de rastreadores nesta página"
+  },
+  "openStats": {
+    "message": "Estatísticas"
+  },
+  "statsTitle": {
+    "message": "O seu histórico de rastreio"
+  },
+  "range7": {
+    "message": "Últimos 7 dias"
+  },
+  "range30": {
+    "message": "Últimos 30 dias"
+  },
+  "sCompanies": {
+    "message": "empresas de rastreio"
+  },
+  "sSites": {
+    "message": "sites visitados"
+  },
+  "sRequests": {
+    "message": "pedidos a rastreadores"
+  },
+  "sBlocked": {
+    "message": "pedidos bloqueados"
+  },
+  "perDay": {
+    "message": "Empresas de rastreio por dia"
+  },
+  "topCompanies": {
+    "message": "Quem mais o segue"
+  },
+  "topSites": {
+    "message": "Sites com mais rastreadores"
+  },
+  "colCompany": {
+    "message": "Empresa"
+  },
+  "colSites": {
+    "message": "Sites"
+  },
+  "colSite": {
+    "message": "Site"
+  },
+  "colTrackers": {
+    "message": "Rastreadores"
+  },
+  "colGrade": {
+    "message": "Classificação"
+  },
+  "blockedList": {
+    "message": "Empresas bloqueadas"
+  },
+  "noneBlocked": {
+    "message": "Ainda não bloqueou nenhuma empresa. Use o escudo ao lado de uma empresa na janela da extensão."
+  },
+  "clearHistory": {
+    "message": "Limpar histórico"
+  },
+  "confirmClear": {
+    "message": "Eliminar todo o histórico de rastreio?"
+  },
+  "noData": {
+    "message": "Ainda não há dados. Navegue um pouco e volte."
+  },
+  "recTitle": {
+    "message": "Este site grava a sua sessão"
+  },
+  "recText": {
+    "message": "Os movimentos do rato, cliques e o que escreve podem ser gravados por:"
+  },
+  "quickProtection": {
+    "message": "Proteção rápida"
+  },
+  "profileAds": {
+    "message": "Toda a publicidade"
+  },
+  "profileAnalytics": {
+    "message": "Toda a análise"
+  },
+  "profileRecording": {
+    "message": "Gravação de sessões"
+  },
+  "pauseSite": {
+    "message": "Pausar bloqueio neste site"
+  },
+  "resumeSite": {
+    "message": "Retomar bloqueio neste site"
+  },
+  "pausedLine": {
+    "message": "O bloqueio está em pausa aqui. Os rastreadores continuam visíveis no radar."
+  },
+  "pausedList": {
+    "message": "Sites com bloqueio em pausa"
+  },
+  "nonePaused": {
+    "message": "O bloqueio está ativo em todos os sites."
+  },
+  "resumeShort": {
+    "message": "Retomar"
+  },
+  "catMining": {
+    "message": "Mineração de criptomoedas"
+  },
+  "profileMining": {
+    "message": "Mineradores de cripto"
+  },
+  "minTitle": {
+    "message": "Este site tenta minerar criptomoedas"
+  },
+  "minText": {
+    "message": "Os scripts destes serviços podem usar o seu processador para minerar para outra pessoa:"
+  },
+  "fpTitle": {
+    "message": "Este site cria uma impressão digital do seu navegador"
+  },
+  "fpText": {
+    "message": "Lê detalhes ocultos do seu dispositivo para o reconhecer sem cookies:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (placa gráfica)"
+  },
+  "fp_audio": {
+    "message": "áudio"
+  },
+  "fp_fonts": {
+    "message": "tipos de letra instalados"
+  },
+  "fpBy": {
+    "message": "por"
+  },
+  "fpShort": {
+    "message": "Impressão digital"
+  },
+  "optFingerprint": {
+    "message": "Proteção de impressão digital"
+  },
+  "optFingerprintHint": {
+    "message": "Adiciona um ruído mínimo às leituras de canvas e áudio e oculta a sua placa gráfica, para que não possam ser usadas para o reconhecer. Raramente, as apps de desenho podem parecer ligeiramente diferentes."
+  },
+  "optWebrtc": {
+    "message": "Ocultar IP ao WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "Para quem usa VPN: os sites não verão o seu endereço IP real através do WebRTC. As videochamadas no navegador podem deixar de funcionar."
+  },
+  "locale": {
+    "message": "pt-PT",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

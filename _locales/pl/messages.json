@@ -167,5 +167,53 @@
   },
   "resumeShort": {
     "message": "Włącz"
+  },
+  "catMining": {
+    "message": "Koparki kryptowalut"
+  },
+  "profileMining": {
+    "message": "Koparki krypto"
+  },
+  "minTitle": {
+    "message": "Ta strona próbuje kopać kryptowaluty"
+  },
+  "minText": {
+    "message": "Skrypty tych usług mogą używać Twojego procesora do kopania dla kogoś innego:"
+  },
+  "fpTitle": {
+    "message": "Ta strona tworzy odcisk palca Twojej przeglądarki"
+  },
+  "fpText": {
+    "message": "Odczytuje ukryte cechy Twojego urządzenia, żeby rozpoznać Cię bez ciasteczek:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (karta graficzna)"
+  },
+  "fp_audio": {
+    "message": "dźwięk"
+  },
+  "fp_fonts": {
+    "message": "zainstalowane czcionki"
+  },
+  "fpBy": {
+    "message": "przez"
+  },
+  "fpShort": {
+    "message": "Fingerprinting"
+  },
+  "optFingerprint": {
+    "message": "Ochrona odcisku palca"
+  },
+  "optFingerprintHint": {
+    "message": "Dodaje niewidoczny szum do odczytów canvas i dźwięku oraz ukrywa model karty graficznej, żeby nie dało się Cię po nich rozpoznać. Rzadko może lekko zmienić wygląd w aplikacjach do rysowania."
+  },
+  "optWebrtc": {
+    "message": "Ukryj IP przed WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "Dla używających VPN: strony nie zobaczą Twojego prawdziwego adresu IP przez WebRTC. Rozmowy wideo w przeglądarce mogą przestać działać."
   }
 }

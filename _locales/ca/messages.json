@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Mira en directe a quines empreses envia les teves dades el web que visites."
+  },
+  "statCompanies": {
+    "message": "empreses de seguiment"
+  },
+  "statDomains": {
+    "message": "dominis de seguiment"
+  },
+  "statRequests": {
+    "message": "sol·licituds de tercers"
+  },
+  "whoIsWatching": {
+    "message": "Qui t'observa"
+  },
+  "noTrackers": {
+    "message": "No s'ha trobat cap rastrejador conegut en aquesta pàgina. 🎉"
+  },
+  "otherDomains": {
+    "message": "Altres dominis de tercers"
+  },
+  "footer": {
+    "message": "Tota l'anàlisi es fa localment. Res no surt del navegador."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar necessita accés a tots els webs per veure'n les sol·licituds."
+  },
+  "permGrant": {
+    "message": "Permet l'accés"
+  },
+  "reloadToScan": {
+    "message": "Torna a carregar la pàgina per començar l'anàlisi"
+  },
+  "catAds": {
+    "message": "Publicitat"
+  },
+  "catAnalytics": {
+    "message": "Analítica"
+  },
+  "catRecording": {
+    "message": "Enregistrament de sessions"
+  },
+  "catSocial": {
+    "message": "Xarxes socials"
+  },
+  "requests": {
+    "message": "sol·licituds"
+  },
+  "actBlock": {
+    "message": "Bloca aquesta empresa a tots els webs"
+  },
+  "actUnblock": {
+    "message": "Desbloca"
+  },
+  "blockedTag": {
+    "message": "blocada"
+  },
+  "blockedRequests": {
+    "message": "Sol·licituds blocades"
+  },
+  "gradeHint": {
+    "message": "Nota de privadesa: segons el nombre i el tipus de rastrejadors d'aquesta pàgina"
+  },
+  "openStats": {
+    "message": "Estadístiques"
+  },
+  "statsTitle": {
+    "message": "El teu historial de seguiment"
+  },
+  "range7": {
+    "message": "Últims 7 dies"
+  },
+  "range30": {
+    "message": "Últims 30 dies"
+  },
+  "sCompanies": {
+    "message": "empreses de seguiment"
+  },
+  "sSites": {
+    "message": "webs visitats"
+  },
+  "sRequests": {
+    "message": "sol·licituds a rastrejadors"
+  },
+  "sBlocked": {
+    "message": "sol·licituds blocades"
+  },
+  "perDay": {
+    "message": "Empreses de seguiment per dia"
+  },
+  "topCompanies": {
+    "message": "Qui et segueix més"
+  },
+  "topSites": {
+    "message": "Webs amb més rastrejadors"
+  },
+  "colCompany": {
+    "message": "Empresa"
+  },
+  "colSites": {
+    "message": "Webs"
+  },
+  "colSite": {
+    "message": "Web"
+  },
+  "colTrackers": {
+    "message": "Rastrejadors"
+  },
+  "colGrade": {
+    "message": "Nota"
+  },
+  "blockedList": {
+    "message": "Empreses blocades"
+  },
+  "noneBlocked": {
+    "message": "Encara no has blocat cap empresa. Fes servir l'escut al costat d'una empresa a la finestra de l'extensió."
+  },
+  "clearHistory": {
+    "message": "Esborra l'historial"
+  },
+  "confirmClear": {
+    "message": "Vols suprimir tot l'historial de seguiment?"
+  },
+  "noData": {
+    "message": "Encara no hi ha dades. Navega una mica i torna."
+  },
+  "recTitle": {
+    "message": "Aquest web enregistra la teva sessió"
+  },
+  "recText": {
+    "message": "Els moviments del ratolí, els clics i el que escrius poden ser enregistrats per:"
+  },
+  "quickProtection": {
+    "message": "Protecció ràpida"
+  },
+  "profileAds": {
+    "message": "Tota la publicitat"
+  },
+  "profileAnalytics": {
+    "message": "Tota l'analítica"
+  },
+  "profileRecording": {
+    "message": "Enregistradors de sessions"
+  },
+  "pauseSite": {
+    "message": "Posa en pausa el bloqueig en aquest web"
+  },
+  "resumeSite": {
+    "message": "Reprèn el bloqueig en aquest web"
+  },
+  "pausedLine": {
+    "message": "El bloqueig està en pausa aquí. Els rastrejadors encara es veuen al radar."
+  },
+  "pausedList": {
+    "message": "Webs amb el bloqueig en pausa"
+  },
+  "nonePaused": {
+    "message": "El bloqueig està actiu a tots els webs."
+  },
+  "resumeShort": {
+    "message": "Reprèn"
+  },
+  "catMining": {
+    "message": "Mineria de criptomonedes"
+  },
+  "profileMining": {
+    "message": "Miners de cripto"
+  },
+  "minTitle": {
+    "message": "Aquest web intenta minar criptomonedes"
+  },
+  "minText": {
+    "message": "Els scripts d'aquests serveis poden fer servir el teu processador per minar per a algú altre:"
+  },
+  "fpTitle": {
+    "message": "Aquest web crea una empremta del teu navegador"
+  },
+  "fpText": {
+    "message": "Llegeix dades ocultes del teu dispositiu per reconèixer-te sense galetes:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (targeta gràfica)"
+  },
+  "fp_audio": {
+    "message": "àudio"
+  },
+  "fp_fonts": {
+    "message": "tipus de lletra instal·lats"
+  },
+  "fpBy": {
+    "message": "per"
+  },
+  "fpShort": {
+    "message": "Empremta digital"
+  },
+  "optFingerprint": {
+    "message": "Protecció contra l'empremta"
+  },
+  "optFingerprintHint": {
+    "message": "Afegeix un soroll mínim a les lectures de canvas i àudio i amaga la targeta gràfica, perquè no es puguin fer servir per reconèixer-te. Rarament, les aplicacions de dibuix poden semblar lleugerament diferents."
+  },
+  "optWebrtc": {
+    "message": "Amaga la IP a WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "Per a usuaris de VPN: els webs no veuran la teva adreça IP real a través de WebRTC. Les videotrucades al navegador poden deixar de funcionar."
+  },
+  "locale": {
+    "message": "ca",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

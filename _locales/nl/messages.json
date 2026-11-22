@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Zie live naar welke bedrijven de website die je bezoekt je gegevens stuurt."
+  },
+  "statCompanies": {
+    "message": "trackingbedrijven"
+  },
+  "statDomains": {
+    "message": "trackingdomeinen"
+  },
+  "statRequests": {
+    "message": "verzoeken van derden"
+  },
+  "whoIsWatching": {
+    "message": "Wie kijkt er mee"
+  },
+  "noTrackers": {
+    "message": "Geen bekende trackers gevonden op deze pagina. 🎉"
+  },
+  "otherDomains": {
+    "message": "Andere domeinen van derden"
+  },
+  "footer": {
+    "message": "Alle analyse gebeurt lokaal. Niets verlaat je browser."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar heeft toegang tot alle websites nodig om hun verzoeken te zien."
+  },
+  "permGrant": {
+    "message": "Toegang geven"
+  },
+  "reloadToScan": {
+    "message": "Herlaad de pagina om het scannen te starten"
+  },
+  "catAds": {
+    "message": "Advertenties"
+  },
+  "catAnalytics": {
+    "message": "Analyse"
+  },
+  "catRecording": {
+    "message": "Sessie-opname"
+  },
+  "catSocial": {
+    "message": "Sociaal"
+  },
+  "requests": {
+    "message": "verzoeken"
+  },
+  "actBlock": {
+    "message": "Dit bedrijf op alle websites blokkeren"
+  },
+  "actUnblock": {
+    "message": "Deblokkeren"
+  },
+  "blockedTag": {
+    "message": "geblokkeerd"
+  },
+  "blockedRequests": {
+    "message": "Geblokkeerde verzoeken"
+  },
+  "gradeHint": {
+    "message": "Privacyscore: op basis van het aantal en soort trackers op deze pagina"
+  },
+  "openStats": {
+    "message": "Statistieken"
+  },
+  "statsTitle": {
+    "message": "Jouw trackinggeschiedenis"
+  },
+  "range7": {
+    "message": "Laatste 7 dagen"
+  },
+  "range30": {
+    "message": "Laatste 30 dagen"
+  },
+  "sCompanies": {
+    "message": "trackingbedrijven"
+  },
+  "sSites": {
+    "message": "bezochte websites"
+  },
+  "sRequests": {
+    "message": "verzoeken naar trackers"
+  },
+  "sBlocked": {
+    "message": "geblokkeerde verzoeken"
+  },
+  "perDay": {
+    "message": "Trackingbedrijven per dag"
+  },
+  "topCompanies": {
+    "message": "Wie volgt je het meest"
+  },
+  "topSites": {
+    "message": "Websites met de meeste trackers"
+  },
+  "colCompany": {
+    "message": "Bedrijf"
+  },
+  "colSites": {
+    "message": "Websites"
+  },
+  "colSite": {
+    "message": "Website"
+  },
+  "colTrackers": {
+    "message": "Trackers"
+  },
+  "colGrade": {
+    "message": "Score"
+  },
+  "blockedList": {
+    "message": "Geblokkeerde bedrijven"
+  },
+  "noneBlocked": {
+    "message": "Nog geen bedrijven geblokkeerd. Gebruik het schild naast een bedrijf in het extensievenster."
+  },
+  "clearHistory": {
+    "message": "Geschiedenis wissen"
+  },
+  "confirmClear": {
+    "message": "Alle trackinggeschiedenis verwijderen?"
+  },
+  "noData": {
+    "message": "Nog geen gegevens. Surf even rond en kom dan terug."
+  },
+  "recTitle": {
+    "message": "Deze site neemt je sessie op"
+  },
+  "recText": {
+    "message": "Je muisbewegingen, klikken en typen kunnen worden opgenomen door:"
+  },
+  "quickProtection": {
+    "message": "Snelle bescherming"
+  },
+  "profileAds": {
+    "message": "Alle advertenties"
+  },
+  "profileAnalytics": {
+    "message": "Alle analyse"
+  },
+  "profileRecording": {
+    "message": "Sessie-opnames"
+  },
+  "pauseSite": {
+    "message": "Blokkeren op deze site pauzeren"
+  },
+  "resumeSite": {
+    "message": "Blokkeren op deze site hervatten"
+  },
+  "pausedLine": {
+    "message": "Blokkeren is hier gepauzeerd. Trackers blijven zichtbaar op de radar."
+  },
+  "pausedList": {
+    "message": "Sites met gepauzeerd blokkeren"
+  },
+  "nonePaused": {
+    "message": "Blokkeren is actief op alle sites."
+  },
+  "resumeShort": {
+    "message": "Hervatten"
+  },
+  "catMining": {
+    "message": "Cryptomining"
+  },
+  "profileMining": {
+    "message": "Cryptominers"
+  },
+  "minTitle": {
+    "message": "Deze site probeert cryptovaluta te minen"
+  },
+  "minText": {
+    "message": "Scripts van deze diensten kunnen je processor gebruiken om voor iemand anders te minen:"
+  },
+  "fpTitle": {
+    "message": "Deze site maakt een vingerafdruk van je browser"
+  },
+  "fpText": {
+    "message": "Hij leest verborgen details van je apparaat om je zonder cookies te herkennen:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (videokaart)"
+  },
+  "fp_audio": {
+    "message": "audio"
+  },
+  "fp_fonts": {
+    "message": "geïnstalleerde lettertypen"
+  },
+  "fpBy": {
+    "message": "door"
+  },
+  "fpShort": {
+    "message": "Vingerafdruk"
+  },
+  "optFingerprint": {
+    "message": "Vingerafdrukbescherming"
+  },
+  "optFingerprintHint": {
+    "message": "Voegt minieme ruis toe aan canvas- en audiowaarden en verbergt je videokaart, zodat je er niet aan herkend kunt worden. Soms zien teken-apps er iets anders uit."
+  },
+  "optWebrtc": {
+    "message": "IP verbergen voor WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "Voor VPN-gebruikers: websites zien je echte IP-adres niet via WebRTC. Videogesprekken in de browser werken dan mogelijk niet."
+  },
+  "locale": {
+    "message": "nl",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

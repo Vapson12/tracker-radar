@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "방문 중인 사이트가 내 데이터를 어떤 회사에 보내는지 실시간으로 확인하세요."
+  },
+  "statCompanies": {
+    "message": "추적 회사"
+  },
+  "statDomains": {
+    "message": "추적 도메인"
+  },
+  "statRequests": {
+    "message": "서드파티 요청"
+  },
+  "whoIsWatching": {
+    "message": "누가 지켜보고 있나"
+  },
+  "noTrackers": {
+    "message": "이 페이지에서 알려진 추적기를 찾지 못했습니다. 🎉"
+  },
+  "otherDomains": {
+    "message": "기타 서드파티 도메인"
+  },
+  "footer": {
+    "message": "모든 분석은 로컬에서 이루어집니다. 아무것도 브라우저 밖으로 나가지 않습니다."
+  },
+  "permNeeded": {
+    "message": "요청을 확인하려면 Tracker Radar에 모든 사이트 접근 권한이 필요합니다."
+  },
+  "permGrant": {
+    "message": "권한 허용"
+  },
+  "reloadToScan": {
+    "message": "스캔을 시작하려면 페이지를 새로고침하세요"
+  },
+  "catAds": {
+    "message": "광고"
+  },
+  "catAnalytics": {
+    "message": "분석"
+  },
+  "catRecording": {
+    "message": "세션 녹화"
+  },
+  "catSocial": {
+    "message": "소셜"
+  },
+  "requests": {
+    "message": "개 요청"
+  },
+  "actBlock": {
+    "message": "모든 사이트에서 이 회사 차단"
+  },
+  "actUnblock": {
+    "message": "차단 해제"
+  },
+  "blockedTag": {
+    "message": "차단됨"
+  },
+  "blockedRequests": {
+    "message": "차단된 요청"
+  },
+  "gradeHint": {
+    "message": "개인정보 등급: 이 페이지의 추적기 수와 종류 기준"
+  },
+  "openStats": {
+    "message": "통계"
+  },
+  "statsTitle": {
+    "message": "내 추적 기록"
+  },
+  "range7": {
+    "message": "최근 7일"
+  },
+  "range30": {
+    "message": "최근 30일"
+  },
+  "sCompanies": {
+    "message": "추적 회사"
+  },
+  "sSites": {
+    "message": "방문한 사이트"
+  },
+  "sRequests": {
+    "message": "추적기로 보낸 요청"
+  },
+  "sBlocked": {
+    "message": "차단된 요청"
+  },
+  "perDay": {
+    "message": "일별 추적 회사"
+  },
+  "topCompanies": {
+    "message": "나를 가장 많이 추적하는 곳"
+  },
+  "topSites": {
+    "message": "추적기가 가장 많은 사이트"
+  },
+  "colCompany": {
+    "message": "회사"
+  },
+  "colSites": {
+    "message": "사이트 수"
+  },
+  "colSite": {
+    "message": "사이트"
+  },
+  "colTrackers": {
+    "message": "추적기"
+  },
+  "colGrade": {
+    "message": "등급"
+  },
+  "blockedList": {
+    "message": "차단한 회사"
+  },
+  "noneBlocked": {
+    "message": "아직 차단한 회사가 없습니다. 확장 프로그램 창에서 회사 옆의 방패를 사용하세요."
+  },
+  "clearHistory": {
+    "message": "기록 지우기"
+  },
+  "confirmClear": {
+    "message": "추적 기록을 모두 삭제할까요?"
+  },
+  "noData": {
+    "message": "아직 데이터가 없습니다. 잠시 둘러본 뒤 다시 오세요."
+  },
+  "recTitle": {
+    "message": "이 사이트는 세션을 녹화합니다"
+  },
+  "recText": {
+    "message": "마우스 움직임, 클릭, 입력 내용이 다음에 의해 녹화될 수 있습니다:"
+  },
+  "quickProtection": {
+    "message": "빠른 보호"
+  },
+  "profileAds": {
+    "message": "모든 광고"
+  },
+  "profileAnalytics": {
+    "message": "모든 분석"
+  },
+  "profileRecording": {
+    "message": "세션 녹화 도구"
+  },
+  "pauseSite": {
+    "message": "이 사이트에서 차단 일시 중지"
+  },
+  "resumeSite": {
+    "message": "이 사이트에서 차단 재개"
+  },
+  "pausedLine": {
+    "message": "여기서는 차단이 일시 중지되었습니다. 추적기는 레이더에 계속 표시됩니다."
+  },
+  "pausedList": {
+    "message": "차단이 일시 중지된 사이트"
+  },
+  "nonePaused": {
+    "message": "모든 사이트에서 차단이 활성화되어 있습니다."
+  },
+  "resumeShort": {
+    "message": "재개"
+  },
+  "catMining": {
+    "message": "암호화폐 채굴"
+  },
+  "profileMining": {
+    "message": "채굴기"
+  },
+  "minTitle": {
+    "message": "이 사이트가 암호화폐 채굴을 시도하고 있습니다"
+  },
+  "minText": {
+    "message": "이 서비스의 스크립트가 다른 사람을 위해 내 CPU로 채굴할 수 있습니다:"
+  },
+  "fpTitle": {
+    "message": "이 사이트가 브라우저 지문을 수집하고 있습니다"
+  },
+  "fpText": {
+    "message": "쿠키 없이 나를 식별하기 위해 기기의 숨겨진 정보를 읽습니다:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (그래픽 카드)"
+  },
+  "fp_audio": {
+    "message": "오디오"
+  },
+  "fp_fonts": {
+    "message": "설치된 글꼴"
+  },
+  "fpBy": {
+    "message": "출처:"
+  },
+  "fpShort": {
+    "message": "지문"
+  },
+  "optFingerprint": {
+    "message": "지문 보호"
+  },
+  "optFingerprintHint": {
+    "message": "canvas와 오디오 값에 아주 작은 노이즈를 더하고 그래픽 카드를 숨겨 나를 식별하는 데 쓰이지 않게 합니다. 드물게 그리기 앱이 약간 다르게 보일 수 있습니다."
+  },
+  "optWebrtc": {
+    "message": "WebRTC에서 IP 숨기기"
+  },
+  "optWebrtcHint": {
+    "message": "VPN 사용자용: 사이트가 WebRTC를 통해 실제 IP 주소를 볼 수 없습니다. 브라우저 영상 통화가 작동하지 않을 수 있습니다."
+  },
+  "locale": {
+    "message": "ko",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

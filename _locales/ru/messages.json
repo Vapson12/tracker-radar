@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Смотрите в реальном времени, каким компаниям сайт передаёт ваши данные."
+  },
+  "statCompanies": {
+    "message": "компании-трекеры"
+  },
+  "statDomains": {
+    "message": "домены трекеров"
+  },
+  "statRequests": {
+    "message": "сторонние запросы"
+  },
+  "whoIsWatching": {
+    "message": "Кто за вами следит"
+  },
+  "noTrackers": {
+    "message": "На этой странице не найдено известных трекеров. 🎉"
+  },
+  "otherDomains": {
+    "message": "Другие сторонние домены"
+  },
+  "footer": {
+    "message": "Весь анализ выполняется локально. Ничто не покидает ваш браузер."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar нужен доступ ко всем сайтам, чтобы видеть их запросы."
+  },
+  "permGrant": {
+    "message": "Разрешить доступ"
+  },
+  "reloadToScan": {
+    "message": "Перезагрузите страницу, чтобы начать проверку"
+  },
+  "catAds": {
+    "message": "Реклама"
+  },
+  "catAnalytics": {
+    "message": "Аналитика"
+  },
+  "catRecording": {
+    "message": "Запись сессий"
+  },
+  "catSocial": {
+    "message": "Соцсети"
+  },
+  "requests": {
+    "message": "запросов"
+  },
+  "actBlock": {
+    "message": "Блокировать эту компанию на всех сайтах"
+  },
+  "actUnblock": {
+    "message": "Разблокировать"
+  },
+  "blockedTag": {
+    "message": "заблокировано"
+  },
+  "blockedRequests": {
+    "message": "Заблокированные запросы"
+  },
+  "gradeHint": {
+    "message": "Оценка приватности: по количеству и типу трекеров на этой странице"
+  },
+  "openStats": {
+    "message": "Статистика"
+  },
+  "statsTitle": {
+    "message": "Ваша история слежки"
+  },
+  "range7": {
+    "message": "Последние 7 дней"
+  },
+  "range30": {
+    "message": "Последние 30 дней"
+  },
+  "sCompanies": {
+    "message": "компании-трекеры"
+  },
+  "sSites": {
+    "message": "посещённые сайты"
+  },
+  "sRequests": {
+    "message": "запросы к трекерам"
+  },
+  "sBlocked": {
+    "message": "заблокированные запросы"
+  },
+  "perDay": {
+    "message": "Компании-трекеры по дням"
+  },
+  "topCompanies": {
+    "message": "Кто следит за вами чаще всего"
+  },
+  "topSites": {
+    "message": "Сайты с наибольшим числом трекеров"
+  },
+  "colCompany": {
+    "message": "Компания"
+  },
+  "colSites": {
+    "message": "Сайты"
+  },
+  "colSite": {
+    "message": "Сайт"
+  },
+  "colTrackers": {
+    "message": "Трекеры"
+  },
+  "colGrade": {
+    "message": "Оценка"
+  },
+  "blockedList": {
+    "message": "Заблокированные компании"
+  },
+  "noneBlocked": {
+    "message": "Вы ещё не заблокировали ни одной компании. Нажмите на щит рядом с компанией в окне расширения."
+  },
+  "clearHistory": {
+    "message": "Очистить историю"
+  },
+  "confirmClear": {
+    "message": "Удалить всю историю слежки?"
+  },
+  "noData": {
+    "message": "Данных пока нет. Посетите несколько сайтов и вернитесь."
+  },
+  "recTitle": {
+    "message": "Этот сайт записывает вашу сессию"
+  },
+  "recText": {
+    "message": "Движения мыши, клики и вводимый текст могут записывать:"
+  },
+  "quickProtection": {
+    "message": "Быстрая защита"
+  },
+  "profileAds": {
+    "message": "Вся реклама"
+  },
+  "profileAnalytics": {
+    "message": "Вся аналитика"
+  },
+  "profileRecording": {
+    "message": "Запись сессий"
+  },
+  "pauseSite": {
+    "message": "Приостановить блокировку на этом сайте"
+  },
+  "resumeSite": {
+    "message": "Возобновить блокировку на этом сайте"
+  },
+  "pausedLine": {
+    "message": "Блокировка здесь приостановлена. Трекеры по-прежнему видны на радаре."
+  },
+  "pausedList": {
+    "message": "Сайты с приостановленной блокировкой"
+  },
+  "nonePaused": {
+    "message": "Блокировка работает на всех сайтах."
+  },
+  "resumeShort": {
+    "message": "Возобновить"
+  },
+  "catMining": {
+    "message": "Криптомайнинг"
+  },
+  "profileMining": {
+    "message": "Криптомайнеры"
+  },
+  "minTitle": {
+    "message": "Этот сайт пытается майнить криптовалюту"
+  },
+  "minText": {
+    "message": "Скрипты этих сервисов могут использовать ваш процессор, чтобы майнить для кого-то другого:"
+  },
+  "fpTitle": {
+    "message": "Этот сайт снимает отпечаток вашего браузера"
+  },
+  "fpText": {
+    "message": "Он считывает скрытые параметры вашего устройства, чтобы узнавать вас без cookie:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (видеокарта)"
+  },
+  "fp_audio": {
+    "message": "звук"
+  },
+  "fp_fonts": {
+    "message": "установленные шрифты"
+  },
+  "fpBy": {
+    "message": "через"
+  },
+  "fpShort": {
+    "message": "Отпечаток браузера"
+  },
+  "optFingerprint": {
+    "message": "Защита от отпечатка"
+  },
+  "optFingerprintHint": {
+    "message": "Добавляет незаметный шум в данные canvas и звука и скрывает модель видеокарты, чтобы по ним вас нельзя было узнать. Изредка приложения для рисования могут выглядеть немного иначе."
+  },
+  "optWebrtc": {
+    "message": "Скрыть IP от WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "Для пользователей VPN: сайты не увидят ваш настоящий IP-адрес через WebRTC. Видеозвонки в браузере могут перестать работать."
+  },
+  "locale": {
+    "message": "ru",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

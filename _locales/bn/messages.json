@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "সরাসরি দেখুন, আপনি যে সাইটে আছেন সেটি আপনার ডেটা কোন কোম্পানিগুলোকে পাঠায়।"
+  },
+  "statCompanies": {
+    "message": "ট্র্যাকিং কোম্পানি"
+  },
+  "statDomains": {
+    "message": "ট্র্যাকিং ডোমেইন"
+  },
+  "statRequests": {
+    "message": "থার্ড-পার্টি অনুরোধ"
+  },
+  "whoIsWatching": {
+    "message": "কে দেখছে"
+  },
+  "noTrackers": {
+    "message": "এই পৃষ্ঠায় কোনো পরিচিত ট্র্যাকার পাওয়া যায়নি। 🎉"
+  },
+  "otherDomains": {
+    "message": "অন্যান্য থার্ড-পার্টি ডোমেইন"
+  },
+  "footer": {
+    "message": "সব বিশ্লেষণ স্থানীয়ভাবে হয়। কিছুই আপনার ব্রাউজারের বাইরে যায় না।"
+  },
+  "permNeeded": {
+    "message": "অনুরোধ দেখতে Tracker Radar-এর সব সাইটে অ্যাক্সেস দরকার।"
+  },
+  "permGrant": {
+    "message": "অ্যাক্সেস দিন"
+  },
+  "reloadToScan": {
+    "message": "স্ক্যান শুরু করতে পৃষ্ঠাটি আবার লোড করুন"
+  },
+  "catAds": {
+    "message": "বিজ্ঞাপন"
+  },
+  "catAnalytics": {
+    "message": "অ্যানালিটিক্স"
+  },
+  "catRecording": {
+    "message": "সেশন রেকর্ডিং"
+  },
+  "catSocial": {
+    "message": "সোশ্যাল মিডিয়া"
+  },
+  "requests": {
+    "message": "অনুরোধ"
+  },
+  "actBlock": {
+    "message": "এই কোম্পানিকে সব সাইটে ব্লক করুন"
+  },
+  "actUnblock": {
+    "message": "আনব্লক করুন"
+  },
+  "blockedTag": {
+    "message": "ব্লক করা"
+  },
+  "blockedRequests": {
+    "message": "ব্লক করা অনুরোধ"
+  },
+  "gradeHint": {
+    "message": "প্রাইভেসি গ্রেড: এই পৃষ্ঠার ট্র্যাকারের সংখ্যা ও ধরন অনুযায়ী"
+  },
+  "openStats": {
+    "message": "পরিসংখ্যান"
+  },
+  "statsTitle": {
+    "message": "আপনার ট্র্যাকিং ইতিহাস"
+  },
+  "range7": {
+    "message": "শেষ ৭ দিন"
+  },
+  "range30": {
+    "message": "শেষ ৩০ দিন"
+  },
+  "sCompanies": {
+    "message": "ট্র্যাকিং কোম্পানি"
+  },
+  "sSites": {
+    "message": "দেখা সাইট"
+  },
+  "sRequests": {
+    "message": "ট্র্যাকারে অনুরোধ"
+  },
+  "sBlocked": {
+    "message": "ব্লক করা অনুরোধ"
+  },
+  "perDay": {
+    "message": "প্রতিদিন ট্র্যাকিং কোম্পানি"
+  },
+  "topCompanies": {
+    "message": "কে আপনাকে সবচেয়ে বেশি ট্র্যাক করে"
+  },
+  "topSites": {
+    "message": "সবচেয়ে বেশি ট্র্যাকারযুক্ত সাইট"
+  },
+  "colCompany": {
+    "message": "কোম্পানি"
+  },
+  "colSites": {
+    "message": "সাইট"
+  },
+  "colSite": {
+    "message": "সাইট"
+  },
+  "colTrackers": {
+    "message": "ট্র্যাকার"
+  },
+  "colGrade": {
+    "message": "গ্রেড"
+  },
+  "blockedList": {
+    "message": "ব্লক করা কোম্পানি"
+  },
+  "noneBlocked": {
+    "message": "আপনি এখনো কোনো কোম্পানি ব্লক করেননি। এক্সটেনশন উইন্ডোতে কোম্পানির পাশের ঢাল ব্যবহার করুন।"
+  },
+  "clearHistory": {
+    "message": "ইতিহাস মুছুন"
+  },
+  "confirmClear": {
+    "message": "পুরো ট্র্যাকিং ইতিহাস মুছবেন?"
+  },
+  "noData": {
+    "message": "এখনো কোনো ডেটা নেই। কিছুক্ষণ ব্রাউজ করে ফিরে আসুন।"
+  },
+  "recTitle": {
+    "message": "এই সাইট আপনার সেশন রেকর্ড করছে"
+  },
+  "recText": {
+    "message": "আপনার মাউসের নড়াচড়া, ক্লিক ও টাইপ রেকর্ড করতে পারে:"
+  },
+  "quickProtection": {
+    "message": "দ্রুত সুরক্ষা"
+  },
+  "profileAds": {
+    "message": "সব বিজ্ঞাপন"
+  },
+  "profileAnalytics": {
+    "message": "সব অ্যানালিটিক্স"
+  },
+  "profileRecording": {
+    "message": "সেশন রেকর্ডার"
+  },
+  "pauseSite": {
+    "message": "এই সাইটে ব্লকিং বিরতি দিন"
+  },
+  "resumeSite": {
+    "message": "এই সাইটে ব্লকিং আবার চালু করুন"
+  },
+  "pausedLine": {
+    "message": "এখানে ব্লকিং বিরতিতে আছে। ট্র্যাকার এখনো রাডারে দেখা যায়।"
+  },
+  "pausedList": {
+    "message": "বিরতিতে থাকা ব্লকিংয়ের সাইট"
+  },
+  "nonePaused": {
+    "message": "সব সাইটে ব্লকিং চালু আছে।"
+  },
+  "resumeShort": {
+    "message": "আবার চালু"
+  },
+  "catMining": {
+    "message": "ক্রিপ্টো মাইনিং"
+  },
+  "profileMining": {
+    "message": "ক্রিপ্টো মাইনার"
+  },
+  "minTitle": {
+    "message": "এই সাইট ক্রিপ্টোকারেন্সি মাইন করার চেষ্টা করছে"
+  },
+  "minText": {
+    "message": "এই সেবাগুলোর স্ক্রিপ্ট অন্য কারো জন্য মাইন করতে আপনার প্রসেসর ব্যবহার করতে পারে:"
+  },
+  "fpTitle": {
+    "message": "এই সাইট আপনার ব্রাউজারের ফিঙ্গারপ্রিন্ট নিচ্ছে"
+  },
+  "fpText": {
+    "message": "কুকি ছাড়াই আপনাকে চিনতে এটি আপনার ডিভাইসের লুকানো তথ্য পড়ে:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (গ্রাফিক্স কার্ড)"
+  },
+  "fp_audio": {
+    "message": "অডিও"
+  },
+  "fp_fonts": {
+    "message": "ইনস্টল করা ফন্ট"
+  },
+  "fpBy": {
+    "message": "দ্বারা"
+  },
+  "fpShort": {
+    "message": "ফিঙ্গারপ্রিন্ট"
+  },
+  "optFingerprint": {
+    "message": "ফিঙ্গারপ্রিন্ট সুরক্ষা"
+  },
+  "optFingerprintHint": {
+    "message": "canvas ও অডিও রিডিংয়ে সামান্য নয়েজ যোগ করে এবং গ্রাফিক্স কার্ড লুকিয়ে রাখে, যাতে সেগুলো দিয়ে আপনাকে চেনা না যায়। কখনো কখনো আঁকার অ্যাপ একটু ভিন্ন দেখাতে পারে।"
+  },
+  "optWebrtc": {
+    "message": "WebRTC থেকে IP লুকান"
+  },
+  "optWebrtcHint": {
+    "message": "VPN ব্যবহারকারীদের জন্য: সাইটগুলো WebRTC দিয়ে আপনার আসল IP ঠিকানা দেখবে না। ব্রাউজারে ভিডিও কল কাজ নাও করতে পারে।"
+  },
+  "locale": {
+    "message": "bn",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

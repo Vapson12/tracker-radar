@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "ನೀವು ಭೇಟಿ ನೀಡುವ ಸೈಟ್ ನಿಮ್ಮ ಡೇಟಾವನ್ನು ಯಾವ ಕಂಪನಿಗಳಿಗೆ ಕಳುಹಿಸುತ್ತದೆ ಎಂಬುದನ್ನು ನೇರವಾಗಿ ನೋಡಿ."
+  },
+  "statCompanies": {
+    "message": "ಟ್ರ್ಯಾಕಿಂಗ್ ಕಂಪನಿಗಳು"
+  },
+  "statDomains": {
+    "message": "ಟ್ರ್ಯಾಕಿಂಗ್ ಡೊಮೇನ್‌ಗಳು"
+  },
+  "statRequests": {
+    "message": "ಥರ್ಡ್-ಪಾರ್ಟಿ ವಿನಂತಿಗಳು"
+  },
+  "whoIsWatching": {
+    "message": "ಯಾರು ನೋಡುತ್ತಿದ್ದಾರೆ"
+  },
+  "noTrackers": {
+    "message": "ಈ ಪುಟದಲ್ಲಿ ತಿಳಿದಿರುವ ಟ್ರ್ಯಾಕರ್‌ಗಳು ಕಂಡುಬಂದಿಲ್ಲ. 🎉"
+  },
+  "otherDomains": {
+    "message": "ಇತರ ಥರ್ಡ್-ಪಾರ್ಟಿ ಡೊಮೇನ್‌ಗಳು"
+  },
+  "footer": {
+    "message": "ಎಲ್ಲಾ ವಿಶ್ಲೇಷಣೆ ಸ್ಥಳೀಯವಾಗಿ ನಡೆಯುತ್ತದೆ. ಏನೂ ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಿಂದ ಹೊರಹೋಗುವುದಿಲ್ಲ."
+  },
+  "permNeeded": {
+    "message": "ವಿನಂತಿಗಳನ್ನು ನೋಡಲು Tracker Radar ಗೆ ಎಲ್ಲಾ ಸೈಟ್‌ಗಳ ಪ್ರವೇಶ ಬೇಕು."
+  },
+  "permGrant": {
+    "message": "ಪ್ರವೇಶ ನೀಡಿ"
+  },
+  "reloadToScan": {
+    "message": "ಸ್ಕ್ಯಾನ್ ಪ್ರಾರಂಭಿಸಲು ಪುಟವನ್ನು ಮರುಲೋಡ್ ಮಾಡಿ"
+  },
+  "catAds": {
+    "message": "ಜಾಹೀರಾತುಗಳು"
+  },
+  "catAnalytics": {
+    "message": "ಅನಾಲಿಟಿಕ್ಸ್"
+  },
+  "catRecording": {
+    "message": "ಸೆಷನ್ ರೆಕಾರ್ಡಿಂಗ್"
+  },
+  "catSocial": {
+    "message": "ಸಾಮಾಜಿಕ ಮಾಧ್ಯಮ"
+  },
+  "requests": {
+    "message": "ವಿನಂತಿಗಳು"
+  },
+  "actBlock": {
+    "message": "ಈ ಕಂಪನಿಯನ್ನು ಎಲ್ಲಾ ಸೈಟ್‌ಗಳಲ್ಲಿ ನಿರ್ಬಂಧಿಸಿ"
+  },
+  "actUnblock": {
+    "message": "ಅನಿರ್ಬಂಧಿಸಿ"
+  },
+  "blockedTag": {
+    "message": "ನಿರ್ಬಂಧಿತ"
+  },
+  "blockedRequests": {
+    "message": "ನಿರ್ಬಂಧಿತ ವಿನಂತಿಗಳು"
+  },
+  "gradeHint": {
+    "message": "ಗೌಪ್ಯತೆ ಗ್ರೇಡ್: ಈ ಪುಟದ ಟ್ರ್ಯಾಕರ್‌ಗಳ ಸಂಖ್ಯೆ ಮತ್ತು ಪ್ರಕಾರದ ಆಧಾರದಲ್ಲಿ"
+  },
+  "openStats": {
+    "message": "ಅಂಕಿಅಂಶಗಳು"
+  },
+  "statsTitle": {
+    "message": "ನಿಮ್ಮ ಟ್ರ್ಯಾಕಿಂಗ್ ಇತಿಹಾಸ"
+  },
+  "range7": {
+    "message": "ಕಳೆದ 7 ದಿನಗಳು"
+  },
+  "range30": {
+    "message": "ಕಳೆದ 30 ದಿನಗಳು"
+  },
+  "sCompanies": {
+    "message": "ಟ್ರ್ಯಾಕಿಂಗ್ ಕಂಪನಿಗಳು"
+  },
+  "sSites": {
+    "message": "ಭೇಟಿ ನೀಡಿದ ಸೈಟ್‌ಗಳು"
+  },
+  "sRequests": {
+    "message": "ಟ್ರ್ಯಾಕರ್‌ಗಳಿಗೆ ವಿನಂತಿಗಳು"
+  },
+  "sBlocked": {
+    "message": "ನಿರ್ಬಂಧಿತ ವಿನಂತಿಗಳು"
+  },
+  "perDay": {
+    "message": "ದಿನಕ್ಕೆ ಟ್ರ್ಯಾಕಿಂಗ್ ಕಂಪನಿಗಳು"
+  },
+  "topCompanies": {
+    "message": "ನಿಮ್ಮನ್ನು ಹೆಚ್ಚು ಹಿಂಬಾಲಿಸುವವರು"
+  },
+  "topSites": {
+    "message": "ಹೆಚ್ಚು ಟ್ರ್ಯಾಕರ್‌ಗಳಿರುವ ಸೈಟ್‌ಗಳು"
+  },
+  "colCompany": {
+    "message": "ಕಂಪನಿ"
+  },
+  "colSites": {
+    "message": "ಸೈಟ್‌ಗಳು"
+  },
+  "colSite": {
+    "message": "ಸೈಟ್"
+  },
+  "colTrackers": {
+    "message": "ಟ್ರ್ಯಾಕರ್‌ಗಳು"
+  },
+  "colGrade": {
+    "message": "ಗ್ರೇಡ್"
+  },
+  "blockedList": {
+    "message": "ನಿರ್ಬಂಧಿತ ಕಂಪನಿಗಳು"
+  },
+  "noneBlocked": {
+    "message": "ನೀವು ಇನ್ನೂ ಯಾವುದೇ ಕಂಪನಿಯನ್ನು ನಿರ್ಬಂಧಿಸಿಲ್ಲ. ಎಕ್ಸ್‌ಟೆನ್ಶನ್ ವಿಂಡೋದಲ್ಲಿ ಕಂಪನಿಯ ಪಕ್ಕದ ಗುರಾಣಿ ಬಳಸಿ."
+  },
+  "clearHistory": {
+    "message": "ಇತಿಹಾಸ ತೆರವುಗೊಳಿಸಿ"
+  },
+  "confirmClear": {
+    "message": "ಸಂಪೂರ್ಣ ಟ್ರ್ಯಾಕಿಂಗ್ ಇತಿಹಾಸ ಅಳಿಸಬೇಕೆ?"
+  },
+  "noData": {
+    "message": "ಇನ್ನೂ ಡೇಟಾ ಇಲ್ಲ. ಸ್ವಲ್ಪ ಬ್ರೌಸ್ ಮಾಡಿ ಹಿಂತಿರುಗಿ."
+  },
+  "recTitle": {
+    "message": "ಈ ಸೈಟ್ ನಿಮ್ಮ ಸೆಷನ್ ರೆಕಾರ್ಡ್ ಮಾಡುತ್ತಿದೆ"
+  },
+  "recText": {
+    "message": "ನಿಮ್ಮ ಮೌಸ್ ಚಲನೆ, ಕ್ಲಿಕ್ ಮತ್ತು ಟೈಪಿಂಗ್ ಅನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಬಹುದು:"
+  },
+  "quickProtection": {
+    "message": "ತ್ವರಿತ ರಕ್ಷಣೆ"
+  },
+  "profileAds": {
+    "message": "ಎಲ್ಲಾ ಜಾಹೀರಾತುಗಳು"
+  },
+  "profileAnalytics": {
+    "message": "ಎಲ್ಲಾ ಅನಾಲಿಟಿಕ್ಸ್"
+  },
+  "profileRecording": {
+    "message": "ಸೆಷನ್ ರೆಕಾರ್ಡರ್‌ಗಳು"
+  },
+  "pauseSite": {
+    "message": "ಈ ಸೈಟ್‌ನಲ್ಲಿ ನಿರ್ಬಂಧ ವಿರಾಮಗೊಳಿಸಿ"
+  },
+  "resumeSite": {
+    "message": "ಈ ಸೈಟ್‌ನಲ್ಲಿ ನಿರ್ಬಂಧ ಮುಂದುವರಿಸಿ"
+  },
+  "pausedLine": {
+    "message": "ಇಲ್ಲಿ ನಿರ್ಬಂಧ ವಿರಾಮದಲ್ಲಿದೆ. ಟ್ರ್ಯಾಕರ್‌ಗಳು ರೇಡಾರ್‌ನಲ್ಲಿ ಇನ್ನೂ ಕಾಣುತ್ತವೆ."
+  },
+  "pausedList": {
+    "message": "ನಿರ್ಬಂಧ ವಿರಾಮದ ಸೈಟ್‌ಗಳು"
+  },
+  "nonePaused": {
+    "message": "ಎಲ್ಲಾ ಸೈಟ್‌ಗಳಲ್ಲಿ ನಿರ್ಬಂಧ ಸಕ್ರಿಯವಾಗಿದೆ."
+  },
+  "resumeShort": {
+    "message": "ಮುಂದುವರಿಸಿ"
+  },
+  "catMining": {
+    "message": "ಕ್ರಿಪ್ಟೋ ಮೈನಿಂಗ್"
+  },
+  "profileMining": {
+    "message": "ಕ್ರಿಪ್ಟೋ ಮೈನರ್‌ಗಳು"
+  },
+  "minTitle": {
+    "message": "ಈ ಸೈಟ್ ಕ್ರಿಪ್ಟೋಕರೆನ್ಸಿ ಮೈನ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದೆ"
+  },
+  "minText": {
+    "message": "ಈ ಸೇವೆಗಳ ಸ್ಕ್ರಿಪ್ಟ್‌ಗಳು ಬೇರೆಯವರಿಗಾಗಿ ಮೈನ್ ಮಾಡಲು ನಿಮ್ಮ ಪ್ರೊಸೆಸರ್ ಬಳಸಬಹುದು:"
+  },
+  "fpTitle": {
+    "message": "ಈ ಸೈಟ್ ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ತೆಗೆಯುತ್ತಿದೆ"
+  },
+  "fpText": {
+    "message": "ಕುಕೀಗಳಿಲ್ಲದೆ ನಿಮ್ಮನ್ನು ಗುರುತಿಸಲು ಇದು ನಿಮ್ಮ ಸಾಧನದ ಗುಪ್ತ ವಿವರಗಳನ್ನು ಓದುತ್ತದೆ:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (ಗ್ರಾಫಿಕ್ಸ್ ಕಾರ್ಡ್)"
+  },
+  "fp_audio": {
+    "message": "ಆಡಿಯೋ"
+  },
+  "fp_fonts": {
+    "message": "ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿದ ಫಾಂಟ್‌ಗಳು"
+  },
+  "fpBy": {
+    "message": "ಮೂಲಕ"
+  },
+  "fpShort": {
+    "message": "ಫಿಂಗರ್‌ಪ್ರಿಂಟ್"
+  },
+  "optFingerprint": {
+    "message": "ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ರಕ್ಷಣೆ"
+  },
+  "optFingerprintHint": {
+    "message": "canvas ಮತ್ತು ಆಡಿಯೋ ರೀಡಿಂಗ್‌ಗಳಿಗೆ ಸಣ್ಣ ಶಬ್ದ ಸೇರಿಸಿ ಗ್ರಾಫಿಕ್ಸ್ ಕಾರ್ಡ್ ಅನ್ನು ಮರೆಮಾಡುತ್ತದೆ, ಆದ್ದರಿಂದ ಅವುಗಳಿಂದ ನಿಮ್ಮನ್ನು ಗುರುತಿಸಲಾಗುವುದಿಲ್ಲ. ಅಪರೂಪವಾಗಿ ಡ್ರಾಯಿಂಗ್ ಆ್ಯಪ್‌ಗಳು ಸ್ವಲ್ಪ ಭಿನ್ನವಾಗಿ ಕಾಣಬಹುದು."
+  },
+  "optWebrtc": {
+    "message": "WebRTC ಯಿಂದ IP ಮರೆಮಾಡಿ"
+  },
+  "optWebrtcHint": {
+    "message": "VPN ಬಳಕೆದಾರರಿಗೆ: ಸೈಟ್‌ಗಳು WebRTC ಮೂಲಕ ನಿಮ್ಮ ನಿಜವಾದ IP ವಿಳಾಸವನ್ನು ನೋಡುವುದಿಲ್ಲ. ಬ್ರೌಸರ್‌ನಲ್ಲಿ ವೀಡಿಯೊ ಕರೆಗಳು ಕೆಲಸ ಮಾಡದಿರಬಹುದು."
+  },
+  "locale": {
+    "message": "kn",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

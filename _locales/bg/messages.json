@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Вижте на живо на кои компании сайтът, който разглеждате, изпраща вашите данни."
+  },
+  "statCompanies": {
+    "message": "компании за проследяване"
+  },
+  "statDomains": {
+    "message": "домейни за проследяване"
+  },
+  "statRequests": {
+    "message": "заявки от трети страни"
+  },
+  "whoIsWatching": {
+    "message": "Кой ви наблюдава"
+  },
+  "noTrackers": {
+    "message": "На тази страница няма открити известни тракери. 🎉"
+  },
+  "otherDomains": {
+    "message": "Други домейни на трети страни"
+  },
+  "footer": {
+    "message": "Целият анализ се извършва локално. Нищо не напуска браузъра ви."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar се нуждае от достъп до всички сайтове, за да вижда заявките им."
+  },
+  "permGrant": {
+    "message": "Разрешаване на достъп"
+  },
+  "reloadToScan": {
+    "message": "Презаредете страницата, за да започне сканирането"
+  },
+  "catAds": {
+    "message": "Реклама"
+  },
+  "catAnalytics": {
+    "message": "Анализ"
+  },
+  "catRecording": {
+    "message": "Записване на сесии"
+  },
+  "catSocial": {
+    "message": "Социални мрежи"
+  },
+  "requests": {
+    "message": "заявки"
+  },
+  "actBlock": {
+    "message": "Блокиране на тази компания във всички сайтове"
+  },
+  "actUnblock": {
+    "message": "Деблокиране"
+  },
+  "blockedTag": {
+    "message": "блокирана"
+  },
+  "blockedRequests": {
+    "message": "Блокирани заявки"
+  },
+  "gradeHint": {
+    "message": "Оценка за поверителност: според броя и вида на тракерите на тази страница"
+  },
+  "openStats": {
+    "message": "Статистика"
+  },
+  "statsTitle": {
+    "message": "Вашата история на проследяване"
+  },
+  "range7": {
+    "message": "Последните 7 дни"
+  },
+  "range30": {
+    "message": "Последните 30 дни"
+  },
+  "sCompanies": {
+    "message": "компании за проследяване"
+  },
+  "sSites": {
+    "message": "посетени сайтове"
+  },
+  "sRequests": {
+    "message": "заявки към тракери"
+  },
+  "sBlocked": {
+    "message": "блокирани заявки"
+  },
+  "perDay": {
+    "message": "Компании за проследяване на ден"
+  },
+  "topCompanies": {
+    "message": "Кой ви следи най-често"
+  },
+  "topSites": {
+    "message": "Сайтове с най-много тракери"
+  },
+  "colCompany": {
+    "message": "Компания"
+  },
+  "colSites": {
+    "message": "Сайтове"
+  },
+  "colSite": {
+    "message": "Сайт"
+  },
+  "colTrackers": {
+    "message": "Тракери"
+  },
+  "colGrade": {
+    "message": "Оценка"
+  },
+  "blockedList": {
+    "message": "Блокирани компании"
+  },
+  "noneBlocked": {
+    "message": "Все още не сте блокирали компания. Използвайте щита до компанията в прозореца на разширението."
+  },
+  "clearHistory": {
+    "message": "Изчистване на историята"
+  },
+  "confirmClear": {
+    "message": "Да се изтрие ли цялата история на проследяване?"
+  },
+  "noData": {
+    "message": "Все още няма данни. Разгледайте няколко сайта и се върнете."
+  },
+  "recTitle": {
+    "message": "Този сайт записва сесията ви"
+  },
+  "recText": {
+    "message": "Движенията на мишката, кликванията и въведеният текст може да се записват от:"
+  },
+  "quickProtection": {
+    "message": "Бърза защита"
+  },
+  "profileAds": {
+    "message": "Цялата реклама"
+  },
+  "profileAnalytics": {
+    "message": "Целият анализ"
+  },
+  "profileRecording": {
+    "message": "Записване на сесии"
+  },
+  "pauseSite": {
+    "message": "Пауза на блокирането за този сайт"
+  },
+  "resumeSite": {
+    "message": "Възобновяване на блокирането за този сайт"
+  },
+  "pausedLine": {
+    "message": "Блокирането е на пауза тук. Тракерите продължават да се виждат на радара."
+  },
+  "pausedList": {
+    "message": "Сайтове с блокиране на пауза"
+  },
+  "nonePaused": {
+    "message": "Блокирането е активно на всички сайтове."
+  },
+  "resumeShort": {
+    "message": "Възобновяване"
+  },
+  "catMining": {
+    "message": "Копаене на криптовалута"
+  },
+  "profileMining": {
+    "message": "Криптокопачи"
+  },
+  "minTitle": {
+    "message": "Този сайт се опитва да копае криптовалута"
+  },
+  "minText": {
+    "message": "Скриптовете на тези услуги могат да използват процесора ви, за да копаят за някой друг:"
+  },
+  "fpTitle": {
+    "message": "Този сайт снема отпечатък на браузъра ви"
+  },
+  "fpText": {
+    "message": "Чете скрити данни за устройството ви, за да ви разпознава без бисквитки:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (видеокарта)"
+  },
+  "fp_audio": {
+    "message": "звук"
+  },
+  "fp_fonts": {
+    "message": "инсталирани шрифтове"
+  },
+  "fpBy": {
+    "message": "чрез"
+  },
+  "fpShort": {
+    "message": "Отпечатък на браузъра"
+  },
+  "optFingerprint": {
+    "message": "Защита от отпечатък"
+  },
+  "optFingerprintHint": {
+    "message": "Добавя незабележим шум към данните от canvas и звука и скрива видеокартата ви, за да не могат да се използват за разпознаването ви. Рядко програмите за рисуване може да изглеждат малко различно."
+  },
+  "optWebrtc": {
+    "message": "Скриване на IP от WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "За потребители на VPN: сайтовете няма да виждат истинския ви IP адрес чрез WebRTC. Видеоразговорите в браузъра може да спрат да работят."
+  },
+  "locale": {
+    "message": "bg",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

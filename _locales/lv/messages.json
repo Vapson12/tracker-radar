@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Skatiet reāllaikā, kurām kompānijām apmeklētā vietne sūta jūsu datus."
+  },
+  "statCompanies": {
+    "message": "izsekošanas uzņēmumi"
+  },
+  "statDomains": {
+    "message": "izsekošanas domēni"
+  },
+  "statRequests": {
+    "message": "trešo pušu pieprasījumi"
+  },
+  "whoIsWatching": {
+    "message": "Kas jūs vēro"
+  },
+  "noTrackers": {
+    "message": "Šajā lapā netika atrasti zināmi izsekotāji. 🎉"
+  },
+  "otherDomains": {
+    "message": "Citi trešo pušu domēni"
+  },
+  "footer": {
+    "message": "Visa analīze notiek lokāli. Nekas neatstāj jūsu pārlūku."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar ir nepieciešama piekļuve visām vietnēm, lai redzētu to pieprasījumus."
+  },
+  "permGrant": {
+    "message": "Atļaut piekļuvi"
+  },
+  "reloadToScan": {
+    "message": "Pārlādējiet lapu, lai sāktu skenēšanu"
+  },
+  "catAds": {
+    "message": "Reklāma"
+  },
+  "catAnalytics": {
+    "message": "Analītika"
+  },
+  "catRecording": {
+    "message": "Sesiju ierakstīšana"
+  },
+  "catSocial": {
+    "message": "Sociālie tīkli"
+  },
+  "requests": {
+    "message": "pieprasījumi"
+  },
+  "actBlock": {
+    "message": "Bloķēt šo uzņēmumu visās vietnēs"
+  },
+  "actUnblock": {
+    "message": "Atbloķēt"
+  },
+  "blockedTag": {
+    "message": "bloķēts"
+  },
+  "blockedRequests": {
+    "message": "Bloķētie pieprasījumi"
+  },
+  "gradeHint": {
+    "message": "Privātuma vērtējums: pēc izsekotāju skaita un veida šajā lapā"
+  },
+  "openStats": {
+    "message": "Statistika"
+  },
+  "statsTitle": {
+    "message": "Jūsu izsekošanas vēsture"
+  },
+  "range7": {
+    "message": "Pēdējās 7 dienas"
+  },
+  "range30": {
+    "message": "Pēdējās 30 dienas"
+  },
+  "sCompanies": {
+    "message": "izsekošanas uzņēmumi"
+  },
+  "sSites": {
+    "message": "apmeklētās vietnes"
+  },
+  "sRequests": {
+    "message": "pieprasījumi izsekotājiem"
+  },
+  "sBlocked": {
+    "message": "bloķētie pieprasījumi"
+  },
+  "perDay": {
+    "message": "Izsekošanas uzņēmumi dienā"
+  },
+  "topCompanies": {
+    "message": "Kas jums seko visbiežāk"
+  },
+  "topSites": {
+    "message": "Vietnes ar visvairāk izsekotājiem"
+  },
+  "colCompany": {
+    "message": "Uzņēmums"
+  },
+  "colSites": {
+    "message": "Vietnes"
+  },
+  "colSite": {
+    "message": "Vietne"
+  },
+  "colTrackers": {
+    "message": "Izsekotāji"
+  },
+  "colGrade": {
+    "message": "Vērtējums"
+  },
+  "blockedList": {
+    "message": "Bloķētie uzņēmumi"
+  },
+  "noneBlocked": {
+    "message": "Jūs vēl neesat bloķējis nevienu uzņēmumu. Izmantojiet vairogu blakus uzņēmumam paplašinājuma logā."
+  },
+  "clearHistory": {
+    "message": "Notīrīt vēsturi"
+  },
+  "confirmClear": {
+    "message": "Dzēst visu izsekošanas vēsturi?"
+  },
+  "noData": {
+    "message": "Datu vēl nav. Mazliet pārlūkojiet un atgriezieties."
+  },
+  "recTitle": {
+    "message": "Šī vietne ieraksta jūsu sesiju"
+  },
+  "recText": {
+    "message": "Jūsu peles kustības, klikšķus un rakstīto var ierakstīt:"
+  },
+  "quickProtection": {
+    "message": "Ātrā aizsardzība"
+  },
+  "profileAds": {
+    "message": "Visas reklāmas"
+  },
+  "profileAnalytics": {
+    "message": "Visa analītika"
+  },
+  "profileRecording": {
+    "message": "Sesiju ierakstītāji"
+  },
+  "pauseSite": {
+    "message": "Apturēt bloķēšanu šajā vietnē"
+  },
+  "resumeSite": {
+    "message": "Atsākt bloķēšanu šajā vietnē"
+  },
+  "pausedLine": {
+    "message": "Bloķēšana šeit ir apturēta. Izsekotāji joprojām redzami radarā."
+  },
+  "pausedList": {
+    "message": "Vietnes ar apturētu bloķēšanu"
+  },
+  "nonePaused": {
+    "message": "Bloķēšana ir aktīva visās vietnēs."
+  },
+  "resumeShort": {
+    "message": "Atsākt"
+  },
+  "catMining": {
+    "message": "Kriptovalūtu ieguve"
+  },
+  "profileMining": {
+    "message": "Kriptoracēji"
+  },
+  "minTitle": {
+    "message": "Šī vietne mēģina iegūt kriptovalūtu"
+  },
+  "minText": {
+    "message": "Šo pakalpojumu skripti var izmantot jūsu procesoru, lai iegūtu kriptovalūtu kādam citam:"
+  },
+  "fpTitle": {
+    "message": "Šī vietne veido jūsu pārlūka pirkstu nospiedumu"
+  },
+  "fpText": {
+    "message": "Tā nolasa slēptus jūsu ierīces datus, lai jūs atpazītu bez sīkdatnēm:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (videokarte)"
+  },
+  "fp_audio": {
+    "message": "skaņa"
+  },
+  "fp_fonts": {
+    "message": "instalētie fonti"
+  },
+  "fpBy": {
+    "message": "caur"
+  },
+  "fpShort": {
+    "message": "Pirkstu nospiedums"
+  },
+  "optFingerprint": {
+    "message": "Nospieduma aizsardzība"
+  },
+  "optFingerprintHint": {
+    "message": "Pievieno nelielu troksni canvas un skaņas datiem un paslēpj jūsu videokarti, lai pēc tiem jūs nevarētu atpazīt. Retos gadījumos zīmēšanas lietotnes var izskatīties nedaudz citādi."
+  },
+  "optWebrtc": {
+    "message": "Slēpt IP no WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "VPN lietotājiem: vietnes neredzēs jūsu īsto IP adresi caur WebRTC. Video zvani pārlūkā var pārstāt darboties."
+  },
+  "locale": {
+    "message": "lv",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

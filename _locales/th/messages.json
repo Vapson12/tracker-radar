@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "ดูแบบเรียลไทม์ว่าเว็บไซต์ที่คุณเข้าชมส่งข้อมูลของคุณไปให้บริษัทใดบ้าง"
+  },
+  "statCompanies": {
+    "message": "บริษัทติดตาม"
+  },
+  "statDomains": {
+    "message": "โดเมนติดตาม"
+  },
+  "statRequests": {
+    "message": "คำขอของบุคคลที่สาม"
+  },
+  "whoIsWatching": {
+    "message": "ใครกำลังจับตาดู"
+  },
+  "noTrackers": {
+    "message": "ไม่พบตัวติดตามที่รู้จักในหน้านี้ 🎉"
+  },
+  "otherDomains": {
+    "message": "โดเมนบุคคลที่สามอื่น ๆ"
+  },
+  "footer": {
+    "message": "การวิเคราะห์ทั้งหมดทำภายในเครื่อง ไม่มีข้อมูลใดออกจากเบราว์เซอร์ของคุณ"
+  },
+  "permNeeded": {
+    "message": "Tracker Radar ต้องเข้าถึงทุกเว็บไซต์เพื่อดูคำขอของเว็บไซต์เหล่านั้น"
+  },
+  "permGrant": {
+    "message": "ให้สิทธิ์เข้าถึง"
+  },
+  "reloadToScan": {
+    "message": "โหลดหน้าใหม่เพื่อเริ่มสแกน"
+  },
+  "catAds": {
+    "message": "โฆษณา"
+  },
+  "catAnalytics": {
+    "message": "การวิเคราะห์"
+  },
+  "catRecording": {
+    "message": "การบันทึกเซสชัน"
+  },
+  "catSocial": {
+    "message": "โซเชียล"
+  },
+  "requests": {
+    "message": "คำขอ"
+  },
+  "actBlock": {
+    "message": "บล็อกบริษัทนี้ในทุกเว็บไซต์"
+  },
+  "actUnblock": {
+    "message": "เลิกบล็อก"
+  },
+  "blockedTag": {
+    "message": "ถูกบล็อก"
+  },
+  "blockedRequests": {
+    "message": "คำขอที่ถูกบล็อก"
+  },
+  "gradeHint": {
+    "message": "เกรดความเป็นส่วนตัว: ตามจำนวนและประเภทของตัวติดตามในหน้านี้"
+  },
+  "openStats": {
+    "message": "สถิติ"
+  },
+  "statsTitle": {
+    "message": "ประวัติการติดตามของคุณ"
+  },
+  "range7": {
+    "message": "7 วันล่าสุด"
+  },
+  "range30": {
+    "message": "30 วันล่าสุด"
+  },
+  "sCompanies": {
+    "message": "บริษัทติดตาม"
+  },
+  "sSites": {
+    "message": "เว็บไซต์ที่เข้าชม"
+  },
+  "sRequests": {
+    "message": "คำขอไปยังตัวติดตาม"
+  },
+  "sBlocked": {
+    "message": "คำขอที่ถูกบล็อก"
+  },
+  "perDay": {
+    "message": "บริษัทติดตามต่อวัน"
+  },
+  "topCompanies": {
+    "message": "ใครติดตามคุณมากที่สุด"
+  },
+  "topSites": {
+    "message": "เว็บไซต์ที่มีตัวติดตามมากที่สุด"
+  },
+  "colCompany": {
+    "message": "บริษัท"
+  },
+  "colSites": {
+    "message": "เว็บไซต์"
+  },
+  "colSite": {
+    "message": "เว็บไซต์"
+  },
+  "colTrackers": {
+    "message": "ตัวติดตาม"
+  },
+  "colGrade": {
+    "message": "เกรด"
+  },
+  "blockedList": {
+    "message": "บริษัทที่บล็อก"
+  },
+  "noneBlocked": {
+    "message": "คุณยังไม่ได้บล็อกบริษัทใด ใช้โล่ข้างชื่อบริษัทในหน้าต่างส่วนขยาย"
+  },
+  "clearHistory": {
+    "message": "ล้างประวัติ"
+  },
+  "confirmClear": {
+    "message": "ลบประวัติการติดตามทั้งหมดหรือไม่?"
+  },
+  "noData": {
+    "message": "ยังไม่มีข้อมูล ลองท่องเว็บสักพักแล้วกลับมา"
+  },
+  "recTitle": {
+    "message": "เว็บไซต์นี้กำลังบันทึกเซสชันของคุณ"
+  },
+  "recText": {
+    "message": "การเลื่อนเมาส์ การคลิก และการพิมพ์ของคุณอาจถูกบันทึกโดย:"
+  },
+  "quickProtection": {
+    "message": "การป้องกันด่วน"
+  },
+  "profileAds": {
+    "message": "โฆษณาทั้งหมด"
+  },
+  "profileAnalytics": {
+    "message": "การวิเคราะห์ทั้งหมด"
+  },
+  "profileRecording": {
+    "message": "ตัวบันทึกเซสชัน"
+  },
+  "pauseSite": {
+    "message": "หยุดบล็อกชั่วคราวในเว็บไซต์นี้"
+  },
+  "resumeSite": {
+    "message": "กลับมาบล็อกในเว็บไซต์นี้"
+  },
+  "pausedLine": {
+    "message": "หยุดบล็อกชั่วคราวที่นี่ ตัวติดตามยังแสดงบนเรดาร์"
+  },
+  "pausedList": {
+    "message": "เว็บไซต์ที่หยุดบล็อกชั่วคราว"
+  },
+  "nonePaused": {
+    "message": "การบล็อกทำงานในทุกเว็บไซต์"
+  },
+  "resumeShort": {
+    "message": "ทำต่อ"
+  },
+  "catMining": {
+    "message": "การขุดคริปโต"
+  },
+  "profileMining": {
+    "message": "ตัวขุดคริปโต"
+  },
+  "minTitle": {
+    "message": "เว็บไซต์นี้พยายามขุดสกุลเงินคริปโต"
+  },
+  "minText": {
+    "message": "สคริปต์จากบริการเหล่านี้อาจใช้โปรเซสเซอร์ของคุณขุดให้ผู้อื่น:"
+  },
+  "fpTitle": {
+    "message": "เว็บไซต์นี้กำลังเก็บลายนิ้วมือเบราว์เซอร์ของคุณ"
+  },
+  "fpText": {
+    "message": "อ่านรายละเอียดที่ซ่อนอยู่ของอุปกรณ์เพื่อระบุตัวคุณโดยไม่ใช้คุกกี้:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (การ์ดจอ)"
+  },
+  "fp_audio": {
+    "message": "เสียง"
+  },
+  "fp_fonts": {
+    "message": "ฟอนต์ที่ติดตั้ง"
+  },
+  "fpBy": {
+    "message": "โดย"
+  },
+  "fpShort": {
+    "message": "ลายนิ้วมือ"
+  },
+  "optFingerprint": {
+    "message": "ป้องกันลายนิ้วมือ"
+  },
+  "optFingerprintHint": {
+    "message": "เพิ่มสัญญาณรบกวนเล็กน้อยให้ค่าของ canvas และเสียง และซ่อนการ์ดจอของคุณ เพื่อไม่ให้ใช้ระบุตัวคุณได้ บางครั้งแอปวาดภาพอาจดูต่างไปเล็กน้อย"
+  },
+  "optWebrtc": {
+    "message": "ซ่อน IP จาก WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "สำหรับผู้ใช้ VPN: เว็บไซต์จะไม่เห็นที่อยู่ IP จริงของคุณผ่าน WebRTC วิดีโอคอลในเบราว์เซอร์อาจใช้งานไม่ได้"
+  },
+  "locale": {
+    "message": "th",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

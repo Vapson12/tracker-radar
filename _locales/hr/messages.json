@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Pogledajte uživo kojim tvrtkama web-stranica koju posjećujete šalje vaše podatke."
+  },
+  "statCompanies": {
+    "message": "tvrtke za praćenje"
+  },
+  "statDomains": {
+    "message": "domene za praćenje"
+  },
+  "statRequests": {
+    "message": "zahtjevi trećih strana"
+  },
+  "whoIsWatching": {
+    "message": "Tko vas promatra"
+  },
+  "noTrackers": {
+    "message": "Na ovoj stranici nisu pronađeni poznati alati za praćenje. 🎉"
+  },
+  "otherDomains": {
+    "message": "Ostale domene trećih strana"
+  },
+  "footer": {
+    "message": "Sva analiza odvija se lokalno. Ništa ne napušta vaš preglednik."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar treba pristup svim web-stranicama kako bi vidio njihove zahtjeve."
+  },
+  "permGrant": {
+    "message": "Dopusti pristup"
+  },
+  "reloadToScan": {
+    "message": "Ponovno učitajte stranicu za početak skeniranja"
+  },
+  "catAds": {
+    "message": "Oglašavanje"
+  },
+  "catAnalytics": {
+    "message": "Analitika"
+  },
+  "catRecording": {
+    "message": "Snimanje sesija"
+  },
+  "catSocial": {
+    "message": "Društvene mreže"
+  },
+  "requests": {
+    "message": "zahtjeva"
+  },
+  "actBlock": {
+    "message": "Blokiraj ovu tvrtku na svim web-stranicama"
+  },
+  "actUnblock": {
+    "message": "Deblokiraj"
+  },
+  "blockedTag": {
+    "message": "blokirano"
+  },
+  "blockedRequests": {
+    "message": "Blokirani zahtjevi"
+  },
+  "gradeHint": {
+    "message": "Ocjena privatnosti: prema broju i vrsti alata za praćenje na ovoj stranici"
+  },
+  "openStats": {
+    "message": "Statistika"
+  },
+  "statsTitle": {
+    "message": "Vaša povijest praćenja"
+  },
+  "range7": {
+    "message": "Zadnjih 7 dana"
+  },
+  "range30": {
+    "message": "Zadnjih 30 dana"
+  },
+  "sCompanies": {
+    "message": "tvrtke za praćenje"
+  },
+  "sSites": {
+    "message": "posjećene stranice"
+  },
+  "sRequests": {
+    "message": "zahtjevi alatima za praćenje"
+  },
+  "sBlocked": {
+    "message": "blokirani zahtjevi"
+  },
+  "perDay": {
+    "message": "Tvrtke za praćenje po danu"
+  },
+  "topCompanies": {
+    "message": "Tko vas najviše prati"
+  },
+  "topSites": {
+    "message": "Stranice s najviše alata za praćenje"
+  },
+  "colCompany": {
+    "message": "Tvrtka"
+  },
+  "colSites": {
+    "message": "Stranice"
+  },
+  "colSite": {
+    "message": "Stranica"
+  },
+  "colTrackers": {
+    "message": "Alati za praćenje"
+  },
+  "colGrade": {
+    "message": "Ocjena"
+  },
+  "blockedList": {
+    "message": "Blokirane tvrtke"
+  },
+  "noneBlocked": {
+    "message": "Još niste blokirali nijednu tvrtku. Upotrijebite štit pokraj tvrtke u prozoru proširenja."
+  },
+  "clearHistory": {
+    "message": "Izbriši povijest"
+  },
+  "confirmClear": {
+    "message": "Izbrisati cijelu povijest praćenja?"
+  },
+  "noData": {
+    "message": "Još nema podataka. Malo pregledavajte stranice i vratite se."
+  },
+  "recTitle": {
+    "message": "Ova stranica snima vašu sesiju"
+  },
+  "recText": {
+    "message": "Pokrete miša, klikove i tipkanje mogu snimati:"
+  },
+  "quickProtection": {
+    "message": "Brza zaštita"
+  },
+  "profileAds": {
+    "message": "Svi oglasi"
+  },
+  "profileAnalytics": {
+    "message": "Sva analitika"
+  },
+  "profileRecording": {
+    "message": "Snimanje sesija"
+  },
+  "pauseSite": {
+    "message": "Pauziraj blokiranje na ovoj stranici"
+  },
+  "resumeSite": {
+    "message": "Nastavi blokiranje na ovoj stranici"
+  },
+  "pausedLine": {
+    "message": "Blokiranje je ovdje pauzirano. Alati za praćenje i dalje se vide na radaru."
+  },
+  "pausedList": {
+    "message": "Stranice s pauziranim blokiranjem"
+  },
+  "nonePaused": {
+    "message": "Blokiranje je aktivno na svim stranicama."
+  },
+  "resumeShort": {
+    "message": "Nastavi"
+  },
+  "catMining": {
+    "message": "Rudarenje kriptovaluta"
+  },
+  "profileMining": {
+    "message": "Kripto rudari"
+  },
+  "minTitle": {
+    "message": "Ova stranica pokušava rudariti kriptovalute"
+  },
+  "minText": {
+    "message": "Skripte ovih usluga mogu koristiti vaš procesor za rudarenje za nekog drugog:"
+  },
+  "fpTitle": {
+    "message": "Ova stranica stvara otisak vašeg preglednika"
+  },
+  "fpText": {
+    "message": "Čita skrivene podatke o vašem uređaju kako bi vas prepoznala bez kolačića:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (grafička kartica)"
+  },
+  "fp_audio": {
+    "message": "zvuk"
+  },
+  "fp_fonts": {
+    "message": "instalirani fontovi"
+  },
+  "fpBy": {
+    "message": "putem"
+  },
+  "fpShort": {
+    "message": "Otisak preglednika"
+  },
+  "optFingerprint": {
+    "message": "Zaštita od otiska"
+  },
+  "optFingerprintHint": {
+    "message": "Dodaje neprimjetan šum podacima canvas i zvuka te skriva vašu grafičku karticu, kako vas po njima ne bi prepoznali. Rijetko aplikacije za crtanje mogu izgledati malo drukčije."
+  },
+  "optWebrtc": {
+    "message": "Sakrij IP od WebRTC-a"
+  },
+  "optWebrtcHint": {
+    "message": "Za korisnike VPN-a: stranice neće vidjeti vašu pravu IP adresu putem WebRTC-a. Videopozivi u pregledniku možda neće raditi."
+  },
+  "locale": {
+    "message": "hr",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

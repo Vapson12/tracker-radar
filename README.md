@@ -15,14 +15,17 @@ Tracker Radar is a lightweight browser extension that watches every third-party 
 - 🏢 **Grouped by company.** Google, Meta, Microsoft, Criteo, Hotjar… with a click-to-expand list of their domains.
 - ⚡ **Quick protection.** Block *all* ads, *all* analytics or *all* session recorders with one click, without breaking embeds like YouTube.
 - ⏸️ **Pause on a site.** If a page breaks, switch blocking off just for that site.
+- 🧬 **Fingerprinting detection.** See when a site reads canvas, WebGL, audio or font details to recognise you without cookies, and which script did it. Optional **fingerprint protection** adds noise that is stable on one site but different on every other.
+- 🌐 **Hide your IP from WebRTC** (optional, for VPN users).
+- ⛏️ **Cryptominer protection**, on by default, with a warning when a site tries to mine on your CPU.
 - 🎥 **Session recording alert.** A clear warning when a site records your mouse movements, clicks and typing.
 - ⬇️ **Export** your statistics as CSV or JSON.
 - 🛡️ **One-click blocking.** Hit the shield next to any company to block its trackers on every website (uses the browser's built-in `declarativeNetRequest`, so it's fast and private).
 - 🅰️ **Privacy grade A–F** for every page, based on how many trackers it loads and what they do (session recorders hurt the most).
 - 📊 **History & statistics.** See how many companies followed you in the last 7 or 30 days, who follows you the most and which websites are the worst. Stored locally, auto-deleted after 30 days.
-- 📚 **350+ known tracker domains** from 170+ companies, including European and Polish ad tech and device-maker telemetry.
+- 📚 **1200+ known tracker domains** from 580+ companies: ad tech, analytics, session recorders, error monitoring, e-mail tracking, device telemetry and cryptominers.
 - 🎥 **Session recorder detection.** Know when a site records your mouse movements and clicks (Hotjar, Clarity, FullStory, Smartlook…).
-- 🌍 **Speaks your language.** English, Polish, German, Spanish, French and Ukrainian, picked automatically from your browser settings.
+- 🌍 **Speaks your language.** 51 languages, from English and Polish to Arabic, Hindi, Japanese and Swahili, picked automatically from your browser settings. Right-to-left layout for Arabic, Hebrew and Persian.
 - 🔒 **100% local.** No servers, no analytics, no data leaves your browser. Ironic otherwise, right?
 
 ## Install
@@ -58,6 +61,7 @@ Temporary add-ons are removed when Firefox restarts. For a permanent install, si
 - Each request's host is compared with the page's own domain. Anything else is **third-party**.
 - Third-party hosts are matched against `trackers.js`, a curated list of tracker domains mapped to their **company** and **category**.
 - Per-tab results are kept in `storage.session` and cleared when the tab closes. Daily history and the block list live in `storage.local`.
+- `fp-main.js` runs in the page and watches the APIs used for fingerprinting; `fp-bridge.js` passes findings to the background. `fp-on.js` is only registered while fingerprint protection is on.
 - `scoring.js` turns the trackers on a page into a score and an A–F grade.
 
 ## Contributing
@@ -77,7 +81,8 @@ Ideas for the roadmap:
 - [x] Per-site allowlist (pause blocking on a site)
 - [x] Export statistics (CSV/JSON)
 - [x] Quick protection profiles (all ads / analytics / session recorders)
-- [ ] Fingerprinting detection
+- [x] Fingerprinting detection and protection
+- [x] WebRTC IP leak protection
 - [ ] Firefox for Android
 - [ ] Even bigger tracker database (community contributions welcome!)
 - [x] Translations (add yours in `_locales/<lang>/messages.json`)

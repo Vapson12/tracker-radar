@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "閲覧中のサイトがあなたのデータをどの企業に送っているかをリアルタイムで表示します。"
+  },
+  "statCompanies": {
+    "message": "トラッキング企業"
+  },
+  "statDomains": {
+    "message": "トラッキングドメイン"
+  },
+  "statRequests": {
+    "message": "サードパーティのリクエスト"
+  },
+  "whoIsWatching": {
+    "message": "誰が見ているか"
+  },
+  "noTrackers": {
+    "message": "このページでは既知のトラッカーは見つかりませんでした。🎉"
+  },
+  "otherDomains": {
+    "message": "その他のサードパーティドメイン"
+  },
+  "footer": {
+    "message": "分析はすべてローカルで行われます。データがブラウザの外に出ることはありません。"
+  },
+  "permNeeded": {
+    "message": "リクエストを確認するには、Tracker Radar にすべてのサイトへのアクセス権が必要です。"
+  },
+  "permGrant": {
+    "message": "アクセスを許可"
+  },
+  "reloadToScan": {
+    "message": "ページを再読み込みしてスキャンを開始"
+  },
+  "catAds": {
+    "message": "広告"
+  },
+  "catAnalytics": {
+    "message": "アクセス解析"
+  },
+  "catRecording": {
+    "message": "セッション記録"
+  },
+  "catSocial": {
+    "message": "ソーシャル"
+  },
+  "requests": {
+    "message": "件のリクエスト"
+  },
+  "actBlock": {
+    "message": "この企業をすべてのサイトでブロック"
+  },
+  "actUnblock": {
+    "message": "ブロック解除"
+  },
+  "blockedTag": {
+    "message": "ブロック中"
+  },
+  "blockedRequests": {
+    "message": "ブロックしたリクエスト"
+  },
+  "gradeHint": {
+    "message": "プライバシー評価：このページのトラッカーの数と種類に基づく"
+  },
+  "openStats": {
+    "message": "統計"
+  },
+  "statsTitle": {
+    "message": "トラッキング履歴"
+  },
+  "range7": {
+    "message": "過去7日間"
+  },
+  "range30": {
+    "message": "過去30日間"
+  },
+  "sCompanies": {
+    "message": "トラッキング企業"
+  },
+  "sSites": {
+    "message": "訪問したサイト"
+  },
+  "sRequests": {
+    "message": "トラッカーへのリクエスト"
+  },
+  "sBlocked": {
+    "message": "ブロックしたリクエスト"
+  },
+  "perDay": {
+    "message": "1日あたりのトラッキング企業"
+  },
+  "topCompanies": {
+    "message": "最もあなたを追跡している企業"
+  },
+  "topSites": {
+    "message": "トラッカーが最も多いサイト"
+  },
+  "colCompany": {
+    "message": "企業"
+  },
+  "colSites": {
+    "message": "サイト数"
+  },
+  "colSite": {
+    "message": "サイト"
+  },
+  "colTrackers": {
+    "message": "トラッカー"
+  },
+  "colGrade": {
+    "message": "評価"
+  },
+  "blockedList": {
+    "message": "ブロックした企業"
+  },
+  "noneBlocked": {
+    "message": "まだ企業をブロックしていません。拡張機能のウィンドウで企業の横にある盾を使ってください。"
+  },
+  "clearHistory": {
+    "message": "履歴を消去"
+  },
+  "confirmClear": {
+    "message": "トラッキング履歴をすべて削除しますか？"
+  },
+  "noData": {
+    "message": "まだデータがありません。しばらく閲覧してから戻ってきてください。"
+  },
+  "recTitle": {
+    "message": "このサイトはあなたのセッションを記録しています"
+  },
+  "recText": {
+    "message": "マウスの動き、クリック、入力内容が次のサービスに記録される可能性があります："
+  },
+  "quickProtection": {
+    "message": "クイック保護"
+  },
+  "profileAds": {
+    "message": "すべての広告"
+  },
+  "profileAnalytics": {
+    "message": "すべての解析"
+  },
+  "profileRecording": {
+    "message": "セッション記録ツール"
+  },
+  "pauseSite": {
+    "message": "このサイトでブロックを一時停止"
+  },
+  "resumeSite": {
+    "message": "このサイトでブロックを再開"
+  },
+  "pausedLine": {
+    "message": "ここではブロックが一時停止中です。トラッカーはレーダーに引き続き表示されます。"
+  },
+  "pausedList": {
+    "message": "ブロックを一時停止中のサイト"
+  },
+  "nonePaused": {
+    "message": "すべてのサイトでブロックが有効です。"
+  },
+  "resumeShort": {
+    "message": "再開"
+  },
+  "catMining": {
+    "message": "暗号通貨マイニング"
+  },
+  "profileMining": {
+    "message": "マイナー"
+  },
+  "minTitle": {
+    "message": "このサイトは暗号通貨をマイニングしようとしています"
+  },
+  "minText": {
+    "message": "これらのサービスのスクリプトが、他人のためにあなたのCPUを使ってマイニングする可能性があります："
+  },
+  "fpTitle": {
+    "message": "このサイトはブラウザのフィンガープリントを取得しています"
+  },
+  "fpText": {
+    "message": "Cookie なしであなたを識別するため、端末の隠れた情報を読み取っています："
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL（グラフィックカード）"
+  },
+  "fp_audio": {
+    "message": "オーディオ"
+  },
+  "fp_fonts": {
+    "message": "インストール済みフォント"
+  },
+  "fpBy": {
+    "message": "提供元："
+  },
+  "fpShort": {
+    "message": "フィンガープリント"
+  },
+  "optFingerprint": {
+    "message": "フィンガープリント保護"
+  },
+  "optFingerprintHint": {
+    "message": "canvas とオーディオの値にごく小さなノイズを加え、グラフィックカードを隠すことで、識別に使えないようにします。まれに描画アプリの表示がわずかに変わることがあります。"
+  },
+  "optWebrtc": {
+    "message": "WebRTC から IP を隠す"
+  },
+  "optWebrtcHint": {
+    "message": "VPN 利用者向け：サイトは WebRTC 経由であなたの実際の IP アドレスを見られなくなります。ブラウザでのビデオ通話が動作しなくなる場合があります。"
+  },
+  "locale": {
+    "message": "ja",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

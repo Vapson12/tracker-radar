@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "Tingnan nang live kung saang mga kumpanya ipinapadala ng site na binibisita mo ang iyong data."
+  },
+  "statCompanies": {
+    "message": "kumpanyang nagta-track"
+  },
+  "statDomains": {
+    "message": "domain na nagta-track"
+  },
+  "statRequests": {
+    "message": "third-party na request"
+  },
+  "whoIsWatching": {
+    "message": "Sino ang nanonood"
+  },
+  "noTrackers": {
+    "message": "Walang nakitang kilalang tracker sa pahinang ito. 🎉"
+  },
+  "otherDomains": {
+    "message": "Iba pang third-party na domain"
+  },
+  "footer": {
+    "message": "Lahat ng pagsusuri ay ginagawa nang lokal. Walang lumalabas sa iyong browser."
+  },
+  "permNeeded": {
+    "message": "Kailangan ng Tracker Radar ng access sa lahat ng site para makita ang kanilang mga request."
+  },
+  "permGrant": {
+    "message": "Magbigay ng access"
+  },
+  "reloadToScan": {
+    "message": "I-reload ang pahina para simulan ang scan"
+  },
+  "catAds": {
+    "message": "Advertising"
+  },
+  "catAnalytics": {
+    "message": "Analytics"
+  },
+  "catRecording": {
+    "message": "Pag-record ng session"
+  },
+  "catSocial": {
+    "message": "Social media"
+  },
+  "requests": {
+    "message": "request"
+  },
+  "actBlock": {
+    "message": "I-block ang kumpanyang ito sa lahat ng site"
+  },
+  "actUnblock": {
+    "message": "I-unblock"
+  },
+  "blockedTag": {
+    "message": "naka-block"
+  },
+  "blockedRequests": {
+    "message": "Mga naka-block na request"
+  },
+  "gradeHint": {
+    "message": "Grado ng privacy: batay sa bilang at uri ng mga tracker sa pahinang ito"
+  },
+  "openStats": {
+    "message": "Istatistika"
+  },
+  "statsTitle": {
+    "message": "Iyong kasaysayan ng pag-track"
+  },
+  "range7": {
+    "message": "Huling 7 araw"
+  },
+  "range30": {
+    "message": "Huling 30 araw"
+  },
+  "sCompanies": {
+    "message": "kumpanyang nagta-track"
+  },
+  "sSites": {
+    "message": "binisitang site"
+  },
+  "sRequests": {
+    "message": "request sa mga tracker"
+  },
+  "sBlocked": {
+    "message": "naka-block na request"
+  },
+  "perDay": {
+    "message": "Mga kumpanyang nagta-track bawat araw"
+  },
+  "topCompanies": {
+    "message": "Sino ang pinakamadalas sumusubaybay sa iyo"
+  },
+  "topSites": {
+    "message": "Mga site na may pinakamaraming tracker"
+  },
+  "colCompany": {
+    "message": "Kumpanya"
+  },
+  "colSites": {
+    "message": "Mga site"
+  },
+  "colSite": {
+    "message": "Site"
+  },
+  "colTrackers": {
+    "message": "Mga tracker"
+  },
+  "colGrade": {
+    "message": "Grado"
+  },
+  "blockedList": {
+    "message": "Mga naka-block na kumpanya"
+  },
+  "noneBlocked": {
+    "message": "Wala ka pang na-block na kumpanya. Gamitin ang kalasag sa tabi ng kumpanya sa window ng extension."
+  },
+  "clearHistory": {
+    "message": "I-clear ang kasaysayan"
+  },
+  "confirmClear": {
+    "message": "Burahin ang buong kasaysayan ng pag-track?"
+  },
+  "noData": {
+    "message": "Wala pang data. Mag-browse muna at bumalik."
+  },
+  "recTitle": {
+    "message": "Nire-record ng site na ito ang iyong session"
+  },
+  "recText": {
+    "message": "Maaaring i-record ang galaw ng mouse, mga click at tina-type mo ng:"
+  },
+  "quickProtection": {
+    "message": "Mabilis na proteksyon"
+  },
+  "profileAds": {
+    "message": "Lahat ng ad"
+  },
+  "profileAnalytics": {
+    "message": "Lahat ng analytics"
+  },
+  "profileRecording": {
+    "message": "Mga session recorder"
+  },
+  "pauseSite": {
+    "message": "I-pause ang pag-block sa site na ito"
+  },
+  "resumeSite": {
+    "message": "Ituloy ang pag-block sa site na ito"
+  },
+  "pausedLine": {
+    "message": "Naka-pause dito ang pag-block. Nakikita pa rin ang mga tracker sa radar."
+  },
+  "pausedList": {
+    "message": "Mga site na naka-pause ang pag-block"
+  },
+  "nonePaused": {
+    "message": "Aktibo ang pag-block sa lahat ng site."
+  },
+  "resumeShort": {
+    "message": "Ituloy"
+  },
+  "catMining": {
+    "message": "Crypto mining"
+  },
+  "profileMining": {
+    "message": "Mga crypto miner"
+  },
+  "minTitle": {
+    "message": "Sinusubukan ng site na ito na mag-mine ng cryptocurrency"
+  },
+  "minText": {
+    "message": "Maaaring gamitin ng mga script mula sa mga serbisyong ito ang iyong processor para mag-mine para sa iba:"
+  },
+  "fpTitle": {
+    "message": "Kinukuha ng site na ito ang fingerprint ng iyong browser"
+  },
+  "fpText": {
+    "message": "Binabasa nito ang mga nakatagong detalye ng device mo para makilala ka nang walang cookies:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (graphics card)"
+  },
+  "fp_audio": {
+    "message": "audio"
+  },
+  "fp_fonts": {
+    "message": "naka-install na font"
+  },
+  "fpBy": {
+    "message": "ng"
+  },
+  "fpShort": {
+    "message": "Fingerprint"
+  },
+  "optFingerprint": {
+    "message": "Proteksyon sa fingerprint"
+  },
+  "optFingerprintHint": {
+    "message": "Nagdadagdag ng kaunting ingay sa canvas at audio at itinatago ang iyong graphics card, kaya hindi ito magagamit para makilala ka. Paminsan-minsan, bahagyang iba ang hitsura ng mga drawing app."
+  },
+  "optWebrtc": {
+    "message": "Itago ang IP mula sa WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "Para sa mga gumagamit ng VPN: hindi makikita ng mga site ang tunay mong IP address sa WebRTC. Maaaring huminto sa paggana ang video call sa browser."
+  },
+  "locale": {
+    "message": "fil",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}

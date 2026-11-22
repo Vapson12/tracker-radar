@@ -1,0 +1,219 @@
+{
+  "extName": {
+    "message": "Tracker Radar"
+  },
+  "extDescription": {
+    "message": "به‌صورت زنده ببینید سایتی که بازدید می‌کنید داده‌های شما را به کدام شرکت‌ها می‌فرستد."
+  },
+  "statCompanies": {
+    "message": "شرکت‌های ردیاب"
+  },
+  "statDomains": {
+    "message": "دامنه‌های ردیاب"
+  },
+  "statRequests": {
+    "message": "درخواست‌های شخص ثالث"
+  },
+  "whoIsWatching": {
+    "message": "چه کسی شما را می‌پاید"
+  },
+  "noTrackers": {
+    "message": "هیچ ردیاب شناخته‌شده‌ای در این صفحه پیدا نشد. 🎉"
+  },
+  "otherDomains": {
+    "message": "دیگر دامنه‌های شخص ثالث"
+  },
+  "footer": {
+    "message": "همهٔ تحلیل‌ها به‌صورت محلی انجام می‌شود. هیچ چیزی از مرورگر شما خارج نمی‌شود."
+  },
+  "permNeeded": {
+    "message": "Tracker Radar برای دیدن درخواست‌های سایت‌ها به همهٔ آن‌ها دسترسی نیاز دارد."
+  },
+  "permGrant": {
+    "message": "اعطای دسترسی"
+  },
+  "reloadToScan": {
+    "message": "برای شروع بررسی صفحه را دوباره بارگیری کنید"
+  },
+  "catAds": {
+    "message": "تبلیغات"
+  },
+  "catAnalytics": {
+    "message": "تحلیل‌گری"
+  },
+  "catRecording": {
+    "message": "ضبط نشست"
+  },
+  "catSocial": {
+    "message": "شبکه‌های اجتماعی"
+  },
+  "requests": {
+    "message": "درخواست"
+  },
+  "actBlock": {
+    "message": "مسدود کردن این شرکت در همهٔ سایت‌ها"
+  },
+  "actUnblock": {
+    "message": "رفع انسداد"
+  },
+  "blockedTag": {
+    "message": "مسدود"
+  },
+  "blockedRequests": {
+    "message": "درخواست‌های مسدودشده"
+  },
+  "gradeHint": {
+    "message": "نمرهٔ حریم خصوصی: بر اساس تعداد و نوع ردیاب‌های این صفحه"
+  },
+  "openStats": {
+    "message": "آمار"
+  },
+  "statsTitle": {
+    "message": "تاریخچهٔ ردیابی شما"
+  },
+  "range7": {
+    "message": "۷ روز گذشته"
+  },
+  "range30": {
+    "message": "۳۰ روز گذشته"
+  },
+  "sCompanies": {
+    "message": "شرکت‌های ردیاب"
+  },
+  "sSites": {
+    "message": "سایت‌های بازدیدشده"
+  },
+  "sRequests": {
+    "message": "درخواست به ردیاب‌ها"
+  },
+  "sBlocked": {
+    "message": "درخواست‌های مسدودشده"
+  },
+  "perDay": {
+    "message": "شرکت‌های ردیاب در روز"
+  },
+  "topCompanies": {
+    "message": "چه کسی بیشتر از همه شما را دنبال می‌کند"
+  },
+  "topSites": {
+    "message": "سایت‌هایی با بیشترین ردیاب"
+  },
+  "colCompany": {
+    "message": "شرکت"
+  },
+  "colSites": {
+    "message": "سایت‌ها"
+  },
+  "colSite": {
+    "message": "سایت"
+  },
+  "colTrackers": {
+    "message": "ردیاب‌ها"
+  },
+  "colGrade": {
+    "message": "نمره"
+  },
+  "blockedList": {
+    "message": "شرکت‌های مسدودشده"
+  },
+  "noneBlocked": {
+    "message": "هنوز هیچ شرکتی را مسدود نکرده‌اید. از سپر کنار نام شرکت در پنجرهٔ افزونه استفاده کنید."
+  },
+  "clearHistory": {
+    "message": "پاک کردن تاریخچه"
+  },
+  "confirmClear": {
+    "message": "کل تاریخچهٔ ردیابی حذف شود؟"
+  },
+  "noData": {
+    "message": "هنوز داده‌ای نیست. کمی گشت بزنید و برگردید."
+  },
+  "recTitle": {
+    "message": "این سایت نشست شما را ضبط می‌کند"
+  },
+  "recText": {
+    "message": "حرکات ماوس، کلیک‌ها و تایپ شما ممکن است ضبط شود توسط:"
+  },
+  "quickProtection": {
+    "message": "محافظت سریع"
+  },
+  "profileAds": {
+    "message": "همهٔ تبلیغات"
+  },
+  "profileAnalytics": {
+    "message": "همهٔ تحلیل‌گری"
+  },
+  "profileRecording": {
+    "message": "ضبط‌کننده‌های نشست"
+  },
+  "pauseSite": {
+    "message": "توقف موقت انسداد در این سایت"
+  },
+  "resumeSite": {
+    "message": "ادامهٔ انسداد در این سایت"
+  },
+  "pausedLine": {
+    "message": "انسداد اینجا موقتاً متوقف است. ردیاب‌ها همچنان روی رادار دیده می‌شوند."
+  },
+  "pausedList": {
+    "message": "سایت‌هایی با انسداد متوقف"
+  },
+  "nonePaused": {
+    "message": "انسداد در همهٔ سایت‌ها فعال است."
+  },
+  "resumeShort": {
+    "message": "ادامه"
+  },
+  "catMining": {
+    "message": "استخراج رمزارز"
+  },
+  "profileMining": {
+    "message": "استخراج‌کننده‌های رمزارز"
+  },
+  "minTitle": {
+    "message": "این سایت تلاش می‌کند رمزارز استخراج کند"
+  },
+  "minText": {
+    "message": "اسکریپت‌های این سرویس‌ها ممکن است از پردازندهٔ شما برای استخراج به نفع دیگری استفاده کنند:"
+  },
+  "fpTitle": {
+    "message": "این سایت از مرورگر شما اثر انگشت می‌گیرد"
+  },
+  "fpText": {
+    "message": "جزئیات پنهان دستگاه شما را می‌خواند تا بدون کوکی شما را بشناسد:"
+  },
+  "fp_canvas": {
+    "message": "canvas"
+  },
+  "fp_webgl": {
+    "message": "WebGL (کارت گرافیک)"
+  },
+  "fp_audio": {
+    "message": "صدا"
+  },
+  "fp_fonts": {
+    "message": "فونت‌های نصب‌شده"
+  },
+  "fpBy": {
+    "message": "توسط"
+  },
+  "fpShort": {
+    "message": "اثر انگشت"
+  },
+  "optFingerprint": {
+    "message": "محافظت از اثر انگشت"
+  },
+  "optFingerprintHint": {
+    "message": "نویز بسیار کمی به داده‌های canvas و صدا اضافه می‌کند و کارت گرافیک را پنهان می‌کند تا نتوان از آن‌ها برای شناسایی شما استفاده کرد. به‌ندرت برنامه‌های طراحی ممکن است کمی متفاوت دیده شوند."
+  },
+  "optWebrtc": {
+    "message": "پنهان کردن IP از WebRTC"
+  },
+  "optWebrtcHint": {
+    "message": "برای کاربران VPN: سایت‌ها نشانی IP واقعی شما را از طریق WebRTC نمی‌بینند. تماس‌های تصویری در مرورگر ممکن است از کار بیفتند."
+  },
+  "locale": {
+    "message": "fa",
+    "description": "BCP-47 code of this translation (used for date formatting)"
+  }
+}
