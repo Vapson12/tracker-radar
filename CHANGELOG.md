@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.4.0 (in development)
+## 0.4.0 (2026-11-22)
 
 - **Fingerprinting detection.** Tracker Radar now notices when a page reads canvas, WebGL (graphics card), audio or font details to recognise you without cookies, shows which script did it and lowers the page's privacy grade. Fingerprinting sites are marked 🧬 on the statistics page and included in the export.
 - **Fingerprint protection** (optional, off by default): adds tiny noise to canvas and audio readings and hides the graphics card name. The noise is stable on one site and different on every other site, so trackers can't link your visits.
